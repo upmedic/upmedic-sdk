@@ -76,9 +76,9 @@ class EngineFunction {
     public func;
     public category: string;
     public discipline: string;
-    public constructor(func:Function, modality:string, discipline:string){
+    public constructor(func:Function, category:string, discipline:string){
         this.func = func;
-        this.category = modality;
+        this.category = category;
         this.discipline = discipline;
     }
     
