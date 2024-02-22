@@ -1,0 +1,14 @@
+{
+    "title": "Simple report",
+    "owner": "admin",
+    "id": 391,
+    "nodes": [
+        {
+            "type": "ReportRoot",
+            "parent": null, 
+            "data": {
+                "text": "report report"
+            }
+        }
+    ]
+}
