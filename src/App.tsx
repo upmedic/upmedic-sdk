@@ -21,13 +21,14 @@ function App() {
       <pre>{ExpertEngine.registeredCalculations.map(c=>JSON.stringify(ExpertEngine.checkRequirementsForCalculation(c), null, 2))}</pre>
     </div>
     <div>
-      <h2>Template (can be modified in simulationData/template.json)</h2>
-        <pre>{JSON.stringify(ExpertEngine.template, null, 2)}</pre>
-      </div>
-    <div>
       <h2>Report (can be modified in simulationData/report.json)</h2>
         <pre>{JSON.stringify(ExpertEngine.report, null, 2)}</pre>
     </div>
+    <div>
+      <h2>Template (can be modified in simulationData/template.json)</h2>
+        <pre>{JSON.stringify(ExpertEngine.template, null, 2)}</pre>
+    </div>
+
     </>
   );
 }
