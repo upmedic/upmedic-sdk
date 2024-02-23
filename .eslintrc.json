@@ -1,0 +1,72 @@
+{
+  "plugins": ["prettier"],
+  "extends": [
+    "react-app",
+    "eslint-config-react-app",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "semi": [2, "always"],
+    "no-multiple-empty-lines": [
+      2,
+      {
+        "max": 2,
+        "maxEOF": 1
+      }
+    ],
+    "react/self-closing-comp": [
+      "error",
+      {
+        "component": true,
+        "html": true
+      }
+    ],
+    "react/prop-types": 0,
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    ],
+    "react/state-in-constructor": "off",
+    "react/destructuring-assignment": [1, "always"],
+    "react/jsx-boolean-value": [2, "always"],
+    "react/forbid-prop-types": [1],
+    "react/sort-comp": [
+      1,
+      {
+        "order": [
+          "static-methods",
+          "state",
+          "constructor",
+          "everything-else",
+          "lifecycle",
+          "render"
+        ]
+      }
+    ],
+    "prettier/prettier": "error",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "react/no-find-dom-node": [1]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  }
+}
