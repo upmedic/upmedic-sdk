@@ -16,7 +16,7 @@ function App() {
           </a>{' '}
           console log to see results of analysis
         </p>
-        <button onClick={(e) => ExpertEngine.execute()}> RUN ANALYSIS</button>
+        <button onClick={(e) => ExpertEngine.execute()}> RUN ExpertEngine</button>
       </div>
       <div>
         <h2>Requirements status for the template and report:</h2>

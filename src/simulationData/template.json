@@ -4,6 +4,7 @@
     "title": "Tomografia komputerowa jamy brzusznej i miednicy małej",
     "owner": "admin",
     "id": 1,
+    "languages": ["pl", "en"],
     "nodes": [
       {
         "id": 3,

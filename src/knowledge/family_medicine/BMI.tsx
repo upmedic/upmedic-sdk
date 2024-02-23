@@ -8,7 +8,7 @@ import {
 const CorrectCalculateBMI: EngineCalculation = {
   displayName: 'BMI Calculator',
   description: 'BMI = weight [kg]/(height [m]^2)',
-  matchingSections: { category: '*', discipline: '*', language: 'pl' },
+  matchingSections: { categories: '*', disciplines: '*', languages: ['pl'] },
   nodeRequirements: [
     {
       selectorType: SelectorType.CONST_ID,

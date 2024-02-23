@@ -31,18 +31,32 @@ class _ExpertEngine {
   private getRoot(upmedicObject: any): any {
     return upmedicObject?.nodes.filter((n: any) => n.parent === null)[0];
   }
-  private shouldCalculate(
-    calculation: EngineCalculation,
-    templateCategory: string,
-    templateDiscipline: string,
-  ): boolean {
-    const templateMetadataCheck =
-      (calculation.matchingSections.category === templateCategory ||
-        calculation.matchingSections.category === '*') &&
-      (calculation.matchingSections.discipline === templateDiscipline ||
-        calculation.matchingSections.discipline === '*');
-    const canBeRun = this.canCalculationBeRun(calculation);
-    return templateMetadataCheck && canBeRun;
+  private shouldCalculate(calculation: EngineCalculation): boolean {
+    const templateLanguagesSet = new Set(template.languages);
+
+    const isCategoryOk =
+      calculation.matchingSections.categories === '*' ||
+      calculation.matchingSections.categories.includes(template.category);
+    const isDisciplineOk =
+      calculation.matchingSections.disciplines === '*' ||
+      calculation.matchingSections.disciplines.includes(template.discipline);
+    const isLanguageOk =
+      calculation.matchingSections.languages === '*' ||
+      calculation.matchingSections.languages.some((l: string) =>
+        templateLanguagesSet.has(l),
+      );
+    const isMetadataOk = isCategoryOk && isDisciplineOk && isLanguageOk;
+
+    const areTemplateRequirementsOk =
+      this.areCalculationRequirementsSatisfiedByTemplate(calculation);
+    const willBeRun = isMetadataOk && areTemplateRequirementsOk;
+    if (!willBeRun) {
+      console.info(
+        `"${calculation.displayName}" will not be executed. Languages matching: ${isLanguageOk}, category: ${isCategoryOk}, discipline ${isDisciplineOk}, template requirements: ${areTemplateRequirementsOk}`,
+      );
+    }
+
+    return willBeRun;
   }
   public execute() {
     console.info('STARTING CALCULATING');
@@ -55,7 +69,7 @@ class _ExpertEngine {
 
     for (let i = 0; i < this.registeredCalculations.length; i++) {
       const calculation: EngineCalculation = this.registeredCalculations[i];
-      if (this.shouldCalculate(calculation, templateCategory, templateDiscipline)) {
+      if (this.shouldCalculate(calculation)) {
         try {
           console.info(`start processing ${calculation.displayName}`);
           calculation.calculate();
@@ -77,7 +91,7 @@ class _ExpertEngine {
   public register = (calc: EngineCalculation) => {
     console.log(calc);
     console.log(
-      `Registering function ${calc.displayName} for ${calc.matchingSections.category} ${calc.matchingSections.discipline}`,
+      `Registering function ${calc.displayName} for ${calc.matchingSections.categories} ${calc.matchingSections.disciplines}`,
     );
     ExpertEngine.registeredCalculations.push(calc);
   };
@@ -174,7 +188,9 @@ class _ExpertEngine {
     return ret;
   }
 
-  public canCalculationBeRun(calculation: EngineCalculation): boolean {
+  public areCalculationRequirementsSatisfiedByTemplate(
+    calculation: EngineCalculation,
+  ): boolean {
     return Object.values(this.checkRequirementsForCalculation(calculation)).every(
       (val) => Object.values(val).every((v) => v),
     );
@@ -184,7 +200,8 @@ class _ExpertEngine {
     let ret: Record<string, boolean> = {};
     for (let i = 0; i < this.registeredCalculations.length; i++) {
       const calculation = this.registeredCalculations[i];
-      ret[calculation.displayName] = this.canCalculationBeRun(calculation);
+      ret[calculation.displayName] =
+        this.areCalculationRequirementsSatisfiedByTemplate(calculation);
     }
     return ret;
   }
@@ -213,9 +230,9 @@ export interface EngineCalculation {
 
 interface MatchingSections {
   /** wildcard '*' allows to use calculation for all categories or disciplines */
-  category: string;
-  discipline: string;
-  language: string;
+  categories: '*' | string[];
+  disciplines: '*' | string[];
+  languages: '*' | string[];
 }
 
 export interface NodeRequirement {

@@ -6,9 +6,9 @@ import {
 } from '../../engine';
 
 const CalculateBMIIncorrectNodeId: EngineCalculation = {
-  displayName: 'Incorrect BMI Calculator but will not be executed',
+  displayName: 'Incorrect BMI Calculator',
   description: 'BMI = weight [kg]/(height [m]^2)',
-  matchingSections: { category: '*', discipline: '*', language: 'pl' },
+  matchingSections: { categories: '*', disciplines: '*', languages: ['pl'] },
   nodeRequirements: [
     {
       selectorType: SelectorType.CONST_ID,
