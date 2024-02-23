@@ -20,4 +20,15 @@ This repo contains simple simulator of the resoning engine:
 3. simulate what transformations would be applied to the resulting document
 
 
+## How to add new calculation
+1. add new .tsx file in knowledge directory, e.g.: example.tsx
+2. import that file in knowledge/knowledgeBase.tsx
+3. create object of type EngineCalculation in example.tsx (see exemplary implementations in family_medicine folder)
+4. register that object in the ExpertEngine (as in examples)
+
+## running locally
+LOCAL dev webserver runs at localhost:3000. Start it using: 
+`$ yarn`
+`$ yarn start`
+
 

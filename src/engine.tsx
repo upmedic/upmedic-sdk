@@ -16,7 +16,9 @@ export enum NodeType {
 class _ExpertEngine {
   addToConclusions(sourceNodeId: string, conclusionText: string): void {
     this.getNodeByConstId(sourceNodeId);
-    console.log(`Node id: "${sourceNodeId}" adds to conclusions "${conclusionText}"`);
+    console.log(
+      `Node id: "${sourceNodeId}" adds to conclusions "${conclusionText}"`,
+    );
   }
   private static _instance: _ExpertEngine;
   public registeredCalculations: Array<EngineCalculation> = [];
