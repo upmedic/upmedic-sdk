@@ -97,6 +97,18 @@
         }
       },
       {
+        "id": 667,
+        "type": "Number",
+        "parent": 23,
+        "order": 8,
+        "data": {
+        "const_id": "TT-TG",
+          "prefix": "TT-TG",  
+          "text": "0",
+          "suffix": ""
+        }
+      },
+      {
         "id": 29,
         "type": "Concept",
         "parent": 22,

@@ -14,6 +14,10 @@ export enum NodeType {
 }
 
 class _ExpertEngine {
+  addToConclusions(sourceNodeId: string, conclusionText: string): void {
+    this.getNodeByConstId(sourceNodeId);
+    console.log(`Node id: "${sourceNodeId}" adds to conclusions "${conclusionText}"`);
+  }
   private static _instance: _ExpertEngine;
   public registeredCalculations: Array<EngineCalculation> = [];
   public template: any;
@@ -32,14 +36,17 @@ class _ExpertEngine {
     return upmedicObject?.nodes.filter((n: any) => n.parent === null)[0];
   }
   private shouldCalculate(calculation: EngineCalculation): boolean {
+    const templateRoot = this.getRoot(this.template);
     const templateLanguagesSet = new Set(template.languages);
 
     const isCategoryOk =
       calculation.matchingSections.categories === '*' ||
-      calculation.matchingSections.categories.includes(template.category);
+      calculation.matchingSections.categories.includes(templateRoot.data.category);
     const isDisciplineOk =
       calculation.matchingSections.disciplines === '*' ||
-      calculation.matchingSections.disciplines.includes(template.discipline);
+      calculation.matchingSections.disciplines.includes(
+        templateRoot.data.discipline,
+      );
     const isLanguageOk =
       calculation.matchingSections.languages === '*' ||
       calculation.matchingSections.languages.some((l: string) =>
@@ -60,11 +67,7 @@ class _ExpertEngine {
   }
   public execute() {
     console.info('STARTING CALCULATING');
-    const templateRoot = this.getRoot(this.template);
-    console.log(this.template);
-    console.log(templateRoot);
-    const templateCategory = templateRoot.data.category;
-    const templateDiscipline = templateRoot.data.discipline;
+
     let functionsCount = 0;
 
     for (let i = 0; i < this.registeredCalculations.length; i++) {
