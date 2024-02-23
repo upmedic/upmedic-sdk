@@ -51,17 +51,18 @@ class _ExpertEngine
         let functionsCount = 0;
 
         for (let i = 0; i < this.registeredCalculations.length; i++) {
-            const element: EngineCalculation = this.registeredCalculations[i];
-            if (this.shouldCalculate(element, templateCategory, templateDiscipline)){
+            const calculation: EngineCalculation = this.registeredCalculations[i];
+            if (this.shouldCalculate(calculation, templateCategory, templateDiscipline)){
                 try {
-                console.info(`start processing ${element.displayName}`)
-                element.calculate();
+                console.info(`start processing ${calculation.displayName}`)
+                calculation.calculate();
                 functionsCount++;
                 }
                 catch (ex){
+                    console.info(`processing ${calculation.displayName} was interrupted by an error:`)
                     console.error(ex);
                 }
-                console.info(`end processing ${element.displayName}`)
+                console.info(`end processing ${calculation.displayName}`)
             }
         }
         console.info(`Engine finished calculations. ${functionsCount} out of ${this.registeredCalculations.length} function applied!`)
@@ -100,13 +101,27 @@ class _ExpertEngine
         report.nodes.push(node);
 
     }
+    
     public deselectNodeWithId(id:string){
         console.log(`Deselecting node with id ${id}`, this.getNodeByConstId(id));
     }
 
     public selectNodesWithClass(className: string){
             console.log(`Selecting node with class ${className}`, this.getNodesByClass(className));
+    }
+
+    public isNodeIdInReport(id:string):boolean {
+        const nodes = this.report['nodes'].filter((n:any)=>n.data['const_id'] === id);
+        if (nodes.length === 0){
+            return false;
         }
+        if (nodes.length > 1 ){
+            console.error("Trying to get more than 1 node with id "+id);
+            
+        }
+        return true;
+    }
+
     
     public checkRequirementsForCalculation(calculation: EngineCalculation): Record<string, Record<string, boolean>> {
         let ret:Record<string, Record<string, boolean>> = {};
@@ -118,7 +133,7 @@ class _ExpertEngine
                 const nodes = this.getNodesByClass(requirement.selector)
                 if (nodes.length > 0){
                     ret[requirementId][requirement.selector] = true;
-                    let allNodesOk= true;
+                    let allNodesOk = true;
                     for (let nIdx = 0; nIdx < nodes.length; nIdx++) {
                         const node = nodes[nIdx];
                         const nodeType: keyof typeof NodeType = node.type;

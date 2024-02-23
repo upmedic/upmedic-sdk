@@ -17,7 +17,7 @@ function App() {
     <div>
       <h2>Requirements status for the template and report:</h2>
       {JSON.stringify(ExpertEngine.checkRequirements(), null, 2)}
-      <h3>Debug</h3>
+      <h3>Debug info for requirements:</h3>
       <pre>{ExpertEngine.registeredCalculations.map(c=>JSON.stringify(ExpertEngine.checkRequirementsForCalculation(c), null, 2))}</pre>
     </div>
     <div>
