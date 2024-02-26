@@ -78,6 +78,17 @@
       "parent": 23,
       "order": 8,
       "data": {
+        "prefix": "weight",
+        "text": "80",
+        "suffix": "kg"
+      }
+    },
+    {
+      "id": 667,
+      "type": "Number",
+      "parent": 23,
+      "order": 8,
+      "data": {
         "const_id": "height",
         "prefix": "height",
         "text": "1.75",
