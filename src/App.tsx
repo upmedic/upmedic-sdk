@@ -30,11 +30,11 @@ function App() {
       </div>
       <div>
         <h2>Report (can be modified in simulationData/report.json)</h2>
-        <pre>{JSON.stringify(ExpertEngine.report, null, 2)}</pre>
+        <pre>{JSON.stringify(ExpertEngine.Report.data, null, 2)}</pre>
       </div>
       <div>
         <h2>Template (can be modified in simulationData/template.json)</h2>
-        <pre>{JSON.stringify(ExpertEngine.template, null, 2)}</pre>
+        <pre>{JSON.stringify(ExpertEngine.Template.data, null, 2)}</pre>
       </div>
     </>
   );

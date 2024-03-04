@@ -12,7 +12,8 @@
         "parent": 2,
         "order": 8,
         "data": {
-          "text": "Środek kontrastujący"
+          "text": "Środek kontrastujący",
+          "classes": ["bar-class", "foo-class"]
         }
       },
       {
@@ -90,7 +91,7 @@
         "parent": 23,
         "order": 8,
         "data": {
-        "const_id": "BMI",
+          "const_id": "BMI",
           "prefix": "BMI",  
           "text": "0",
           "suffix": ""
@@ -961,8 +962,10 @@
         "order": 0,
         "data": {
           "text": "badanie przed i po podaniu środka kontrastującego",
+          "const_id": "before-and-after-contrasting-agent",
           "connotation": 0,
-          "auto_include": false
+          "auto_include": false,
+          "classes": ["technique", "foo"]
         }
       },
       {

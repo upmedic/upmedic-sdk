@@ -27,13 +27,17 @@ const CalculateBMIIncorrectNodeId: EngineCalculation = {
     },
   ],
   calculate: () => {
-    const weight = parseFloat(ExpertEngine.getNodeByConstId('weight').data.text);
-    const height = parseFloat(ExpertEngine.getNodeByConstId('height').data.text);
+    const weight = parseFloat(
+      ExpertEngine.Template.getNodeByConstId('weight').data.text,
+    );
+    const height = parseFloat(
+      ExpertEngine.Template.getNodeByConstId('height').data.text,
+    );
 
     console.log(
       'calculating BMI and inserting it into target node in the template.',
     );
-    ExpertEngine.setNumberNodeValue('BMI', weight / (height * height));
+    ExpertEngine.Template.setNumberNodeValue('BMI', weight / (height * height));
   },
 };
 
