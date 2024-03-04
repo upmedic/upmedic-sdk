@@ -21,13 +21,13 @@ const TTTG: EngineCalculation = {
     },
   ],
   calculate: () => {
-    const tttg = parseFloat(ExpertEngine.getNodeByConstId('TT-TG'));
+    const tttg = parseFloat(ExpertEngine.Template.getNodeByConstId('TT-TG'));
     if (tttg <= 15) {
       // do nothing, we focus only on abnormal
     } else if (tttg > 15 && tttg <= 20) {
-      ExpertEngine.addToConclusions('TT-TG', `TT-TG: borderline`);
+      ExpertEngine.Report.addToConclusions('TT-TG', `TT-TG: borderline`);
     } else {
-      ExpertEngine.addToConclusions('TT-TG', `TT-TG: abnormal`);
+      ExpertEngine.Report.addToConclusions('TT-TG', `TT-TG: abnormal`);
     }
   },
 };
