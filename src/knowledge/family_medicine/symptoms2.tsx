@@ -1,36 +1,36 @@
 import {
-    EngineCalculation,
-    ExpertEngine,
-    NodeType,
-    SelectorType,
-  } from '../../engine';
-  
-  const symptoms: EngineCalculation = {
-    displayName: 'POZ objawy',
-    description: 'Obsługa objawów chorobowych dla upmedic',
-    matchingSections: {
-      disciplines: '*',
-      categories: '*',
-      languages: '*',
+  EngineCalculation,
+  ExpertEngine,
+  NodeType,
+  SelectorType,
+} from '../../engine';
+
+const symptoms2: EngineCalculation = {
+  displayName: 'POZ objawy',
+  description: 'Obsługa objawów chorobowych dla upmedic',
+  matchingSections: {
+    disciplines: '*',
+    categories: '*',
+    languages: '*',
+  },
+  nodeRequirements: [
+    {
+      selectorType: SelectorType.CLASS,
+      selector: 'pchn',
+      nodeType: NodeType.PROPERTY,
     },
-    nodeRequirements: [
-      {
-        selectorType: SelectorType.CLASS,
-        selector: 'pchn',
-        nodeType: NodeType.PROPERTY,
-      },
-      {
-        selectorType: SelectorType.CLASS,
-        selector: 'cukrzyca',
-        nodeType: NodeType.PROPERTY,
-      },
-      {
-        selectorType: SelectorType.CLASS,
-        selector: 'niedoczynność tarczycy',
-        nodeType: NodeType.PROPERTY,
-      },
-    ],
-    calculate: () => {
+    {
+      selectorType: SelectorType.CLASS,
+      selector: 'cukrzyca',
+      nodeType: NodeType.PROPERTY,
+    },
+    {
+      selectorType: SelectorType.CLASS,
+      selector: 'niedoczynność tarczycy',
+      nodeType: NodeType.PROPERTY,
+    },
+  ],
+  calculate: () => {
     //   const cukrzycaInTemplate = ExpertEngine.getNodesByClass('cukrzyca');
     //   const cukrzycaInReport = [];
     //   for (let i = 0; i < cukrzycaInTemplate.length; i++) {
@@ -40,21 +40,21 @@ import {
     //     }
     //   }
 
+    // const symptomsInTemplate = ExpertEngine.getNodesByClass('symptom');
+    // const symptomsInReport = [];
+    // for (let i = 0; i < symptomsInTemplate.length; i++) {
+    //   const symptom = symptomsInTemplate[i];
+    //   if (ExpertEngine.isNodeIdInReport(symptom.data.const_id)) {
+    //     symptomsInReport.push(symptom);
+    //   }
+    // }
 
-      // const symptomsInTemplate = ExpertEngine.getNodesByClass('symptom');
-      // const symptomsInReport = [];
-      // for (let i = 0; i < symptomsInTemplate.length; i++) {
-      //   const symptom = symptomsInTemplate[i];
-      //   if (ExpertEngine.isNodeIdInReport(symptom.data.const_id)) {
-      //     symptomsInReport.push(symptom);
-      //   }
-      // }
-  
-      if (ExpertEngine.isNodeIdInReport('cukrzyca')) {
-        ExpertEngine.addToConclusions(
-          'cukrzyca',
-          'To jest objaw cukrzycy, wykonaj badania',
-        );
-      }
-    };
-  ExpertEngine.register(symptoms);
+    if (ExpertEngine.Report.isNodeIdInReport('cukrzyca')) {
+      ExpertEngine.Report.addToConclusions(
+        'cukrzyca',
+        'To jest objaw cukrzycy, wykonaj badania',
+      );
+    }
+  },
+};
+ExpertEngine.register(symptoms2);

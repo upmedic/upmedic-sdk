@@ -6,7 +6,7 @@ import {
 } from '../../engine';
 
 const symptoms: EngineCalculation = {
-  displayName: 'POZ objawy',
+  displayName: 'POZ symptoms',
   description: 'Obsługa objawów chorobowych dla upmedic',
   matchingSections: {
     disciplines: '*',
@@ -30,8 +30,8 @@ const symptoms: EngineCalculation = {
     //   }
     // }
 
-    if (ExpertEngine.isNodeIdInReport('sleepiness')) {
-      ExpertEngine.addToConclusions(
+    if (ExpertEngine.Report.isNodeIdInReport('sleepiness')) {
+      ExpertEngine.Report.addToConclusions(
         'sleepiness',
         'This will add some conclusion related to sleepines',
       );
