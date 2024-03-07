@@ -30,7 +30,7 @@
     "data": {
       "text": "przyrost masy ciała",
       "const_id": "przyrost masy ciała",
-      "classes": ["niedoczynność tarczycy"],
+      "class": ["niedoczynność tarczycy"],
       "is_initial": true,
       "auto_include": false,
       "connotation": 0
@@ -44,7 +44,7 @@
     "data": {
       "text": "osłabienie",
       "const_id": "osłabienie",
-      "classes": ["niedoczynność tarczycy", "pchn", "cukrzyca"],
+      "class": ["niedoczynność tarczycy", "pchn", "cukrzyca"],
       "is_initial": true,
       "auto_include": false,
       "connotation": 0
@@ -58,7 +58,7 @@
     "data": {
       "text": "zmęczenie",
       "const_id": "zmęczenie",
-      "classes": ["niedoczynność tarczycy"],
+      "class": ["niedoczynność tarczycy"],
       "is_initial": true,
       "auto_include": false,
       "connotation": 0
@@ -72,7 +72,7 @@
     "data": {
       "text": "zmniejszona tolerancja wysiłku",
       "const_id": "zmniejszona tolerancja wysiłku",
-      "classes": ["niedoczynność tarczycy"],
+      "class": ["niedoczynność tarczycy"],
       "is_initial": true,
       "auto_include": false,
       "connotation": 0
@@ -86,7 +86,7 @@
     "data": {
       "text": "męczliwość",
       "const_id": "męczliwość",
-      "classes": ["pchn"],
+      "class": ["pchn"],
       "is_initial": true,
       "auto_include": false,
       "connotation": 0
@@ -100,7 +100,7 @@
     "data": {
       "text": "senność",
       "const_id": "senność",
-      "classes": ["niedoczynność tarczycy", "cukrzyca"],
+      "class": ["niedoczynność tarczycy", "cukrzyca"],
       "is_initial": true,
       "auto_include": false,
       "connotation": 0
@@ -114,7 +114,7 @@
     "data": {
       "text": "ogólne spowolnienie (psychomotoryczne i mowy)",
       "const_id": "spowolnienie",
-      "classes": ["niedoczynność tarczycy"],
+      "class": ["niedoczynność tarczycy"],
       "is_initial": true,
       "auto_include": false,
       "connotation": 0
@@ -128,7 +128,7 @@
     "data": {
       "text": "uczucie chłodu",
       "const_id": "uczucie chłodu",
-      "classes": ["niedoczynność tarczycy"],
+      "class": ["niedoczynność tarczycy"],
       "is_initial": true,
       "auto_include": false,
       "connotation": 0
@@ -142,7 +142,7 @@
     "data": {
       "text": "łatwe marznięcie",
       "const_id": "łatwe marznięcie",
-      "classes": ["niedoczynność tarczycy"],
+      "class": ["niedoczynność tarczycy"],
       "is_initial": true,
       "auto_include": false,
       "connotation": 0
@@ -156,7 +156,7 @@
     "data": {
       "text": "chudnięcie",
       "const_id": "chudnięcie",
-      "classes": ["cukrzyca"],
+      "class": ["cukrzyca"],
       "is_initial": true,
       "auto_include": false,
       "connotation": 0
@@ -170,7 +170,7 @@
     "data": {
       "text": "cechy odwodnienia",
       "const_id": "odwodnienie",
-      "classes": ["cukrzyca"],
+      "class": ["cukrzyca"],
       "is_initial": true,
       "auto_include": false,
       "connotation": 0
@@ -184,7 +184,7 @@
     "data": {
       "text": "hipotermia",
       "const_id": "hipotermia",
-      "classes": ["pchn"],
+      "class": ["pchn"],
       "is_initial": true,
       "auto_include": false,
       "connotation": 0
@@ -198,7 +198,7 @@
     "data": {
       "text": "utrata łaknienia",
       "const_id": "utrata łaknienia",
-      "classes": ["pchn"],
+      "class": ["pchn"],
       "is_initial": true,
       "auto_include": false,
       "connotation": 0
@@ -212,7 +212,7 @@
     "data": {
       "text": "obniżona odporność na zakażenia",
       "const_id": "obniżona odporność na zakażenia",
-      "classes": ["pchn"],
+      "class": ["pchn"],
       "is_initial": true,
       "auto_include": false,
       "connotation": 0

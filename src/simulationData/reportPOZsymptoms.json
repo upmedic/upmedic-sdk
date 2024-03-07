@@ -9,7 +9,7 @@
         "data": {
           "text": "przyrost masy cia\u0142a",
           "const_id": "przyrost masy ciała",
-          "classes": ["niedoczynność tarczycy"],
+          "class": ["niedoczynność tarczycy"],
           "coding": { "sctid": "", "icd_10": "" },
           "excludes": [],
           "separator": "",
@@ -36,7 +36,7 @@
         "data": {
           "text": "os\u0142abienie",
           "const_id": "osłabienie",
-          "classes": ["niedoczynność tarczycy", "pchn", "cukrzyca"],
+          "class": ["niedoczynność tarczycy", "pchn", "cukrzyca"],
           "coding": { "sctid": "", "icd_10": "" },
           "excludes": [],
           "separator": "",
@@ -63,7 +63,7 @@
         "data": {
           "text": "zm\u0119czenie",
           "const_id": "zmęczenie",
-          "classes": ["niedoczynność tarczycy"],
+          "class": ["niedoczynność tarczycy"],
           "coding": { "sctid": "", "icd_10": "" },
           "excludes": [],
           "separator": "",
@@ -90,7 +90,7 @@
         "data": {
           "text": "zmniejszona tolerancja wysi\u0142ku",
           "const_id": "zmniejszona tolerancja wysiłku",
-          "classes": ["niedoczynność tarczycy"],
+          "class": ["niedoczynność tarczycy"],
           "coding": { "sctid": "", "icd_10": "" },
           "excludes": [],
           "separator": "",
@@ -117,7 +117,7 @@
         "data": {
           "text": "m\u0119czliwo\u015b\u0107",
           "const_id": "męczliwość",
-          "classes": ["pchn"],
+          "class": ["pchn"],
           "coding": { "sctid": "", "icd_10": "" },
           "excludes": [],
           "separator": "",
@@ -144,7 +144,7 @@
         "data": {
           "text": "senno\u015b\u0107",
           "const_id": "senność",
-          "classes": ["niedoczynność tarczycy", "cukrzyca"],
+          "class": ["niedoczynność tarczycy", "cukrzyca"],
           "coding": { "sctid": "", "icd_10": "" },
           "excludes": [],
           "separator": "",
@@ -171,7 +171,7 @@
         "data": {
           "text": "og\u00f3lne spowolnienie (psychomotoryczne i mowy)",
           "const_id": "spowolnienie",
-          "classes": ["niedoczynność tarczycy"],
+          "class": ["niedoczynność tarczycy"],
           "coding": { "sctid": "", "icd_10": "" },
           "excludes": [],
           "separator": "",
@@ -198,7 +198,7 @@
         "data": {
           "text": "uczucie ch\u0142odu",
           "const_id": "uczucie chłodu",
-          "classes": ["niedoczynność tarczycy"],
+          "class": ["niedoczynność tarczycy"],
           "coding": { "sctid": "", "icd_10": "" },
           "excludes": [],
           "separator": "",
@@ -225,7 +225,7 @@
         "data": {
           "text": "\u0142atwe marzni\u0119cie",
           "const_id": "łatwe marznięcie",
-          "classes": ["niedoczynność tarczycy"],
+          "class": ["niedoczynność tarczycy"],
           "coding": { "sctid": "", "icd_10": "" },
           "excludes": [],
           "separator": "",
@@ -252,7 +252,7 @@
         "data": {
           "text": "chudni\u0119cie",
           "const_id": "chudnięcie",
-          "classes": ["cukrzyca"],
+          "class": ["cukrzyca"],
           "coding": { "sctid": "", "icd_10": "" },
           "excludes": [],
           "separator": "",
@@ -279,7 +279,7 @@
         "data": {
           "text": "cechy odwodnienia",
           "const_id": "odwodnienie",
-          "classes": ["cukrzyca"],
+          "class": ["cukrzyca"],
           "coding": { "sctid": "", "icd_10": "" },
           "excludes": [],
           "separator": "",
@@ -306,7 +306,7 @@
         "data": {
           "text": "hipotermia",
           "const_id": "hipotermia",
-          "classes": ["pchn"],
+          "class": ["pchn"],
           "coding": { "sctid": "", "icd_10": "" },
           "excludes": [],
           "separator": "",
@@ -333,7 +333,7 @@
         "data": {
           "text": "utrata \u0142aknienia",
           "const_id": "utrata łaknienia",
-          "classes": ["pchn"],
+          "class": ["pchn"],
           "coding": { "sctid": "", "icd_10": "" },
           "excludes": [],
           "separator": "",
@@ -360,7 +360,7 @@
         "data": {
           "text": "obni\u017cona odporno\u015b\u0107 na zaka\u017cenia",
           "const_id": "obniżona odporność na zakażenia",
-          "classes": ["pchn"],
+          "class": ["pchn"],
           "coding": { "sctid": "", "icd_10": "" },
           "excludes": [],
           "separator": "",
