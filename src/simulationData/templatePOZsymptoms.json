@@ -1796,39 +1796,102 @@
         "auto_include": false,
         "connotation": 0
       }
-    }
-  ]
-  ,
-  "root": {
-      "id": "801ac188-c41a-4fc7-8fb7-361b32c18257",
-      "parent": null,
-      "type": "Section",
-      "order": 0,
+    },
+    {
+      "id": "7f962fa8-817b-4c7b-bc9a-911112e1382f",
       "data": {
-          "text": "POZ objawy cuk niedotar pchn",
-          "excludes": [],
-          "is_initial": false,
-          "coding": {
-              "icd_10": "",
-              "sctid": ""
-          },
-          "left_visibility": true,
-          "right_visibility": true,
-          "speech_audio_ids": [],
-          "category": "MR",
-          "discipline": "Radiologia",
-          "separator": "",
-          "line_break_before": true,
-          "template_snippets": [],
-          "triggers": []
+        "bold": true,
+        "text": "Badania laboratoryjne",
+        "coding": { "sctid": "", "icd_10": "" },
+        "excludes": [],
+        "separator": ".",
+        "is_initial": false,
+        "is_sentence": false,
+        "left_visibility": true,
+        "right_visibility": true,
+        "speech_audio_ids": [],
+        "line_break_before": false
       },
-      "modified_fields": null,
-      "template": null,
+      "type": "Subsection",
+      "order": 13,
+      "parent": "801ac188-c41a-4fc7-8fb7-361b32c18257",
       "suggestion_priority": 0.0
-  },
-  "languages": [
-      "pl"
+    },
+    {
+      "id": "b195e811-3e5e-4681-ba53-572bda93e274",
+      "data": {
+        "text": "glukoza",
+        "coding": { "sctid": "", "icd_10": "" },
+        "excludes": [],
+        "separator": "",
+        "is_initial": false,
+        "is_sentence": false,
+        "left_visibility": true,
+        "right_visibility": true,
+        "speech_audio_ids": [],
+        "line_break_before": false
+      },
+      "type": "Concept",
+      "order": 0,
+      "parent": "7f962fa8-817b-4c7b-bc9a-911112e1382f",
+      "suggestion_priority": 0.0
+    },
+    {
+      "id": "4dec8e13-4669-4d92-94f1-03f0a9cf125f",
+      "data": {
+        "text": "0",
+        "const_id": "glucose_blood",
+        "coding": { "sctid": "", "icd_10": "" },
+        "prefix": "",
+        "suffix": "mg/dl",
+        "excludes": [],
+        "max_value": "",
+        "min_value": "",
+        "separator": "",
+        "is_initial": false,
+        "connotation": 0,
+        "is_sentence": false,
+        "auto_include": false,
+        "left_visibility": true,
+        "conclusions_text": "",
+        "right_visibility": true,
+        "speech_audio_ids": [],
+        "line_break_before": false
+      },
+      "type": "Number",
+      "order": 0,
+      "parent": "b195e811-3e5e-4681-ba53-572bda93e274",
+      "suggestion_priority": 0.0
+    }
   ],
+  "root": {
+    "id": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+    "parent": null,
+    "type": "Section",
+    "order": 0,
+    "data": {
+      "text": "POZ objawy cuk niedotar pchn",
+      "excludes": [],
+      "is_initial": false,
+      "coding": {
+        "icd_10": "",
+        "sctid": ""
+      },
+      "left_visibility": true,
+      "right_visibility": true,
+      "speech_audio_ids": [],
+      "category": "MR",
+      "discipline": "Radiologia",
+      "separator": "",
+      "line_break_before": true,
+      "template_snippets": [],
+      "triggers": []
+    },
+    "modified_fields": null,
+    "template": null,
+    "suggestion_priority": 0.0
+  },
+  "languages": ["pl"],
   "previous_version": null,
   "autoinclude_enabled": false,
   "editing": "OWNER"

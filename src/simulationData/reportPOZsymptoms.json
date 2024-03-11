@@ -3699,6 +3699,127 @@
       "suggestion_priority": 0.0
     },
     {
+      "id": "4dec8e13-4669-4d92-94f1-03f0a9cf125f",
+      "data": {
+        "text": "158",
+        "const_id": "glucose_blood",
+        "coding": { "sctid": "", "icd_10": "" },
+        "prefix": "",
+        "suffix": "mg/dl",
+        "excludes": [],
+        "max_value": "",
+        "min_value": "",
+        "separator": "",
+        "is_initial": false,
+        "connotation": 0,
+        "is_sentence": false,
+        "auto_include": false,
+        "left_visibility": true,
+        "conclusions_text": "",
+        "right_visibility": true,
+        "speech_audio_ids": [],
+        "line_break_before": false
+      },
+      "type": "Number",
+      "order": 1,
+      "parent": "b195e811-3e5e-4681-ba53-572bda93e274",
+      "template": "78558c31-e2f4-419f-ba07-58b36d005853",
+      "node_template_id": "4dec8e13-4669-4d92-94f1-03f0a9cf125f",
+      "suggestion_priority": 0.0
+    },
+    {
+      "id": "b195e811-3e5e-4681-ba53-572bda93e274",
+      "data": {
+        "text": "glukoza",
+        "coding": { "sctid": "", "icd_10": "" },
+        "excludes": [],
+        "separator": "",
+        "is_initial": false,
+        "is_sentence": false,
+        "left_visibility": true,
+        "right_visibility": true,
+        "speech_audio_ids": [],
+        "line_break_before": false
+      },
+      "type": "Concept",
+      "order": 1,
+      "parent": "7f962fa8-817b-4c7b-bc9a-911112e1382f",
+      "template": "78558c31-e2f4-419f-ba07-58b36d005853",
+      "node_template_id": "b195e811-3e5e-4681-ba53-572bda93e274",
+      "suggestion_priority": 0.0
+    },
+    {
+      "id": "7f962fa8-817b-4c7b-bc9a-911112e1382f",
+      "data": {
+        "bold": true,
+        "text": "Badania laboratoryjne",
+        "coding": { "sctid": "", "icd_10": "" },
+        "excludes": [],
+        "separator": ".",
+        "is_initial": false,
+        "is_sentence": false,
+        "left_visibility": true,
+        "right_visibility": true,
+        "speech_audio_ids": [],
+        "line_break_before": false
+      },
+      "type": "Subsection",
+      "order": 14,
+      "parent": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+      "template": "78558c31-e2f4-419f-ba07-58b36d005853",
+      "node_template_id": "7f962fa8-817b-4c7b-bc9a-911112e1382f",
+      "suggestion_priority": 0.0
+    },
+    {
+      "id": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+      "data": {
+        "text": "POZ objawy cuk niedotar pchn",
+        "coding": { "sctid": "", "icd_10": "" },
+        "category": "MR",
+        "excludes": [],
+        "triggers": [],
+        "separator": "",
+        "discipline": "Radiologia",
+        "is_initial": false,
+        "left_visibility": true,
+        "right_visibility": true,
+        "speech_audio_ids": [],
+        "line_break_before": true,
+        "template_snippets": []
+      },
+      "type": "Section",
+      "order": 0,
+      "parent": "ROOT-ID",
+      "template": "78558c31-e2f4-419f-ba07-58b36d005853",
+      "node_template_id": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+      "suggestion_priority": 0.0
+    },
+    {
+      "id": "ROOT-ID",
+      "data": {
+        "text": "POZ objawy cuk niedotar pchn",
+        "coding": { "sctid": "", "icd_10": "" },
+        "excludes": [],
+        "metadata": [
+          {
+            "field_name": "title",
+            "field_value": "POZ objawy cuk niedotar pchn",
+            "modifiable_key": false
+          }
+        ],
+        "separator": "",
+        "is_initial": false,
+        "left_visibility": true,
+        "right_visibility": false,
+        "speech_audio_ids": []
+      },
+      "type": "ReportRoot",
+      "order": 0,
+      "parent": null,
+      "template": "",
+      "suggestion_priority": 0.0
+    },
+    {
       "id": "801ac188-c41a-4fc7-8fb7-361b32c18257",
       "data": {
         "text": "POZ objawy cuk niedotar pchn",
