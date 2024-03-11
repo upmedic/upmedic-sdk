@@ -1,1793 +1,4259 @@
-[
-  {
-    "id": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
-    "parent": null,
-    "order": 1,
-    "type": "Section",
-    "data": {
-      "text": "POZ objawy cuk niedotar pchn",
-      "category": "MR",
-      "discipline": "Radiologia",
-      "right_visibility": true,
-      "triggers": []
-    }
-  },
-  {
-    "id": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
-    "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
-    "order": 1,
-    "type": "Subsection",
-    "data": {
-      "text": "Objawy ogólne:",
-      "right_visibility": true
-    }
-  },
-  {
-    "id": "d71cc96b-54ad-444f-b509-021cb7ee9857",
-    "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": "przyrost masy ciała",
-      "const_id": "przyrost masy ciała",
-      "classes": ["niedoczynność tarczycy"],
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "f9f0ff4b-0166-4776-aa49-ccc10c7e9599",
-    "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": "osłabienie",
-      "const_id": "osłabienie",
-      "classes": ["niedoczynność tarczycy", "pchn", "cukrzyca"],
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "1c67c80a-d806-4c2a-8171-8b39a0d2f8c0",
-    "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": "zmęczenie",
-      "const_id": "zmęczenie",
-      "classes": ["niedoczynność tarczycy"],
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "c0e38bd1-eecd-400d-b76f-ca712a7f4a54",
-    "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": "zmniejszona tolerancja wysiłku",
-      "const_id": "zmniejszona tolerancja wysiłku",
-      "classes": ["niedoczynność tarczycy"],
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "b6807ed1-71d3-4039-b9b1-2ccc36e11b67",
-    "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": "męczliwość",
-      "const_id": "męczliwość",
-      "classes": ["pchn"],
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "35ed3b91-f951-400b-adf4-3568cc662770",
-    "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": "senność",
-      "const_id": "senność",
-      "classes": ["niedoczynność tarczycy", "cukrzyca"],
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "b26ea34c-e5d9-4ef3-be5b-1075a99830ae",
-    "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": "ogólne spowolnienie (psychomotoryczne i mowy)",
-      "const_id": "spowolnienie",
-      "classes": ["niedoczynność tarczycy"],
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "ae5cd212-d33b-4193-849c-7136140b5ae9",
-    "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": "uczucie chłodu",
-      "const_id": "uczucie chłodu",
-      "classes": ["niedoczynność tarczycy"],
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "745e5a61-1bf9-4dde-94e6-d75abc76d013",
-    "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": "łatwe marznięcie",
-      "const_id": "łatwe marznięcie",
-      "classes": ["niedoczynność tarczycy"],
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "f7beac57-a317-46e1-9fc1-85b4e2af074e",
-    "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": "chudnięcie",
-      "const_id": "chudnięcie",
-      "classes": ["cukrzyca"],
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "2fe409d8-1c18-45ba-b3d8-8f1363f0d988",
-    "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": "cechy odwodnienia",
-      "const_id": "odwodnienie",
-      "classes": ["cukrzyca"],
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "6025376a-f01d-4eb6-8aa4-6c2788764b2b",
-    "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": "hipotermia",
-      "const_id": "hipotermia",
-      "classes": ["pchn"],
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "1e4fd67f-5ea6-4232-bf44-dc2b73ff533d",
-    "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": "utrata łaknienia",
-      "const_id": "utrata łaknienia",
-      "classes": ["pchn"],
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "bff79063-a867-4368-b6cd-ce23e3981603",
-    "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": "obniżona odporność na zakażenia",
-      "const_id": "obniżona odporność na zakażenia",
-      "classes": ["pchn"],
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
-    "order": 2,
-    "type": "Subsection",
-    "data": {
-      "text": "Zmiany skórne:",
-      "right_visibility": true
-    }
-  },
-  {
-    "id": "a60b760d-1429-4efd-8f35-b403562215b4",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " skóra sucha niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "df6f731b-5981-4a4a-9e6a-25f75e02c6c4",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " suchość skóry cuk",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "79703b15-22d8-4d78-825e-86e5a64be2b6",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " suchość pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "e071ed5c-3b41-4f39-8c85-d89280f58bc5",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " skóra zimna niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "725edcfc-0d96-4e62-9b6e-7f982587550e",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " skóra blada niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "b1282eb7-8a65-4eb6-b5e1-79ad69a58fbe",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " bladość pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "91dc6e39-2530-421d-8a09-32bc0eb56a90",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " skóra o żółtawym zabarwieniu niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "02158e15-3a97-4093-b3a8-4acb4b8fd478",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " barwa szarobrunatna pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "aa7f397f-bd56-4e3e-a10a-0f7203720f67",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " zmniejszona potliwość niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "1fa18869-674d-4048-962b-1e478ca21db8",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " nadmierne rogowacenie naskórka np. na łokciach niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "dbd7118b-48e9-466d-99a7-ff6fe534d99c",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " obrzęk podskórny (tzw. obrzęk śluzowaty) powodujący pogrubienie rysów twarzy niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "932af0b1-f9c2-43e7-9671-cafb92b65ccc",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " obrzęk powiek i rąk niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "89f67a99-b2b3-48d0-9051-c5c62dd9ad3b",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " włosy suche niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "0528c9cb-2687-4dbd-8f95-00752de7886f",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " włosy łamliwe niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "c8801fb5-819c-4e25-96d6-eab8567856ec",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " włosy przerzedzone niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "d2c388e8-e825-428c-92a1-bb7bad4ef09a",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " wypadanie brwi niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "133d49ef-635c-44c5-9117-ea530c1a324d",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " skłonność do ropnych zakażeń skóry cuk",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "9b1fec3b-0c57-484d-a640-91aa09415411",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " suchość błon śluzowych cuk",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "dfb9f5ea-d1bd-4f6f-8998-c68b8fda0202",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " zmniejszenie elastyczności skóry cuk",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "68b88ff5-10a6-420a-a2ac-ccab5c7f3a73",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " przedłużone krwawienie z ran pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "7e269d20-2d9b-4fc6-b126-6fc7bb040fe2",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " skłonność do powstawania podbiegnięć krwawych pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "da8aa2b8-8df4-49f9-9b99-a4fbdc7fbc54",
-    "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " świąd pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "f4132651-a331-42b1-914a-2376d5fd5995",
-    "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
-    "order": 3,
-    "type": "Subsection",
-    "data": {
-      "text": "Zmiany w układzie krążenia:",
-      "right_visibility": true
-    }
-  },
-  {
-    "id": "219674c8-14e4-469b-8f73-11d499c0872f",
-    "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " bradykardia niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "f2374c13-c764-484a-aadb-59eee28bfdee",
-    "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " osłabienie tętna niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "d484f6d8-a375-4e67-8ea3-248295717c42",
-    "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " ciche tony serca niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "96870c68-7069-41aa-b153-6e7add16a02c",
-    "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " powiększenie sylwetki serca niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "0bb65da1-55b7-4545-bf31-e86a073fdf0a",
-    "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " niskie ciśnienie tętnicze niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "e6c2a17d-e438-4c9f-bb12-32ab5e0e3f08",
-    "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " nadciśnienie (częściej rozkurczowe) niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "b7c78dc5-6355-40ee-945e-a67939eaf186",
-    "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " nadciśnienie tętnicze pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "a0aefc6c-7843-4e43-be66-214f12d7e47c",
-    "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " przerost lewej komory serca pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "2aa9128c-cc55-46f6-a515-8347d718d596",
-    "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " niewydolność serca pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "c4882393-da35-423d-a967-787653e4fff4",
-    "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " zaburzenia rytmu pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "60c7acd0-dc84-4d4a-a3ea-cef6a1c88d48",
-    "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " przyśpieszona miażdżyca pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "3866987b-6e01-49f9-a371-37710d830131",
-    "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " zwapnienia naczyń pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "b0f034d0-c824-4fb2-b8cd-3e75e8b9ebdf",
-    "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " mocznicowe zapalenie osierdzia pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
-    "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
-    "order": 4,
-    "type": "Subsection",
-    "data": {
-      "text": "Zmiany w układzie oddechowym:",
-      "right_visibility": true
-    }
-  },
-  {
-    "id": "44299785-c33b-409c-a208-064fc00879fb",
-    "parent": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " ochrypły głos niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "50fc846a-f600-43b2-9e94-2217b253a3cc",
-    "parent": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " matowy głos niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "fa785242-df27-4fc6-8b26-cb9718f7910b",
-    "parent": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " pogrubienie strun głosowych niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "8aa49557-19c4-44cc-8e10-50b78092987f",
-    "parent": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " powiększenie języka niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "abceccd8-81b2-4fe9-9084-a23d58a65772",
-    "parent": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " spłycenie i zmniejszenie częstotliwości oddechów niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "dbd998a0-5e8a-475c-8950-8b5ee3e07080",
-    "parent": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " objawy nieżytu górnych dróg oddechowych niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "441289bd-6c1f-4f8d-a5b3-649c2b682928",
-    "parent": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " objawy niewydolności oddechowej niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "3c1a29b8-0362-432a-885b-5086f7839c16",
-    "parent": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " oddech kwasiczy (Kussmaula) pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "fc288136-963c-442c-951a-3aacaa40d30c",
-    "parent": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " mocznicowe zapalenie opłucnej pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "7d7eb271-b735-430e-a0f8-e228e464028b",
-    "parent": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " przekrwienie i obrzęk płuc pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
-    "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
-    "order": 5,
-    "type": "Subsection",
-    "data": {
-      "text": "Zmiany w układzie pokarmowym:",
-      "right_visibility": true
-    }
-  },
-  {
-    "id": "817566fe-02f3-4f77-9290-5fc42723fce3",
-    "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " przewlekłe zaparcie niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "dfef9cdb-cdfd-4273-8c2c-843a71762931",
-    "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " niedrożność jelit niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "27ec36b9-b86a-40df-97e5-64d3e2667b95",
-    "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " wodobrzusze niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "28f9b7a2-f49e-4682-9abb-84d3bc57d478",
-    "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " płyn w jamie osierdzia niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "9e538513-7e87-4c83-9a58-b2523e17600c",
-    "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " płyn w jamie opłucnej niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "faa16e30-8485-45f3-93e2-5df713058e17",
-    "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " wzmożone pragnienie (polidypsja) cuk",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "4fcd4727-f36d-43d5-bd3e-421ca46dbe18",
-    "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " zapalenie błony śluzowej żołądka i jelit pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "98a1c2eb-1296-4dfc-9c83-e605315132a9",
-    "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " wrzód trawienny żołądka lub dwunastnicy pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "dbd7e2a9-1461-4e4b-bc36-24fd6531b5fd",
-    "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " krwawienie z przewodu pokarmowego pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "df6fc28f-f908-48f4-b5a7-bf44a1f6ec03",
-    "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " mocznicowy zapach z ust pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "261b2831-a4b2-405f-b4b2-0463d7e1117b",
-    "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " nudności pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "9ec8a7dc-0f6f-4b6e-9922-cee7ec2d54ad",
-    "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " wymioty pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "56adcd77-aeab-4b0c-9a05-ba70e8ad9898",
-    "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " niedrożność porażenna pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "aa6ef68e-6b74-424d-854d-be978be619f7",
-    "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " ostre zapalenie trzustki pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "fac1d0b9-0461-4657-85a2-9878a251ff18",
-    "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
-    "order": 6,
-    "type": "Subsection",
-    "data": {
-      "text": "Zmiany w układzie moczowym:",
-      "right_visibility": true
-    }
-  },
-  {
-    "id": "d3062c9c-eb80-48c2-b4d7-166aac422ca0",
-    "parent": "fac1d0b9-0461-4657-85a2-9878a251ff18",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " zmniejszone wydalanie wody niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "52d2fa27-874b-4c72-b6f1-b0da0c015729",
-    "parent": "fac1d0b9-0461-4657-85a2-9878a251ff18",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " obrzęki niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "eb8adfb4-1c88-4b3f-81a8-52ec89971c8c",
-    "parent": "fac1d0b9-0461-4657-85a2-9878a251ff18",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " wielomocz (poliuria) cuk",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "0554d492-773d-44a3-ad1b-0a912df867a1",
-    "parent": "fac1d0b9-0461-4657-85a2-9878a251ff18",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " skłonność do zakażeń układu moczowo-płciowego cuk",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
-    "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
-    "order": 7,
-    "type": "Subsection",
-    "data": {
-      "text": "Zmiany w układzie nerwowym:",
-      "right_visibility": true
-    }
-  },
-  {
-    "id": "32b59833-bc7b-4f44-8726-5b158795f266",
-    "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " mononeuropatie (np. zespół cieśni nadgarstka) niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "d5738467-d438-49a3-9e14-831b789c64f7",
-    "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " parestezje niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "5efb56d2-544f-49fd-be47-30f267c0ef42",
-    "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " przedłużona faza relaksacyjna odruchów ścięgnistych niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "d9db5fa7-b38b-417a-b8cd-9c8ed72afa06",
-    "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " osłabienie słuchu niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "91e851fc-aeb5-41de-9b6f-77b89292876b",
-    "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " upośledzenie koncentracji pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "4e37cfd2-526b-446c-8c7d-60c88ea0946a",
-    "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " upośledzenie pamięci pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "80b6a912-9e9d-4c93-870b-d7441f4fa78e",
-    "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " ból głowy pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "819d379e-258e-4bd5-9d1c-e39e77429bcb",
-    "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " nadmierna senność  pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "02536c15-daa2-43ec-91ae-608c481642bb",
-    "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " bezsenność pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "483bd723-2342-4cae-b3fd-d9f4d11d7879",
-    "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " zaburzenia zachowania (np. apatia lub drażliwość) pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "38aefc9e-fdf9-4cb4-9480-c7e4d55ccacb",
-    "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " depresja pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "f6fe6bea-4847-4e70-907f-23f321da1fef",
-    "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " drgawki pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "3fcb29e7-423b-44a0-afe6-34dd0c77e495",
-    "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " śpiączka pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "a0f6ba28-53f7-4ef0-a26d-67487353b3bc",
-    "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " zespół niespokojnych nóg (uczucie dyskomfortu w stopach zmuszające do stałego wykonywania ruchów kończynami dolnymi) pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
-    "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
-    "order": 8,
-    "type": "Subsection",
-    "data": {
-      "text": "Zmiany w układzie ruchu:",
-      "right_visibility": true
-    }
-  },
-  {
-    "id": "866cfc81-0804-4458-a79a-f706bc321987",
-    "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " zmniejszenie siły mięśniowej niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "4147e5b7-809d-45f2-adef-5ccf2658ab97",
-    "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " łatwa męczliwość niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "9519a7ca-5e0d-4d2a-927f-a7c7eed18d1a",
-    "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " spowolnienie ruchowe niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "09ce313c-2544-4180-a70c-da9581013081",
-    "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " kurcze mięśni niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "996f2564-d3b5-4f0e-a72a-beb487207264",
-    "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " bóle mięśniowe niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "bc2373cc-2c7d-40d2-807f-aed45e5522e7",
-    "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " obrzęk stawów niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "df731181-67c4-4e65-829c-32bb973502fa",
-    "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " pogrubienie błony maziowej i wysięk niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "2704f48a-3b08-4b7c-9ca8-8bd41d764cf5",
-    "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " zanik głębokich odruchów ścięgnistych pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "ba17132c-f877-4b45-9600-d39f7bd79e14",
-    "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " osłabienie mięśni pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "2ba7d7bf-2d26-4bc5-ad5b-658b486248a9",
-    "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " drżenie grubofaliste pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "ee1e4bc8-4573-4509-827e-f59d159bf808",
-    "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " kurcze pęczków mięśniowych i grup mięśni pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "f68edd01-31fb-4306-9af8-1be91e99a0b2",
-    "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " przewlekła czkawka pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "b5d5e462-0b2e-4114-a692-aea35ba43a85",
-    "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " porażenie nerwu strzałkowego pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "96686a21-00b6-4baf-b8fc-cb2c39d16e8e",
-    "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " wiotkie porażenie czterokończynowe pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "ebed801e-c148-4447-b2e3-2128157eddbb",
-    "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " sarkopenia (zmniejszenie masy i siły mięśni szkieletowych) pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
-    "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
-    "order": 9,
-    "type": "Subsection",
-    "data": {
-      "text": "Zmiany w układzie rozrodczym:",
-      "right_visibility": true
-    }
-  },
-  {
-    "id": "7eaac248-025b-4602-b8af-1168120ea438",
-    "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " u kobiet zaburzenia miesiączkowania niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "21af68bb-3011-49e5-8c6c-af2306401369",
-    "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " zaburzenia miesiączkowania pchn ",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "9c58d2e3-7474-475c-89c7-a2ee8bdf6588",
-    "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " rzadkie miesiączkowanie pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "267f27c1-cd82-4426-b628-08ef1c98ccc1",
-    "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " wtórny brak miesiączki pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "21d2597f-3adf-4fb5-b631-425b8acb2101",
-    "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " skrócenie długości cyklu niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "05b4d3b4-4bc3-457f-a1aa-2619d90a201d",
-    "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " obfite miesiączki niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "bbc1caa4-123a-4e9c-8f4f-29d07cf40cd0",
-    "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " niepłodność niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "59d47bbd-5120-43c0-84ff-f6c2d5f8bc0d",
-    "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " niepłodność pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "04290ee4-b392-4226-a459-c3805a09944d",
-    "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " poronienia niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "2bf37dc9-9576-4379-bc5d-bb17b0ddb50e",
-    "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " u mężczyzn osłabienie libido niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "091b27fd-e174-41f1-8560-b425373a66de",
-    "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " zaburzenia wzwodu niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "93d08910-8c2c-4930-bb3d-e34319156853",
-    "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " zaburzenia czynności seksualnych (zmniejszenie popędu płciowego, impotencja) pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "48ec9052-5e26-4f5d-a86b-8e624c8bb023",
-    "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
-    "order": 10,
-    "type": "Subsection",
-    "data": {
-      "text": "Zaburzenia psychiczne:",
-      "right_visibility": true
-    }
-  },
-  {
-    "id": "ac30a603-13b2-40ef-9a05-7916861c02e9",
-    "parent": "48ec9052-5e26-4f5d-a86b-8e624c8bb023",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " zmniejszenie zdolności do skupiania uwagi niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "ee61df0d-1ac4-46b3-88af-11a8eb133773",
-    "parent": "48ec9052-5e26-4f5d-a86b-8e624c8bb023",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " zaburzenia pamięci niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "a66021bf-9e04-4c1a-95e3-48422af1f88b",
-    "parent": "48ec9052-5e26-4f5d-a86b-8e624c8bb023",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " subkliniczna lub jawna depresja niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "21c41e03-ad31-4197-87d4-c4b443d5b345",
-    "parent": "48ec9052-5e26-4f5d-a86b-8e624c8bb023",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " niestabilność emocjonalna niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "657eb643-9a52-41e2-b6d5-be4331d83976",
-    "parent": "48ec9052-5e26-4f5d-a86b-8e624c8bb023",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " objawy choroby afektywnej dwubiegunowej niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "20accec6-b1c9-4506-bf5b-bf1e15e90853",
-    "parent": "48ec9052-5e26-4f5d-a86b-8e624c8bb023",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " objawy psychozy paranoidalnej niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "9ce44a78-e83e-4d2d-8be3-7fb128eda3e7",
-    "parent": "48ec9052-5e26-4f5d-a86b-8e624c8bb023",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " otępienie niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "b2628fcd-dde4-4cfe-95da-069b6282a5db",
-    "parent": "48ec9052-5e26-4f5d-a86b-8e624c8bb023",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " śpiączka niedotar",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "ed6154c7-d67e-44d9-9fda-55b20bbbc49f",
-    "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
-    "order": 11,
-    "type": "Subsection",
-    "data": {
-      "text": "Zaburzenia morfologii krwi i odporności:",
-      "right_visibility": true
-    }
-  },
-  {
-    "id": "1adf7ae2-4720-4aa2-90c8-85e8d9bfcb5a",
-    "parent": "ed6154c7-d67e-44d9-9fda-55b20bbbc49f",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " niedokrwistość pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "93714968-482b-4347-a7da-97870e179b8b",
-    "parent": "ed6154c7-d67e-44d9-9fda-55b20bbbc49f",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " skaza krwotoczna pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "ac7b8275-1b8a-449f-be0c-8db5ad67a62a",
-    "parent": "ed6154c7-d67e-44d9-9fda-55b20bbbc49f",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " przedłużone krwawienia z ran pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "6a2e3a0c-0b98-4094-b23f-c1f7ee085470",
-    "parent": "ed6154c7-d67e-44d9-9fda-55b20bbbc49f",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " skłonność do powstawania podbiegnięć krwawych pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "3bec2317-390c-485a-94fe-79755ecd4771",
-    "parent": "ed6154c7-d67e-44d9-9fda-55b20bbbc49f",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " obniżona odporność pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "b71d2100-96a9-4a4b-b46c-f8b7ac893ba4",
-    "parent": "ed6154c7-d67e-44d9-9fda-55b20bbbc49f",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " zwiększone ryzyko zakażeń pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "33dc28d5-0da3-47fc-8256-374a3a4fd9e0",
-    "parent": "ed6154c7-d67e-44d9-9fda-55b20bbbc49f",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " leukopenia pchn",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "15ef72ca-5726-4761-9094-172ed32dd877",
-    "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
-    "order": 12,
-    "type": "Subsection",
-    "data": {
-      "text": "Zaburzenia gospodarki wodno-elektrolitowej i równowagi kwasowo-zasadowej:",
-      "right_visibility": true
-    }
-  },
-  {
-    "id": "9decd83e-e495-441c-a948-9cb536edf625",
-    "parent": "15ef72ca-5726-4761-9094-172ed32dd877",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " ......remove me......",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  },
-  {
-    "id": "9fba98b3-2ec5-4321-bf65-e9ccba5d2465",
-    "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
-    "order": 13,
-    "type": "Subsection",
-    "data": {
-      "text": "Zespół zaburzeń mineralnych i kostnych związanych z PChN",
-      "right_visibility": true
-    }
-  },
-  {
-    "id": "2cffea4c-a9cc-4abf-bfb8-15035352bc2f",
-    "parent": "9fba98b3-2ec5-4321-bf65-e9ccba5d2465",
-    "order": 1,
-    "type": "Property",
-    "data": {
-      "text": " ......remove me......",
-      "is_initial": true,
-      "auto_include": false,
-      "connotation": 0
-    }
-  }
-]
+{
+  "id": "602a3d37-ea2d-4e0d-aac3-89f2b9e1de4d",
+  "owner": "przebom@op.pl",
+  "title": "POZ objawy cuk niedotar pchn",
+  "discipline": "Radiologia",
+  "category": "MR",
+  "public": false,
+  "nodes": [
+      {
+          "id": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+          "parent": null,
+          "type": "Section",
+          "order": 0,
+          "data": {
+              "text": "POZ objawy cuk niedotar pchn",
+              "excludes": [],
+              "is_initial": false,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "category": "MR",
+              "discipline": "Radiologia",
+              "separator": "",
+              "line_break_before": true,
+              "template_snippets": [],
+              "triggers": []
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "1efcbca7-2a5a-45e9-8f96-09a2761d2987",
+          "parent": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+          "type": "Subsection",
+          "order": 0,
+          "data": {
+              "text": "Objawy ogólne:",
+              "excludes": [],
+              "is_initial": false,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "separator": "",
+              "line_break_before": true,
+              "bold": true,
+              "is_sentence": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "1f261f37-8612-4449-bcc5-f21d6301aecc",
+          "parent": "1efcbca7-2a5a-45e9-8f96-09a2761d2987",
+          "type": "Property",
+          "order": 0,
+          "data": {
+              "text": "przyrost masy ciała niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "856795f4-6447-4d8c-9715-71c7a71ed0e7",
+          "parent": "1efcbca7-2a5a-45e9-8f96-09a2761d2987",
+          "type": "Property",
+          "order": 1,
+          "data": {
+              "text": "osłabienie niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "e1119f65-91ed-4855-a709-4480e2f9ce1d",
+          "parent": "1efcbca7-2a5a-45e9-8f96-09a2761d2987",
+          "type": "Property",
+          "order": 2,
+          "data": {
+              "text": "osłabienie pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "f1999328-4f7a-4e81-8fa8-7fd953e4eca4",
+          "parent": "1efcbca7-2a5a-45e9-8f96-09a2761d2987",
+          "type": "Property",
+          "order": 3,
+          "data": {
+              "text": "osłabienie cuk",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "e61553ce-0d90-4247-9e4f-37df6a137df0",
+          "parent": "1efcbca7-2a5a-45e9-8f96-09a2761d2987",
+          "type": "Property",
+          "order": 4,
+          "data": {
+              "text": "zmęczenie niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "91252ded-59bf-4b8c-b981-83ede01283e2",
+          "parent": "1efcbca7-2a5a-45e9-8f96-09a2761d2987",
+          "type": "Property",
+          "order": 5,
+          "data": {
+              "text": "zmniejszona tolerancja wysiłku niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "ced780d9-c391-494c-96c8-2962287f3d3b",
+          "parent": "1efcbca7-2a5a-45e9-8f96-09a2761d2987",
+          "type": "Property",
+          "order": 6,
+          "data": {
+              "text": "męczliwość pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "9f6cdc2b-1146-431b-b1c5-46a3935c9e29",
+          "parent": "1efcbca7-2a5a-45e9-8f96-09a2761d2987",
+          "type": "Property",
+          "order": 7,
+          "data": {
+              "text": "senność niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "027b2452-eb9f-4fb5-94fc-8ae39edf9ad4",
+          "parent": "1efcbca7-2a5a-45e9-8f96-09a2761d2987",
+          "type": "Property",
+          "order": 8,
+          "data": {
+              "text": "senność cuk",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "e3803a39-6d41-4b0f-a7a1-984c07f3e1eb",
+          "parent": "1efcbca7-2a5a-45e9-8f96-09a2761d2987",
+          "type": "Property",
+          "order": 9,
+          "data": {
+              "text": "ogólne spowolnienie (psychomotoryczne i mowy) niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "bdbeb4f7-c0f6-4369-bedb-81ce24efc95e",
+          "parent": "1efcbca7-2a5a-45e9-8f96-09a2761d2987",
+          "type": "Property",
+          "order": 10,
+          "data": {
+              "text": "uczucie chłodu niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "b363a2ee-dd22-496b-911a-cfc107a85798",
+          "parent": "1efcbca7-2a5a-45e9-8f96-09a2761d2987",
+          "type": "Property",
+          "order": 11,
+          "data": {
+              "text": "łatwe marznięcie niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "556a89a5-e7a7-41b8-b67e-6beb20d87e54",
+          "parent": "1efcbca7-2a5a-45e9-8f96-09a2761d2987",
+          "type": "Property",
+          "order": 12,
+          "data": {
+              "text": "chudnięcie cuk",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "c663c1f5-3035-4f4e-93f7-bacd3f509ab9",
+          "parent": "1efcbca7-2a5a-45e9-8f96-09a2761d2987",
+          "type": "Property",
+          "order": 13,
+          "data": {
+              "text": "cechy odwodnienia cuk",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "5ff880be-39ac-42e1-b0c4-08a71e293332",
+          "parent": "1efcbca7-2a5a-45e9-8f96-09a2761d2987",
+          "type": "Property",
+          "order": 14,
+          "data": {
+              "text": "hipotermia pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "e91382db-68e4-45b4-a1fc-84b946260d0e",
+          "parent": "1efcbca7-2a5a-45e9-8f96-09a2761d2987",
+          "type": "Property",
+          "order": 15,
+          "data": {
+              "text": "utrata łaknienia pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "8e17f578-83c7-4b02-b93f-808a5b2f0108",
+          "parent": "1efcbca7-2a5a-45e9-8f96-09a2761d2987",
+          "type": "Property",
+          "order": 16,
+          "data": {
+              "text": "obniżona odporność na zakażenia pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "parent": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+          "type": "Subsection",
+          "order": 1,
+          "data": {
+              "text": "Zmiany skórne:",
+              "excludes": [],
+              "is_initial": false,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "separator": "",
+              "line_break_before": true,
+              "bold": true,
+              "is_sentence": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "cd04f711-488a-4152-9713-faf5fb4af15b",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 0,
+          "data": {
+              "text": "skóra sucha niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "07b12b9a-d8b3-4ec0-a0f5-8735e4019119",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 1,
+          "data": {
+              "text": "suchość skóry cuk",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "de2cb742-95f4-4ccd-84d9-5efb46c839b2",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 2,
+          "data": {
+              "text": "suchość pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "f99b71db-04ab-4b8c-ae08-b0f9f9ebf12c",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 3,
+          "data": {
+              "text": "skóra zimna niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "1a41ba63-e9b3-44d9-b541-7353d049e642",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 4,
+          "data": {
+              "text": "skóra blada niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "f7bf8585-fde7-4637-8b72-50c40c119bac",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 5,
+          "data": {
+              "text": "bladość pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "9bcaf31c-eacf-461d-b8c2-d1c7641e669a",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 6,
+          "data": {
+              "text": "skóra o żółtawym zabarwieniu niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "e2b3b0c5-96c9-497b-9d37-bc87efa09507",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 7,
+          "data": {
+              "text": "barwa szarobrunatna pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "9978c1da-bb8c-40f2-b450-1211f082fd65",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 8,
+          "data": {
+              "text": "zmniejszona potliwość niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "77351b4e-9644-4f01-962b-c232c7683f0f",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 9,
+          "data": {
+              "text": "nadmierne rogowacenie naskórka np. na łokciach niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "82bd45b9-1be7-4b97-ba43-f854041b1199",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 10,
+          "data": {
+              "text": "obrzęk podskórny (tzw. obrzęk śluzowaty) powodujący pogrubienie rysów twarzy niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "a018ed42-9c27-42bd-955d-32cff661deb7",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 11,
+          "data": {
+              "text": "obrzęk powiek i rąk niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "967886bc-f4cd-4572-9b52-69cde5144b88",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 12,
+          "data": {
+              "text": "włosy suche niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "9375d6ad-95f8-447a-81bf-79f97cd9811f",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 13,
+          "data": {
+              "text": "włosy łamliwe niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "a6d98874-4e7c-4a26-a695-bc9c87f7fdaf",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 14,
+          "data": {
+              "text": "włosy przerzedzone niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "57af719e-46d6-4b39-95a1-39b677ba3f27",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 15,
+          "data": {
+              "text": "wypadanie brwi niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "7ecf7025-a572-4efc-a823-a7e212241c14",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 16,
+          "data": {
+              "text": "skłonność do ropnych zakażeń skóry cuk",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "f96d0e5f-94b6-4edf-a298-f73c4f46f301",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 17,
+          "data": {
+              "text": "suchość błon śluzowych cuk",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "a6945cfe-9376-4942-a8c3-4cefa1692b56",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 18,
+          "data": {
+              "text": "zmniejszenie elastyczności skóry cuk",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "0034c999-1526-419e-923e-27d62eecd855",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 19,
+          "data": {
+              "text": "przedłużone krwawienie z ran pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "056c24fe-3b53-43b8-b79d-f54d9952d251",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 20,
+          "data": {
+              "text": "skłonność do powstawania podbiegnięć krwawych pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "71246cb5-0980-43bc-b35a-acfd56c33136",
+          "parent": "dd57e2e6-6c7e-46c8-8a90-8a97aebc0c04",
+          "type": "Property",
+          "order": 21,
+          "data": {
+              "text": "świąd pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "10df2e55-7dcf-413c-9289-b52f9a0d4a17",
+          "parent": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+          "type": "Subsection",
+          "order": 2,
+          "data": {
+              "text": "Zmiany w układzie krążenia:",
+              "excludes": [],
+              "is_initial": false,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "separator": "",
+              "line_break_before": true,
+              "bold": true,
+              "is_sentence": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "bf1f58ec-3851-49e1-bb6c-106026529932",
+          "parent": "10df2e55-7dcf-413c-9289-b52f9a0d4a17",
+          "type": "Property",
+          "order": 0,
+          "data": {
+              "text": "bradykardia niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "fe69fab0-d57c-4a49-a69f-82613f487eda",
+          "parent": "10df2e55-7dcf-413c-9289-b52f9a0d4a17",
+          "type": "Property",
+          "order": 1,
+          "data": {
+              "text": "osłabienie tętna niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "0445b15c-a159-451e-8516-468112b0eced",
+          "parent": "10df2e55-7dcf-413c-9289-b52f9a0d4a17",
+          "type": "Property",
+          "order": 2,
+          "data": {
+              "text": "ciche tony serca niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "043a6a0a-a102-4822-8f63-5f82a21445d3",
+          "parent": "10df2e55-7dcf-413c-9289-b52f9a0d4a17",
+          "type": "Property",
+          "order": 3,
+          "data": {
+              "text": "powiększenie sylwetki serca niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "8e418a62-e4a4-4228-921d-353d4f16bdc2",
+          "parent": "10df2e55-7dcf-413c-9289-b52f9a0d4a17",
+          "type": "Property",
+          "order": 4,
+          "data": {
+              "text": "niskie ciśnienie tętnicze niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "52e4367d-abb0-4628-bee1-696ba6d667c1",
+          "parent": "10df2e55-7dcf-413c-9289-b52f9a0d4a17",
+          "type": "Property",
+          "order": 5,
+          "data": {
+              "text": "nadciśnienie (częściej rozkurczowe) niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "1a4048ed-7976-4f31-9548-9b66a6ac915b",
+          "parent": "10df2e55-7dcf-413c-9289-b52f9a0d4a17",
+          "type": "Property",
+          "order": 6,
+          "data": {
+              "text": "nadciśnienie tętnicze pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "295ff233-93d3-4c03-add0-240e6d94dfa5",
+          "parent": "10df2e55-7dcf-413c-9289-b52f9a0d4a17",
+          "type": "Property",
+          "order": 7,
+          "data": {
+              "text": "przerost lewej komory serca pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "7faad4dd-70a4-45b7-b6a1-7e4689d0f600",
+          "parent": "10df2e55-7dcf-413c-9289-b52f9a0d4a17",
+          "type": "Property",
+          "order": 8,
+          "data": {
+              "text": "niewydolność serca pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "ad38c55e-5b90-48f2-8de4-d2f1b741367e",
+          "parent": "10df2e55-7dcf-413c-9289-b52f9a0d4a17",
+          "type": "Property",
+          "order": 9,
+          "data": {
+              "text": "zaburzenia rytmu pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "e331d4d1-4abd-42b3-9fdf-0dcc2fac338d",
+          "parent": "10df2e55-7dcf-413c-9289-b52f9a0d4a17",
+          "type": "Property",
+          "order": 10,
+          "data": {
+              "text": "przyśpieszona miażdżyca pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "544c5145-47f0-4193-a93e-fdf2b656059c",
+          "parent": "10df2e55-7dcf-413c-9289-b52f9a0d4a17",
+          "type": "Property",
+          "order": 11,
+          "data": {
+              "text": "zwapnienia naczyń pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "35e14f79-b7d2-4619-958a-c1712b09099f",
+          "parent": "10df2e55-7dcf-413c-9289-b52f9a0d4a17",
+          "type": "Property",
+          "order": 12,
+          "data": {
+              "text": "mocznicowe zapalenie osierdzia pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "8c54caac-405b-406d-8210-e66154a314e4",
+          "parent": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+          "type": "Subsection",
+          "order": 3,
+          "data": {
+              "text": "Zmiany w układzie oddechowym:",
+              "excludes": [],
+              "is_initial": false,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "separator": "",
+              "line_break_before": true,
+              "bold": true,
+              "is_sentence": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "597f8af4-6772-4cae-b165-007cb7df6fd8",
+          "parent": "8c54caac-405b-406d-8210-e66154a314e4",
+          "type": "Property",
+          "order": 0,
+          "data": {
+              "text": "ochrypły głos niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "9ecb2e91-f895-4886-a95f-422a41eebae7",
+          "parent": "8c54caac-405b-406d-8210-e66154a314e4",
+          "type": "Property",
+          "order": 1,
+          "data": {
+              "text": "matowy głos niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "554ea074-21c3-4e16-b640-4837dd63b69a",
+          "parent": "8c54caac-405b-406d-8210-e66154a314e4",
+          "type": "Property",
+          "order": 2,
+          "data": {
+              "text": "pogrubienie strun głosowych niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "0b5a30f6-dd2b-4f0a-a094-6e0f8a33f144",
+          "parent": "8c54caac-405b-406d-8210-e66154a314e4",
+          "type": "Property",
+          "order": 3,
+          "data": {
+              "text": "powiększenie języka niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "3c98420c-5a68-4ab1-a5c7-aba1b1d95a2b",
+          "parent": "8c54caac-405b-406d-8210-e66154a314e4",
+          "type": "Property",
+          "order": 4,
+          "data": {
+              "text": "spłycenie i zmniejszenie częstotliwości oddechów niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "c4e32cf9-8b1d-42ac-bca3-40d1e534106e",
+          "parent": "8c54caac-405b-406d-8210-e66154a314e4",
+          "type": "Property",
+          "order": 5,
+          "data": {
+              "text": "objawy nieżytu górnych dróg oddechowych niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "d67ac470-4e8b-4937-bf53-5bcd31a273fc",
+          "parent": "8c54caac-405b-406d-8210-e66154a314e4",
+          "type": "Property",
+          "order": 6,
+          "data": {
+              "text": "objawy niewydolności oddechowej niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "66d38d12-1130-40a0-8ed5-740b6c054ca8",
+          "parent": "8c54caac-405b-406d-8210-e66154a314e4",
+          "type": "Property",
+          "order": 7,
+          "data": {
+              "text": "oddech kwasiczy (Kussmaula) pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "7a69c80b-d891-4b5e-9fa2-8d05001489b0",
+          "parent": "8c54caac-405b-406d-8210-e66154a314e4",
+          "type": "Property",
+          "order": 8,
+          "data": {
+              "text": "mocznicowe zapalenie opłucnej pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "2b1ea37c-efa2-43b5-9010-b6fe6c7bfef3",
+          "parent": "8c54caac-405b-406d-8210-e66154a314e4",
+          "type": "Property",
+          "order": 9,
+          "data": {
+              "text": "przekrwienie i obrzęk płuc pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "e92a6448-9763-4512-86b8-6f170ee5b4ff",
+          "parent": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+          "type": "Subsection",
+          "order": 4,
+          "data": {
+              "text": "Zmiany w układzie pokarmowym:",
+              "excludes": [],
+              "is_initial": false,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "separator": "",
+              "line_break_before": true,
+              "bold": true,
+              "is_sentence": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "5af3486c-3269-4cb5-b147-d0bc4fda192f",
+          "parent": "e92a6448-9763-4512-86b8-6f170ee5b4ff",
+          "type": "Property",
+          "order": 0,
+          "data": {
+              "text": "przewlekłe zaparcie niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "b2dfc2d2-0aff-4031-855c-1c02447bb8bc",
+          "parent": "e92a6448-9763-4512-86b8-6f170ee5b4ff",
+          "type": "Property",
+          "order": 1,
+          "data": {
+              "text": "niedrożność jelit niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "41b129b7-5000-49b5-b38c-acb7f378d8e4",
+          "parent": "e92a6448-9763-4512-86b8-6f170ee5b4ff",
+          "type": "Property",
+          "order": 2,
+          "data": {
+              "text": "wodobrzusze niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "f81b14d9-25be-4357-a653-a091880b20cb",
+          "parent": "e92a6448-9763-4512-86b8-6f170ee5b4ff",
+          "type": "Property",
+          "order": 3,
+          "data": {
+              "text": "płyn w jamie osierdzia niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "e1301be8-2106-46a0-9dc9-dfa24cec698e",
+          "parent": "e92a6448-9763-4512-86b8-6f170ee5b4ff",
+          "type": "Property",
+          "order": 4,
+          "data": {
+              "text": "płyn w jamie opłucnej niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "2271fd0e-9098-448a-84f3-c8fd367525ff",
+          "parent": "e92a6448-9763-4512-86b8-6f170ee5b4ff",
+          "type": "Property",
+          "order": 5,
+          "data": {
+              "text": "wzmożone pragnienie (polidypsja) cuk",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "c52e66f4-fde4-4c71-9aff-a1460045605c",
+          "parent": "e92a6448-9763-4512-86b8-6f170ee5b4ff",
+          "type": "Property",
+          "order": 6,
+          "data": {
+              "text": "zapalenie błony śluzowej żołądka i jelit pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "772328ca-e0f0-40ce-b822-4c8eafa2c9cc",
+          "parent": "e92a6448-9763-4512-86b8-6f170ee5b4ff",
+          "type": "Property",
+          "order": 7,
+          "data": {
+              "text": "wrzód trawienny żołądka lub dwunastnicy pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "343e796d-09d6-431e-ad69-3b3dc7c81ea4",
+          "parent": "e92a6448-9763-4512-86b8-6f170ee5b4ff",
+          "type": "Property",
+          "order": 8,
+          "data": {
+              "text": "krwawienie z przewodu pokarmowego pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "12a3145c-fbe1-4858-b430-e743d88cb3aa",
+          "parent": "e92a6448-9763-4512-86b8-6f170ee5b4ff",
+          "type": "Property",
+          "order": 9,
+          "data": {
+              "text": "mocznicowy zapach z ust pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "91ab3abf-54ef-4ddb-a83b-ed312fd0eb4c",
+          "parent": "e92a6448-9763-4512-86b8-6f170ee5b4ff",
+          "type": "Property",
+          "order": 10,
+          "data": {
+              "text": "nudności pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "45d028b5-2d01-4397-90ae-6fbe552ff018",
+          "parent": "e92a6448-9763-4512-86b8-6f170ee5b4ff",
+          "type": "Property",
+          "order": 11,
+          "data": {
+              "text": "wymioty pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "6468eda3-aef1-4fdd-8af7-c88a53e0cdc9",
+          "parent": "e92a6448-9763-4512-86b8-6f170ee5b4ff",
+          "type": "Property",
+          "order": 12,
+          "data": {
+              "text": "niedrożność porażenna pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "80351f03-e463-420c-9b86-a8f3d223c439",
+          "parent": "e92a6448-9763-4512-86b8-6f170ee5b4ff",
+          "type": "Property",
+          "order": 13,
+          "data": {
+              "text": "ostre zapalenie trzustki pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "41ee9ce5-e5d0-4e04-bb33-02f845f4b66c",
+          "parent": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+          "type": "Subsection",
+          "order": 5,
+          "data": {
+              "text": "Zmiany w układzie moczowym:",
+              "excludes": [],
+              "is_initial": false,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "separator": "",
+              "line_break_before": true,
+              "bold": true,
+              "is_sentence": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "083e2849-1a50-4550-9c66-994cd3d0052e",
+          "parent": "41ee9ce5-e5d0-4e04-bb33-02f845f4b66c",
+          "type": "Property",
+          "order": 0,
+          "data": {
+              "text": "zmniejszone wydalanie wody niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "795ed9d1-24be-401c-b00b-6850f340ca44",
+          "parent": "41ee9ce5-e5d0-4e04-bb33-02f845f4b66c",
+          "type": "Property",
+          "order": 1,
+          "data": {
+              "text": "obrzęki niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "27c3d731-6422-449e-b306-b02c70eccc71",
+          "parent": "41ee9ce5-e5d0-4e04-bb33-02f845f4b66c",
+          "type": "Property",
+          "order": 2,
+          "data": {
+              "text": "wielomocz (poliuria) cuk",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "7efb2f4d-5494-46fe-98da-a144865000f9",
+          "parent": "41ee9ce5-e5d0-4e04-bb33-02f845f4b66c",
+          "type": "Property",
+          "order": 3,
+          "data": {
+              "text": "skłonność do zakażeń układu moczowo-płciowego cuk",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "bc98c23b-f153-45bf-b036-119131b6cc7c",
+          "parent": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+          "type": "Subsection",
+          "order": 6,
+          "data": {
+              "text": "Zmiany w układzie nerwowym:",
+              "excludes": [],
+              "is_initial": false,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "separator": "",
+              "line_break_before": true,
+              "bold": true,
+              "is_sentence": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "de584195-5dc4-4ebe-854d-7029ff29b355",
+          "parent": "bc98c23b-f153-45bf-b036-119131b6cc7c",
+          "type": "Property",
+          "order": 0,
+          "data": {
+              "text": "mononeuropatie (np. zespół cieśni nadgarstka) niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "1393abc0-9469-418a-9a41-7a27d46c7348",
+          "parent": "bc98c23b-f153-45bf-b036-119131b6cc7c",
+          "type": "Property",
+          "order": 1,
+          "data": {
+              "text": "parestezje niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "19b9aa39-0c1d-4a69-8aba-5fb4133513d8",
+          "parent": "bc98c23b-f153-45bf-b036-119131b6cc7c",
+          "type": "Property",
+          "order": 2,
+          "data": {
+              "text": "przedłużona faza relaksacyjna odruchów ścięgnistych niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "dc472e92-5113-473b-aea8-89c5a6dc1828",
+          "parent": "bc98c23b-f153-45bf-b036-119131b6cc7c",
+          "type": "Property",
+          "order": 3,
+          "data": {
+              "text": "osłabienie słuchu niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "dec8a3f8-eab2-42ee-8164-bae41b98d1ca",
+          "parent": "bc98c23b-f153-45bf-b036-119131b6cc7c",
+          "type": "Property",
+          "order": 4,
+          "data": {
+              "text": "upośledzenie koncentracji pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "6faf48df-2be6-4c8e-a8d8-8f4177d86ed1",
+          "parent": "bc98c23b-f153-45bf-b036-119131b6cc7c",
+          "type": "Property",
+          "order": 5,
+          "data": {
+              "text": "upośledzenie pamięci pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "5b17d2a2-5c77-41de-8f43-d656e468eba2",
+          "parent": "bc98c23b-f153-45bf-b036-119131b6cc7c",
+          "type": "Property",
+          "order": 6,
+          "data": {
+              "text": "ból głowy pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "9d3fd0b2-743e-4ed4-8f63-011755f0ab0a",
+          "parent": "bc98c23b-f153-45bf-b036-119131b6cc7c",
+          "type": "Property",
+          "order": 7,
+          "data": {
+              "text": "nadmierna senność  pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "d938f262-2729-408c-b88f-a3f6087d8d45",
+          "parent": "bc98c23b-f153-45bf-b036-119131b6cc7c",
+          "type": "Property",
+          "order": 8,
+          "data": {
+              "text": "bezsenność pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "29040552-e328-4055-8aa3-864152bd9b00",
+          "parent": "bc98c23b-f153-45bf-b036-119131b6cc7c",
+          "type": "Property",
+          "order": 9,
+          "data": {
+              "text": "zaburzenia zachowania (np. apatia lub drażliwość) pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "b69cf1fe-ffce-45fe-96c7-7449db14df4d",
+          "parent": "bc98c23b-f153-45bf-b036-119131b6cc7c",
+          "type": "Property",
+          "order": 10,
+          "data": {
+              "text": "depresja pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "420d4832-64de-4b98-a51c-8dfa748d27b4",
+          "parent": "bc98c23b-f153-45bf-b036-119131b6cc7c",
+          "type": "Property",
+          "order": 11,
+          "data": {
+              "text": "drgawki pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "50a392b3-002d-4153-808a-eb71a058041d",
+          "parent": "bc98c23b-f153-45bf-b036-119131b6cc7c",
+          "type": "Property",
+          "order": 12,
+          "data": {
+              "text": "śpiączka pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "c9d07ddb-6cdd-457e-9496-282e48eeb947",
+          "parent": "bc98c23b-f153-45bf-b036-119131b6cc7c",
+          "type": "Property",
+          "order": 13,
+          "data": {
+              "text": "zespół niespokojnych nóg (uczucie dyskomfortu w stopach zmuszające do stałego wykonywania ruchów kończynami dolnymi) pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "209f224c-e2a7-404f-95af-e464fea98bba",
+          "parent": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+          "type": "Subsection",
+          "order": 7,
+          "data": {
+              "text": "Zmiany w układzie ruchu:",
+              "excludes": [],
+              "is_initial": false,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "separator": "",
+              "line_break_before": true,
+              "bold": true,
+              "is_sentence": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "939e86be-84f2-430f-8dc5-a2dc05d54503",
+          "parent": "209f224c-e2a7-404f-95af-e464fea98bba",
+          "type": "Property",
+          "order": 0,
+          "data": {
+              "text": "zmniejszenie siły mięśniowej niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "77dffd1d-40b5-48d7-8dad-4b8130f20edc",
+          "parent": "209f224c-e2a7-404f-95af-e464fea98bba",
+          "type": "Property",
+          "order": 1,
+          "data": {
+              "text": "łatwa męczliwość niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "567594b2-2acb-45cd-8cf9-785a6099c7be",
+          "parent": "209f224c-e2a7-404f-95af-e464fea98bba",
+          "type": "Property",
+          "order": 2,
+          "data": {
+              "text": "spowolnienie ruchowe niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "5bce0fac-62ac-404b-a9c4-62272d8e5990",
+          "parent": "209f224c-e2a7-404f-95af-e464fea98bba",
+          "type": "Property",
+          "order": 3,
+          "data": {
+              "text": "kurcze mięśni niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "c213b029-4bd2-4988-a535-ea91e74969ca",
+          "parent": "209f224c-e2a7-404f-95af-e464fea98bba",
+          "type": "Property",
+          "order": 4,
+          "data": {
+              "text": "bóle mięśniowe niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "ba23994c-d2b6-4f6f-ad31-e6d918250c9d",
+          "parent": "209f224c-e2a7-404f-95af-e464fea98bba",
+          "type": "Property",
+          "order": 5,
+          "data": {
+              "text": "obrzęk stawów niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "0c750d74-ef86-4fb6-9a85-7c08f24bc47e",
+          "parent": "209f224c-e2a7-404f-95af-e464fea98bba",
+          "type": "Property",
+          "order": 6,
+          "data": {
+              "text": "pogrubienie błony maziowej i wysięk niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "57752314-8fff-43de-812a-4f9ca3bb9e64",
+          "parent": "209f224c-e2a7-404f-95af-e464fea98bba",
+          "type": "Property",
+          "order": 7,
+          "data": {
+              "text": "zanik głębokich odruchów ścięgnistych pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "709e3f8a-f926-4b5e-950a-e8810ff1d2e7",
+          "parent": "209f224c-e2a7-404f-95af-e464fea98bba",
+          "type": "Property",
+          "order": 8,
+          "data": {
+              "text": "osłabienie mięśni pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "86a53ac1-f3e0-4737-9607-fe2f15336a93",
+          "parent": "209f224c-e2a7-404f-95af-e464fea98bba",
+          "type": "Property",
+          "order": 9,
+          "data": {
+              "text": "drżenie grubofaliste pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "f6c4027d-4be9-4fa3-936e-2fd2f176b44d",
+          "parent": "209f224c-e2a7-404f-95af-e464fea98bba",
+          "type": "Property",
+          "order": 10,
+          "data": {
+              "text": "kurcze pęczków mięśniowych i grup mięśni pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "dbb446d1-401a-45ac-99d2-16fd43d44c31",
+          "parent": "209f224c-e2a7-404f-95af-e464fea98bba",
+          "type": "Property",
+          "order": 11,
+          "data": {
+              "text": "przewlekła czkawka pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "c7ff8216-0c7f-4807-9292-0f781e666e50",
+          "parent": "209f224c-e2a7-404f-95af-e464fea98bba",
+          "type": "Property",
+          "order": 12,
+          "data": {
+              "text": "porażenie nerwu strzałkowego pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "2c995803-3ad7-4657-bd22-00b8165bc750",
+          "parent": "209f224c-e2a7-404f-95af-e464fea98bba",
+          "type": "Property",
+          "order": 13,
+          "data": {
+              "text": "wiotkie porażenie czterokończynowe pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "c1ff3cd6-7405-43ae-b93a-fd8ecc6af8dd",
+          "parent": "209f224c-e2a7-404f-95af-e464fea98bba",
+          "type": "Property",
+          "order": 14,
+          "data": {
+              "text": "sarkopenia (zmniejszenie masy i siły mięśni szkieletowych) pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "f752e93c-dfa8-4f56-bad9-7b827afd3ff3",
+          "parent": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+          "type": "Subsection",
+          "order": 8,
+          "data": {
+              "text": "Zmiany w układzie rozrodczym:",
+              "excludes": [],
+              "is_initial": false,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "separator": "",
+              "line_break_before": true,
+              "bold": true,
+              "is_sentence": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "503d42c9-44d5-4c2a-8fc2-d8aac21262c3",
+          "parent": "f752e93c-dfa8-4f56-bad9-7b827afd3ff3",
+          "type": "Property",
+          "order": 0,
+          "data": {
+              "text": "u kobiet zaburzenia miesiączkowania niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "3dc5607c-6bd9-4f54-ac9e-4f856f36cb00",
+          "parent": "f752e93c-dfa8-4f56-bad9-7b827afd3ff3",
+          "type": "Property",
+          "order": 1,
+          "data": {
+              "text": "zaburzenia miesiączkowania pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "59ebfc6c-3fc8-4427-8063-49bd944d4faa",
+          "parent": "f752e93c-dfa8-4f56-bad9-7b827afd3ff3",
+          "type": "Property",
+          "order": 2,
+          "data": {
+              "text": "rzadkie miesiączkowanie pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "e12c751f-a9f8-4614-a948-9529d865c755",
+          "parent": "f752e93c-dfa8-4f56-bad9-7b827afd3ff3",
+          "type": "Property",
+          "order": 3,
+          "data": {
+              "text": "wtórny brak miesiączki pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "32675040-f6b0-4a0b-9f6f-624154ebcd3e",
+          "parent": "f752e93c-dfa8-4f56-bad9-7b827afd3ff3",
+          "type": "Property",
+          "order": 4,
+          "data": {
+              "text": "skrócenie długości cyklu niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "e9a2f572-1dc1-4f3c-bf57-027ca981586a",
+          "parent": "f752e93c-dfa8-4f56-bad9-7b827afd3ff3",
+          "type": "Property",
+          "order": 5,
+          "data": {
+              "text": "obfite miesiączki niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "fc28acd4-444d-41dc-950a-3e357e47ed24",
+          "parent": "f752e93c-dfa8-4f56-bad9-7b827afd3ff3",
+          "type": "Property",
+          "order": 6,
+          "data": {
+              "text": "niepłodność niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "32e76194-4a2e-468f-a8c3-cb89143c6e4a",
+          "parent": "f752e93c-dfa8-4f56-bad9-7b827afd3ff3",
+          "type": "Property",
+          "order": 7,
+          "data": {
+              "text": "niepłodność pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "745d0c7c-2488-4377-a62f-860e30f1db7a",
+          "parent": "f752e93c-dfa8-4f56-bad9-7b827afd3ff3",
+          "type": "Property",
+          "order": 8,
+          "data": {
+              "text": "poronienia niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "2bc5b26f-593d-4e59-bfe1-31737fafdb92",
+          "parent": "f752e93c-dfa8-4f56-bad9-7b827afd3ff3",
+          "type": "Property",
+          "order": 9,
+          "data": {
+              "text": "u mężczyzn osłabienie libido niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "1845c39c-b626-4a13-9bbd-b7d40aa3c97e",
+          "parent": "f752e93c-dfa8-4f56-bad9-7b827afd3ff3",
+          "type": "Property",
+          "order": 10,
+          "data": {
+              "text": "zaburzenia wzwodu niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "4d70c6dd-309d-4148-8908-0c9316c8797b",
+          "parent": "f752e93c-dfa8-4f56-bad9-7b827afd3ff3",
+          "type": "Property",
+          "order": 11,
+          "data": {
+              "text": "zaburzenia czynności seksualnych (zmniejszenie popędu płciowego, impotencja) pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "7633fd4b-eb96-47d7-b47c-457f68792cdf",
+          "parent": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+          "type": "Subsection",
+          "order": 9,
+          "data": {
+              "text": "Zaburzenia psychiczne:",
+              "excludes": [],
+              "is_initial": false,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "separator": "",
+              "line_break_before": true,
+              "bold": true,
+              "is_sentence": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "25ea8e8f-dfd1-499b-b0d3-ed61ac54c61a",
+          "parent": "7633fd4b-eb96-47d7-b47c-457f68792cdf",
+          "type": "Property",
+          "order": 0,
+          "data": {
+              "text": "zmniejszenie zdolności do skupiania uwagi niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "4a343f20-f6b9-43e9-b757-297bcc3fa01f",
+          "parent": "7633fd4b-eb96-47d7-b47c-457f68792cdf",
+          "type": "Property",
+          "order": 1,
+          "data": {
+              "text": "zaburzenia pamięci niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "c38c41ad-5fc1-4cca-90ff-a51d86fa0369",
+          "parent": "7633fd4b-eb96-47d7-b47c-457f68792cdf",
+          "type": "Property",
+          "order": 2,
+          "data": {
+              "text": "subkliniczna lub jawna depresja niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "317d53c5-8e6d-44dd-b0e8-91709dd908e4",
+          "parent": "7633fd4b-eb96-47d7-b47c-457f68792cdf",
+          "type": "Property",
+          "order": 3,
+          "data": {
+              "text": "niestabilność emocjonalna niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "7ebae9db-2008-4c59-b6d1-f6cc9bff22fc",
+          "parent": "7633fd4b-eb96-47d7-b47c-457f68792cdf",
+          "type": "Property",
+          "order": 4,
+          "data": {
+              "text": "objawy choroby afektywnej dwubiegunowej niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "739bea1e-098a-4174-a4fa-c9bbe2a40964",
+          "parent": "7633fd4b-eb96-47d7-b47c-457f68792cdf",
+          "type": "Property",
+          "order": 5,
+          "data": {
+              "text": "objawy psychozy paranoidalnej niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "7ef27e9d-80a7-4421-992b-c75b63f7c79a",
+          "parent": "7633fd4b-eb96-47d7-b47c-457f68792cdf",
+          "type": "Property",
+          "order": 6,
+          "data": {
+              "text": "otępienie niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "b4ab9dd9-82ec-4c05-b53e-f2f6858d8142",
+          "parent": "7633fd4b-eb96-47d7-b47c-457f68792cdf",
+          "type": "Property",
+          "order": 7,
+          "data": {
+              "text": "śpiączka niedotar",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "28769d77-604b-4f7d-b22f-b551072ae57d",
+          "parent": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+          "type": "Subsection",
+          "order": 10,
+          "data": {
+              "text": "Zaburzenia morfologii krwi i odporności:",
+              "excludes": [],
+              "is_initial": false,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "separator": "",
+              "line_break_before": true,
+              "bold": true,
+              "is_sentence": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "1d03e8ad-2ca6-4ec5-beff-c4c5431b5aed",
+          "parent": "28769d77-604b-4f7d-b22f-b551072ae57d",
+          "type": "Property",
+          "order": 0,
+          "data": {
+              "text": "niedokrwistość pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "d3f55e1f-5234-40ba-838a-570733e58156",
+          "parent": "28769d77-604b-4f7d-b22f-b551072ae57d",
+          "type": "Property",
+          "order": 1,
+          "data": {
+              "text": "skaza krwotoczna pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "c3fa7f4c-c5c4-4afd-a6e2-d957be379a80",
+          "parent": "28769d77-604b-4f7d-b22f-b551072ae57d",
+          "type": "Property",
+          "order": 2,
+          "data": {
+              "text": "przedłużone krwawienia z ran pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "17c4e7ff-f080-4ed7-bf61-e7a6e7496011",
+          "parent": "28769d77-604b-4f7d-b22f-b551072ae57d",
+          "type": "Property",
+          "order": 3,
+          "data": {
+              "text": "skłonność do powstawania podbiegnięć krwawych pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "51dcbbcb-634d-4d3f-8f7b-a162953c95df",
+          "parent": "28769d77-604b-4f7d-b22f-b551072ae57d",
+          "type": "Property",
+          "order": 4,
+          "data": {
+              "text": "obniżona odporność pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "fdae98e8-91c2-4766-8a0e-4ee264c4a930",
+          "parent": "28769d77-604b-4f7d-b22f-b551072ae57d",
+          "type": "Property",
+          "order": 5,
+          "data": {
+              "text": "zwiększone ryzyko zakażeń pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "57ad29c0-a258-48a3-a60c-9cb56cf4ee70",
+          "parent": "28769d77-604b-4f7d-b22f-b551072ae57d",
+          "type": "Property",
+          "order": 6,
+          "data": {
+              "text": "leukopenia pchn",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "8e1e8f0a-b1c6-4abd-aef2-2008e232f72f",
+          "parent": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+          "type": "Subsection",
+          "order": 11,
+          "data": {
+              "text": "Zaburzenia gospodarki wodno-elektrolitowej i równowagi kwasowo-zasadowej:",
+              "excludes": [],
+              "is_initial": false,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "separator": "",
+              "line_break_before": true,
+              "bold": true,
+              "is_sentence": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "fd8c1984-77e7-4549-921e-9defbf1f16bf",
+          "parent": "8e1e8f0a-b1c6-4abd-aef2-2008e232f72f",
+          "type": "Property",
+          "order": 0,
+          "data": {
+              "text": "......remove me......",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "80773902-33c6-4c2d-983b-f74963986ce2",
+          "parent": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+          "type": "Subsection",
+          "order": 12,
+          "data": {
+              "text": "Zespół zaburzeń mineralnych i kostnych związanych z PChN",
+              "excludes": [],
+              "is_initial": false,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "separator": "",
+              "line_break_before": true,
+              "bold": true,
+              "is_sentence": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      },
+      {
+          "id": "9ec5129a-f33f-4da8-8ff4-51b2c2bd0716",
+          "parent": "80773902-33c6-4c2d-983b-f74963986ce2",
+          "type": "Property",
+          "order": 0,
+          "data": {
+              "text": "......remove me......",
+              "excludes": [],
+              "is_initial": true,
+              "coding": {
+                  "icd_10": "",
+                  "sctid": ""
+              },
+              "left_visibility": true,
+              "right_visibility": true,
+              "speech_audio_ids": [],
+              "connotation": 0,
+              "auto_include": false,
+              "include_if_no_changes": false,
+              "separator": "",
+              "conclusions_text": "",
+              "is_sentence": false,
+              "line_break_before": false
+          },
+          "modified_fields": null,
+          "template": null,
+          "suggestion_priority": 0.0
+      }
+  ],
+  "root": {
+      "id": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+      "parent": null,
+      "type": "Section",
+      "order": 0,
+      "data": {
+          "text": "POZ objawy cuk niedotar pchn",
+          "excludes": [],
+          "is_initial": false,
+          "coding": {
+              "icd_10": "",
+              "sctid": ""
+          },
+          "left_visibility": true,
+          "right_visibility": true,
+          "speech_audio_ids": [],
+          "category": "MR",
+          "discipline": "Radiologia",
+          "separator": "",
+          "line_break_before": true,
+          "template_snippets": [],
+          "triggers": []
+      },
+      "modified_fields": null,
+      "template": null,
+      "suggestion_priority": 0.0
+  },
+  "languages": [
+      "pl"
+  ],
+  "previous_version": null,
+  "autoinclude_enabled": false,
+  "editing": "OWNER"
+}
