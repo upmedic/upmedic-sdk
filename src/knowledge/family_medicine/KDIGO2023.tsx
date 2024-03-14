@@ -32,14 +32,12 @@ const KDIGO2023: EngineCalculation = {
     },
   ],
   calculate: () => {
-    const egfr = parseFloat(
-      ExpertEngine.Template.getNodeByConstId('egfr').data.text,
-    );
+    const egfr = parseFloat(ExpertEngine.Report.getNodeByConstId('egfr').data.text);
     const albumin_mg_g = parseFloat(
-      ExpertEngine.Template.getNodeByConstId('albumin_urine_mg/g').data.text,
+      ExpertEngine.Report.getNodeByConstId('albumin_urine_mg/g').data.text,
     );
     const albumin_mg_mmol = parseFloat(
-      ExpertEngine.Template.getNodeByConstId('albumin_urine_mg/mmol').data.text,
+      ExpertEngine.Report.getNodeByConstId('albumin_urine_mg/mmol').data.text,
     );
     // eGFR evaluation
     let egfr_cat: string = ''; // eGFR category - G1-G5
