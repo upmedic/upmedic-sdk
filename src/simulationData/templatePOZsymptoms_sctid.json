@@ -4238,7 +4238,7 @@
                 "right_visibility": true,
                 "speech_audio_ids": [],
                 "separator": "",
-                "line_break_before": false,
+                "line_break_before": true,
                 "is_sentence": false
             },
             "modified_fields": null,
@@ -4264,6 +4264,154 @@
                 "speech_audio_ids": [],
                 "prefix": "",
                 "suffix": "mg/dl",
+                "separator": "",
+                "connotation": 0,
+                "conclusions_text": "",
+                "auto_include": false,
+                "is_sentence": false,
+                "line_break_before": false,
+                "min_value": "",
+                "max_value": ""
+            },
+            "modified_fields": null,
+            "template": null,
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "b360854a-bc6f-4b88-aea3-1efdf4b2fdc2",
+            "parent": "7f962fa8-817b-4c7b-bc9a-911112e1382f",
+            "type": "Concept",
+            "order": 1,
+            "data": {
+                "text": "eGFR",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "separator": "",
+                "line_break_before": true,
+                "is_sentence": false
+            },
+            "modified_fields": null,
+            "template": null,
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "b65cf891-f5bc-4540-9109-8dc5c48f2ec5",
+            "parent": "b360854a-bc6f-4b88-aea3-1efdf4b2fdc2",
+            "type": "Number",
+            "order": 0,
+            "data": {
+                "text": "0",
+                "const_id": "egfr",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "prefix": "",
+                "suffix": "ml/min/1,73 m2",
+                "separator": "",
+                "connotation": 0,
+                "conclusions_text": "",
+                "auto_include": false,
+                "is_sentence": false,
+                "line_break_before": false,
+                "min_value": "",
+                "max_value": ""
+            },
+            "modified_fields": null,
+            "template": null,
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "db0b4ea7-c348-48d0-ac8c-2cb80d8c0571",
+            "parent": "7f962fa8-817b-4c7b-bc9a-911112e1382f",
+            "type": "Concept",
+            "order": 2,
+            "data": {
+                "text": "albumina w moczu",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "separator": "",
+                "line_break_before": true,
+                "is_sentence": false
+            },
+            "modified_fields": null,
+            "template": null,
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "a4d9fece-c774-4136-ac11-ea64eaf6b15b",
+            "parent": "db0b4ea7-c348-48d0-ac8c-2cb80d8c0571",
+            "type": "Number",
+            "order": 0,
+            "data": {
+                "text": "0",
+                "const_id": "albumin_urine_mg/g",
+                "excludes": [
+                    "4a0f22ba-9f3a-457c-8f5d-f7de3041d20f"
+                ],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "prefix": "",
+                "suffix": "mg/g",
+                "separator": "",
+                "connotation": 0,
+                "conclusions_text": "",
+                "auto_include": false,
+                "is_sentence": false,
+                "line_break_before": false,
+                "min_value": "",
+                "max_value": ""
+            },
+            "modified_fields": null,
+            "template": null,
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "4a0f22ba-9f3a-457c-8f5d-f7de3041d20f",
+            "parent": "db0b4ea7-c348-48d0-ac8c-2cb80d8c0571",
+            "type": "Number",
+            "order": 1,
+            "data": {
+                "text": "0",
+                "const_id": "albumin_urine_mg/mmol",
+                "excludes": [
+                    "a4d9fece-c774-4136-ac11-ea64eaf6b15b"
+                ],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "prefix": "",
+                "suffix": "mg/mmol",
                 "separator": "",
                 "connotation": 0,
                 "conclusions_text": "",
