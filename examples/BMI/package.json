@@ -1,0 +1,28 @@
+{
+  "name": "bmi",
+  "version": "1.0.0",
+  "description": "example of AssistancePlugin that uses upmedic-sdk to calculate BMI",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "webpack --watch --progress",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "upmedic",
+    "example",
+    "upmedic-sdk",
+    "reporting",
+    "structured-reporting"
+  ],
+  "author": "upmedic",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.7.2",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "upmedic-sdk": "^0.4.0"
+  }
+}
