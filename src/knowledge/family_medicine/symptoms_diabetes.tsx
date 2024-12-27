@@ -1,11 +1,11 @@
 import {
-  EngineCalculation,
-  ExpertEngine,
+  AssistancePlugin,
+  AssistedReportingContainer,
   NodeType,
   SelectorType,
-} from '../../engine';
+} from '../../AssistedReportingContainer';
 
-const symptoms2: EngineCalculation = {
+const symptoms2: AssistancePlugin = {
   displayName: 'POZ objawy cukrzycy',
   description: 'Obsługa objawów chorobowych dla cukrzycy',
   matchingSections: {
@@ -31,31 +31,31 @@ const symptoms2: EngineCalculation = {
     },
   ],
   calculate: () => {
-    const symptomsInTemplate = ExpertEngine.template.getNodesByClass('cukrzyca');
+    const symptomsInTemplate = AssistedReportingContainer.template.getNodesByClass('cukrzyca');
     const symptomsInReport = [];
     for (let i = 0; i < symptomsInTemplate.length; i++) {
       const symptom = symptomsInTemplate[i];
-      if (ExpertEngine.report.isNodeIdInReport(symptom.data.const_id)) {
+      if (AssistedReportingContainer.report.isNodeIdInReport(symptom.data.const_id)) {
         symptomsInReport.push(symptom);
       }
     }
-    ExpertEngine.report.addToConclusions(
+    AssistedReportingContainer.report.addToConclusions(
       'liczba objawów cukrzycy to ',
       symptomsInReport.length.toString(),
     );
     const glucose_blood = parseFloat(
-      ExpertEngine.report.getNodeByConstId('glucose_blood').data.text,
+      AssistedReportingContainer.report.getNodeByConstId('glucose_blood').data.text,
     );
     if (glucose_blood > 70 && glucose_blood <= 100) {
       // do nothing, we focus only on abnormal
     } else if (glucose_blood < 70) {
-      ExpertEngine.report.addToConclusions('hipoglikemia', glucose_blood.toString());
+      AssistedReportingContainer.report.addToConclusions('hipoglikemia', glucose_blood.toString());
     } else {
-      ExpertEngine.report.addToConclusions(
+      AssistedReportingContainer.report.addToConclusions(
         'hiperglikemia, rozważ dalsze badania',
         glucose_blood.toString(),
       );
     }
   },
 };
-ExpertEngine.register(symptoms2);
+AssistedReportingContainer.register(symptoms2);

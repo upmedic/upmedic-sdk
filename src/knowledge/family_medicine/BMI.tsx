@@ -1,11 +1,11 @@
 import {
-  ExpertEngine,
-  EngineCalculation,
+  AssistedReportingContainer,
+  AssistancePlugin,
   SelectorType,
   NodeType,
-} from '../../engine';
+} from '../../AssistedReportingContainer';
 
-const CorrectCalculateBMI: EngineCalculation = {
+const CorrectCalculateBMI: AssistancePlugin = {
   displayName: 'BMI Calculator',
   description: 'BMI = weight [kg]/(height [m]^2)',
   matchingSections: { categories: '*', disciplines: '*', languages: ['pl'] },
@@ -28,18 +28,18 @@ const CorrectCalculateBMI: EngineCalculation = {
   ],
   calculate: () => {
     const weight = parseFloat(
-      ExpertEngine.template.getNodeByConstId('weight').data.text,
+      AssistedReportingContainer.template.getNodeByConstId('weight').data.text,
     );
     const height = parseFloat(
-      ExpertEngine.template.getNodeByConstId('height').data.text,
+      AssistedReportingContainer.template.getNodeByConstId('height').data.text,
     );
 
     console.log(
       'correct calculating BMI and inserting it into target node in the template.',
     );
-    ExpertEngine.template.setNumberNodeValue('BMI', weight / (height * height));
-    ExpertEngine.template.selectNodeWithId('BMI');
+    AssistedReportingContainer.template.setNumberNodeValue('BMI', weight / (height * height));
+    AssistedReportingContainer.template.selectNodeWithId('BMI');
   },
 };
 
-ExpertEngine.register(CorrectCalculateBMI);
+AssistedReportingContainer.register(CorrectCalculateBMI);

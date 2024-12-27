@@ -1,11 +1,11 @@
 import {
-  EngineCalculation,
-  ExpertEngine,
+  AssistancePlugin,
+  AssistedReportingContainer,
   NodeType,
   SelectorType,
-} from '../../engine';
+} from '../../AssistedReportingContainer';
 
-const TTTG: EngineCalculation = {
+const TTTG: AssistancePlugin = {
   displayName: 'TT-TG',
   description: 'Tibial tuberosity to trochlear groove (TT-TG) distance',
   matchingSections: {
@@ -21,14 +21,14 @@ const TTTG: EngineCalculation = {
     },
   ],
   calculate: () => {
-    const tttg = parseFloat(ExpertEngine.template.getNodeByConstId('TT-TG'));
+    const tttg = parseFloat(AssistedReportingContainer.template.getNodeByConstId('TT-TG'));
     if (tttg <= 15) {
       // do nothing, we focus only on abnormal
     } else if (tttg > 15 && tttg <= 20) {
-      ExpertEngine.report.addToConclusions('TT-TG', `TT-TG: borderline`);
+      AssistedReportingContainer.report.addToConclusions('TT-TG', `TT-TG: borderline`);
     } else {
-      ExpertEngine.report.addToConclusions('TT-TG', `TT-TG: abnormal`);
+      AssistedReportingContainer.report.addToConclusions('TT-TG', `TT-TG: abnormal`);
     }
   },
 };
-ExpertEngine.register(TTTG);
+AssistedReportingContainer.register(TTTG);

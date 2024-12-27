@@ -1,11 +1,11 @@
 import {
-  EngineCalculation,
-  ExpertEngine,
+  AssistancePlugin,
+  AssistedReportingContainer,
   NodeType,
   SelectorType,
-} from '../../engine';
+} from '../../AssistedReportingContainer';
 
-const symptoms2: EngineCalculation = {
+const symptoms2: AssistancePlugin = {
   displayName: 'POZ objawy',
   description: 'Obsługa objawów chorobowych dla upmedic',
   matchingSections: {
@@ -49,12 +49,12 @@ const symptoms2: EngineCalculation = {
     //   }
     // }
 
-    if (ExpertEngine.report.isNodeIdInReport('cukrzyca')) {
-      ExpertEngine.report.addToConclusions(
+    if (AssistedReportingContainer.report.isNodeIdInReport('cukrzyca')) {
+      AssistedReportingContainer.report.addToConclusions(
         'cukrzyca',
         'To jest objaw cukrzycy, wykonaj badania',
       );
     }
   },
 };
-ExpertEngine.register(symptoms2);
+AssistedReportingContainer.register(symptoms2);

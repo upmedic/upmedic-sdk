@@ -1,34 +1,28 @@
-# upmedic medical knowledge base (mkb)
+# upmedic-sdk
+[upmedic](https://www.upmedic.io) implementation of [Reporting Assistance Framework](https://www.openimagingdata.org/oidm-based-next-gen-reporting-assistance/)
 
-Expert system for structured medical documentation
+upmedic-sdk is software developer kit (SDK) focused on delivering abstractions that enable developers to create applications that interact with medical documentation **while it is being created**.
 
+Use cases:
+* medical scales
+* Clinical Decision Support systems
+* connecting to external knowledge databases
+* conclusions suggestions
 
-## Repo scope
+![OIDM reporting](https://www.openimagingdata.org/content/images/size/w1600/2023/07/image-1.png "")
 
-This repo is used as a source of logic for deterministic transformations in structured medical documents.
+## Reporting Data Context Model
+Covered for you by upmedic:
+* current report
+* templates visible to the current user (source of coding, CDEs (Common data elements), structured reporting data)
+* nlp-extracted values from current report
+* collection of previous reports
 
+## Assisted Reporting Container
+By using upmedic-sdk, your code is executed by upmedic, giving you access to the content of the report that is being edited.
 
-## Konwledge base
-Knowledge is encoded using JavaScript functions. upmedic reasoning engine uses them to transform documents at the time of editing them
+## Reporting System Commands
+Examples in this repository show how you can interact with report content. Extract values, provide live feedback to the report creator (doctor), by a set of abstractions to make it easier for the developer not to focus on parsing textual content, but on the problem.  
 
-
-## Reasoning engine simulator
-
-This repo contains simple simulator of the resoning engine: 
-1. read upmedic serialized report from json file
-2. use all registered functions in this repository on this file
-3. simulate what transformations would be applied to the resulting document
-
-
-## How to add new calculation
-1. add new .tsx file in knowledge directory, e.g.: example.tsx
-2. import that file in knowledge/knowledgeBase.tsx
-3. create object of type EngineCalculation in example.tsx (see exemplary implementations in family_medicine folder)
-4. register that object in the ExpertEngine (as in examples)
-
-## running locally
-LOCAL dev webserver runs at localhost:3000. Start it using: 
-`$ yarn`
-`$ yarn start`
-
-
+## Credits
+Special thanks to OIDM led by Tarik Alkasab for being the thought-leader in our field, inspiring many innovations and getting together different stakeholders to discuss their needs.

@@ -1,5 +1,5 @@
 import { NodeSource } from './NodeSource';
-import { ExpertEngine } from './engine';
+import { AssistedReportingContainer } from './AssistedReportingContainer';
 
 export class Template extends NodeSource {
   public selectNodesWithClass(className: string) {
@@ -11,6 +11,6 @@ export class Template extends NodeSource {
   public selectNodeWithId(id: string) {
     console.log(`Selecting node with id ${id}`, this.getNodeByConstId(id));
     const node = this.getNodeByConstId(id);
-    ExpertEngine.report.data.nodes.push(node);
+    AssistedReportingContainer.report.data.nodes.push(node);
   }
 }

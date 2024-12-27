@@ -1,5 +1,5 @@
 import './App.css';
-import { ExpertEngine } from './engine';
+import { AssistedReportingContainer } from './AssistedReportingContainer';
 import './knowledge/knowledgeBase';
 
 function App() {
@@ -16,25 +16,33 @@ function App() {
           </a>{' '}
           console log to see results of analysis
         </p>
-        <button onClick={(e) => ExpertEngine.execute()}> RUN ExpertEngine</button>
+        <button onClick={(e) => AssistedReportingContainer.execute()}>
+          RUN Assistance Plugins
+        </button>
       </div>
       <div>
         <h2>Requirements status for the template and report:</h2>
-        {JSON.stringify(ExpertEngine.checkRequirements(), null, 2)}
+        {JSON.stringify(AssistedReportingContainer.checkRequirements(), null, 2)}
         <h3>Debug info for requirements:</h3>
         <pre>
-          {ExpertEngine.registeredCalculations.map((c) =>
-            JSON.stringify(ExpertEngine.checkRequirementsForCalculation(c), null, 2),
+          {AssistedReportingContainer.registeredAssistancePlugins.map((c) =>
+            JSON.stringify(
+              AssistedReportingContainer.checkRequirementsForAssistancePlugins(c),
+              null,
+              2,
+            ),
           )}
         </pre>
       </div>
       <div>
         <h2>Report (can be modified in simulationData/report.json)</h2>
-        <pre>{JSON.stringify(ExpertEngine.report.data, null, 2)}</pre>
+        <pre>{JSON.stringify(AssistedReportingContainer.report.data, null, 2)}</pre>
       </div>
       <div>
         <h2>Template (can be modified in simulationData/template.json)</h2>
-        <pre>{JSON.stringify(ExpertEngine.template.data, null, 2)}</pre>
+        <pre>
+          {JSON.stringify(AssistedReportingContainer.template.data, null, 2)}
+        </pre>
       </div>
     </>
   );

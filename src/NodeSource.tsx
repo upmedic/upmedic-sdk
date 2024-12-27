@@ -1,4 +1,4 @@
-import { StopCalculationError } from './engine';
+import { StopAssistancePluginError } from './AssistedReportingContainer';
 
 export class NodeSource {
   data: any;
@@ -23,7 +23,7 @@ export class NodeSource {
   public getNodeByConstId(id: string): any {
     const nodes = this.data['nodes'].filter((n: any) => n.data['const_id'] === id);
     if (nodes.length === 0) {
-      throw new StopCalculationError(
+      throw new StopAssistancePluginError(
         `Node with id ${id} does not exist in this NodeSource`,
       );
     }

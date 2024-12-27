@@ -1,11 +1,11 @@
 import {
-  EngineCalculation,
-  ExpertEngine,
+  AssistancePlugin,
+  AssistedReportingContainer,
   NodeType,
   SelectorType,
-} from '../../engine';
+} from '../../AssistedReportingContainer';
 
-const KDIGO2023: EngineCalculation = {
+const KDIGO2023: AssistancePlugin = {
   displayName: 'KDIGO_DM_CKD_2023',
   description:
     'KDIGO 2023 Guidelines for Diabetes Management in Chronic Kidney Disease (CKD)',
@@ -32,12 +32,12 @@ const KDIGO2023: EngineCalculation = {
     },
   ],
   calculate: () => {
-    const egfr = parseFloat(ExpertEngine.report.getNodeByConstId('egfr').data.text);
+    const egfr = parseFloat(AssistedReportingContainer.report.getNodeByConstId('egfr').data.text);
     const albumin_mg_g = parseFloat(
-      ExpertEngine.report.getNodeByConstId('albumin_urine_mg/g').data.text,
+      AssistedReportingContainer.report.getNodeByConstId('albumin_urine_mg/g').data.text,
     );
     const albumin_mg_mmol = parseFloat(
-      ExpertEngine.report.getNodeByConstId('albumin_urine_mg/mmol').data.text,
+      AssistedReportingContainer.report.getNodeByConstId('albumin_urine_mg/mmol').data.text,
     );
     // eGFR evaluation
     let egfr_cat: string = ''; // eGFR category - G1-G5
@@ -62,7 +62,7 @@ const KDIGO2023: EngineCalculation = {
       egfr_cat_comment = 'niewydolność nerek (sprawdź, czy wpisałeś wartość eGFR)';
       // check if value was given - value "0" is default
     }
-    ExpertEngine.report.addToConclusions(
+    AssistedReportingContainer.report.addToConclusions(
       `eGFR = ${egfr}`,
       `kategoria ${egfr_cat} - ${egfr_cat_comment}`,
     );
@@ -81,7 +81,7 @@ const KDIGO2023: EngineCalculation = {
       albumin_cat = 'A3';
       albumin_cat_comment = 'znacznie zwiększona';
     }
-    ExpertEngine.report.addToConclusions(
+    AssistedReportingContainer.report.addToConclusions(
       `albumina w moczu = ${albumin_mg_g}`,
       `kategoria ${albumin_cat} - ${albumin_cat_comment}`,
     );
@@ -122,10 +122,10 @@ const KDIGO2023: EngineCalculation = {
       risk_level = 'bardzo duże ryzyko II';
       risk_recommendation = 'leczyć, monitorować 4x/rok i skierować do nefrologa';
     }
-    ExpertEngine.report.addToConclusions(
+    AssistedReportingContainer.report.addToConclusions(
       `Ryzyko progresji PChN - ${risk_level}`,
       `zalecenia - ${risk_recommendation}`,
     );
   },
 };
-ExpertEngine.register(KDIGO2023);
+AssistedReportingContainer.register(KDIGO2023);

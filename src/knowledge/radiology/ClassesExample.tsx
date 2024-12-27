@@ -1,13 +1,13 @@
 import {
-  EngineCalculation,
-  ExpertEngine,
+  AssistancePlugin as AssistancePlugin,
+  AssistedReportingContainer,
   NodeType,
   SelectorType,
-} from '../../engine';
+} from '../../AssistedReportingContainer';
 
 const TECHNIQUE_CLASS_NAME = 'technique';
 
-const ClassesExample: EngineCalculation = {
+const ClassesExample: AssistancePlugin = {
   displayName: 'Classes example',
   description: 'Tests selectors for classes',
   matchingSections: {
@@ -24,9 +24,9 @@ const ClassesExample: EngineCalculation = {
   ],
   calculate: () => {
     const templateTechniqueNodes =
-      ExpertEngine.template.getNodesByClass(TECHNIQUE_CLASS_NAME);
+      AssistedReportingContainer.template.getNodesByClass(TECHNIQUE_CLASS_NAME);
     if (templateTechniqueNodes.length === 1) {
-      ExpertEngine.report.addToConclusions(
+      AssistedReportingContainer.report.addToConclusions(
         templateTechniqueNodes[0].data.const_id,
         `This conclusion is added when template has a node with ${TECHNIQUE_CLASS_NAME} class`,
       );
@@ -36,7 +36,7 @@ const ClassesExample: EngineCalculation = {
       );
     }
     const reportTechnniqueNodes =
-      ExpertEngine.report.getNodesByClass(TECHNIQUE_CLASS_NAME);
+      AssistedReportingContainer.report.getNodesByClass(TECHNIQUE_CLASS_NAME);
   },
 };
-ExpertEngine.register(ClassesExample);
+AssistedReportingContainer.register(ClassesExample);

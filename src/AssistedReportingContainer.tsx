@@ -15,12 +15,12 @@ export enum NodeType {
   SUBSECTION = 'Subsection',
 }
 
-class _ExpertEngine {
+class _AssistedReportingContainer {
   report: Report;
   template: Template;
 
-  private static _instance: _ExpertEngine;
-  public registeredCalculations: Array<EngineCalculation> = [];
+  private static _instance: _AssistedReportingContainer;
+  public registeredAssistancePlugins: Array<AssistancePlugin> = [];
 
   private constructor() {
     this.report = new Report(report);
@@ -31,31 +31,33 @@ class _ExpertEngine {
     // Do you need arguments? Make it a regular static method instead.
     return this._instance || (this._instance = new this());
   }
-  private shouldCalculate(calculation: EngineCalculation): boolean {
+  private shouldExecute(assistancePlugin: AssistancePlugin): boolean {
     const templateRoot = this.template.getRoot();
     const templateLanguagesSet = new Set(this.template.data.languages);
 
     const isCategoryOk =
-      calculation.matchingSections.categories === '*' ||
-      calculation.matchingSections.categories.includes(templateRoot.data.category);
+      assistancePlugin.matchingSections.categories === '*' ||
+      assistancePlugin.matchingSections.categories.includes(
+        templateRoot.data.category,
+      );
     const isDisciplineOk =
-      calculation.matchingSections.disciplines === '*' ||
-      calculation.matchingSections.disciplines.includes(
+      assistancePlugin.matchingSections.disciplines === '*' ||
+      assistancePlugin.matchingSections.disciplines.includes(
         templateRoot.data.discipline,
       );
     const isLanguageOk =
-      calculation.matchingSections.languages === '*' ||
-      calculation.matchingSections.languages.some((l: string) =>
+      assistancePlugin.matchingSections.languages === '*' ||
+      assistancePlugin.matchingSections.languages.some((l: string) =>
         templateLanguagesSet.has(l),
       );
     const isMetadataOk = isCategoryOk && isDisciplineOk && isLanguageOk;
 
     const areTemplateRequirementsOk =
-      this.areCalculationRequirementsSatisfiedByTemplate(calculation);
+      this.areAssistancePluginsRequirementsSatisfiedByTemplate(assistancePlugin);
     const willBeRun = isMetadataOk && areTemplateRequirementsOk;
     if (!willBeRun) {
       console.info(
-        `"${calculation.displayName}" will not be executed. Languages matching: ${isLanguageOk}, category: ${isCategoryOk}, discipline ${isDisciplineOk}, template requirements: ${areTemplateRequirementsOk}`,
+        `"${assistancePlugin.displayName}" will not be executed. Languages matching: ${isLanguageOk}, category: ${isCategoryOk}, discipline ${isDisciplineOk}, template requirements: ${areTemplateRequirementsOk}`,
       );
     }
 
@@ -66,41 +68,41 @@ class _ExpertEngine {
 
     let functionsCount = 0;
 
-    for (let i = 0; i < this.registeredCalculations.length; i++) {
-      const calculation: EngineCalculation = this.registeredCalculations[i];
-      if (this.shouldCalculate(calculation)) {
+    for (let i = 0; i < this.registeredAssistancePlugins.length; i++) {
+      const assistancePlugin: AssistancePlugin = this.registeredAssistancePlugins[i];
+      if (this.shouldExecute(assistancePlugin)) {
         try {
-          console.info(`start processing ${calculation.displayName}`);
-          calculation.calculate();
+          console.info(`start processing ${assistancePlugin.displayName}`);
+          assistancePlugin.calculate();
           functionsCount++;
         } catch (ex) {
           console.info(
-            `processing ${calculation.displayName} was interrupted by an error:`,
+            `processing ${assistancePlugin.displayName} was interrupted by an error:`,
           );
           console.error(ex);
         }
-        console.info(`end processing ${calculation.displayName}`);
+        console.info(`end processing ${assistancePlugin.displayName}`);
       }
     }
     console.info(
-      `Engine finished calculations. ${functionsCount} out of ${this.registeredCalculations.length} function applied!`,
+      `Engine finished AssistancePlugin execution. ${functionsCount} out of ${this.registeredAssistancePlugins.length} function applied!`,
     );
   }
 
-  public register = (calc: EngineCalculation) => {
+  public register = (calc: AssistancePlugin) => {
     console.log(calc);
     console.log(
       `Registering function ${calc.displayName} for ${calc.matchingSections.categories} ${calc.matchingSections.disciplines}`,
     );
-    ExpertEngine.registeredCalculations.push(calc);
+    AssistedReportingContainer.registeredAssistancePlugins.push(calc);
   };
 
-  public checkRequirementsForCalculation(
-    calculation: EngineCalculation,
+  public checkRequirementsForAssistancePlugins(
+    assistancePlugin: AssistancePlugin,
   ): Record<string, Record<string, boolean>> {
     let ret: Record<string, Record<string, boolean>> = {};
-    for (let cIdx = 0; cIdx < calculation.nodeRequirements.length; cIdx++) {
-      const requirement = calculation.nodeRequirements[cIdx];
+    for (let cIdx = 0; cIdx < assistancePlugin.nodeRequirements.length; cIdx++) {
+      const requirement = assistancePlugin.nodeRequirements[cIdx];
       const requirementId = `${requirement.selector} ${requirement.nodeType} ${requirement.selectorType}`;
       ret[requirementId] = {};
       if (requirement.selectorType === SelectorType.CLASS) {
@@ -134,39 +136,39 @@ class _ExpertEngine {
     return ret;
   }
 
-  public areCalculationRequirementsSatisfiedByTemplate(
-    calculation: EngineCalculation,
+  public areAssistancePluginsRequirementsSatisfiedByTemplate(
+    assistancePlugin: AssistancePlugin,
   ): boolean {
-    return Object.values(this.checkRequirementsForCalculation(calculation)).every(
-      (val) => Object.values(val).every((v) => v),
-    );
+    return Object.values(
+      this.checkRequirementsForAssistancePlugins(assistancePlugin),
+    ).every((val) => Object.values(val).every((v) => v));
   }
 
   public checkRequirements(): Record<string, boolean> {
     let ret: Record<string, boolean> = {};
-    for (let i = 0; i < this.registeredCalculations.length; i++) {
-      const calculation = this.registeredCalculations[i];
-      ret[calculation.displayName] =
-        this.areCalculationRequirementsSatisfiedByTemplate(calculation);
+    for (let i = 0; i < this.registeredAssistancePlugins.length; i++) {
+      const assistancePlugin = this.registeredAssistancePlugins[i];
+      ret[assistancePlugin.displayName] =
+        this.areAssistancePluginsRequirementsSatisfiedByTemplate(assistancePlugin);
     }
     return ret;
   }
 }
 
-export class StopCalculationError extends Error {
+export class StopAssistancePluginError extends Error {
   constructor(msg: string) {
     super(msg);
 
     // Set the prototype explicitly.
-    Object.setPrototypeOf(this, StopCalculationError.prototype);
+    Object.setPrototypeOf(this, StopAssistancePluginError.prototype);
   }
 
   sayHello() {
-    return 'Calculation Stopped ' + this.message;
+    return 'AssistancePlugin Stopped ' + this.message;
   }
 }
 
-export interface EngineCalculation {
+export interface AssistancePlugin {
   displayName: string;
   description: string;
   matchingSections: MatchingSections;
@@ -175,7 +177,7 @@ export interface EngineCalculation {
 }
 
 interface MatchingSections {
-  /** wildcard '*' allows to use calculation for all categories or disciplines */
+  /** wildcard '*' allows to use AssistancePlugin for all categories or disciplines */
   categories: '*' | string[];
   disciplines: '*' | string[];
   languages: '*' | string[];
@@ -187,4 +189,4 @@ export interface NodeRequirement {
   selector: string;
 }
 
-export const ExpertEngine = _ExpertEngine.Instance;
+export const AssistedReportingContainer = _AssistedReportingContainer.Instance;

@@ -1,11 +1,11 @@
 import {
-  EngineCalculation,
-  ExpertEngine,
+  AssistancePlugin,
+  AssistedReportingContainer,
   NodeType,
   SelectorType,
-} from '../../engine';
+} from '../../AssistedReportingContainer';
 
-const symptoms: EngineCalculation = {
+const symptoms: AssistancePlugin = {
   displayName: 'POZ symptoms',
   description: 'Obsługa objawów chorobowych dla upmedic',
   matchingSections: {
@@ -30,12 +30,12 @@ const symptoms: EngineCalculation = {
     //   }
     // }
 
-    if (ExpertEngine.report.isNodeIdInReport('sleepiness')) {
-      ExpertEngine.report.addToConclusions(
+    if (AssistedReportingContainer.report.isNodeIdInReport('sleepiness')) {
+      AssistedReportingContainer.report.addToConclusions(
         'sleepiness',
         'This will add some conclusion related to sleepines',
       );
     }
   },
 };
-ExpertEngine.register(symptoms);
+AssistedReportingContainer.register(symptoms);
