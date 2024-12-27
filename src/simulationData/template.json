@@ -1,3210 +1,3229 @@
 {
-    "discipline": "radiologia",
-    "category": "tk",
-    "title": "Tomografia komputerowa jamy brzusznej i miednicy małej",
-    "owner": "admin",
-    "id": 1,
-    "languages": ["pl", "en"],
-    "nodes": [
-      {
-        "id": 3,
-        "type": "Concept",
-        "parent": 2,
-        "order": 8,
-        "data": {
-          "text": "Środek kontrastujący",
-          "classes": ["bar-class", "foo-class"]
-        }
-      },
-      {
-        "id": 6,
-        "type": "Concept",
-        "parent": 2,
-        "order": 8,
-        "data": {
-          "text": "Fazy"
-        }
-      },
-      {
-        "id": 11,
-        "type": "Concept",
-        "parent": 10,
-        "order": 8,
-        "data": {
-          "text": "Zmiany onkologiczne"
-        }
-      },
-      {
-        "id": 15,
-        "type": "Concept",
-        "parent": 10,
-        "order": 8,
-        "data": {
-          "text": "Zmiany zapalne"
-        }
-      },
-      {
-        "id": 18,
-        "type": "Concept",
-        "parent": 17,
-        "order": 8,
-        "data": {
-          "text": "Płyn"
-        }
-      },
-      {
-        "id": 23,
-        "type": "Concept",
-        "parent": 22,
-        "order": 8,
-        "data": {
-          "text": "Rozmiar i kształt"
-        }
-      },
-      {
-        "id": 666,
-        "type": "Number",
-        "parent": 23,
-        "order": 8,
-        "data": {
-        "const_id": "weight",
-          "prefix": "weight",  
-          "text": "80",
-          "suffix": "kg"
-        }
-      },
-      {
-        "id": 667,
-        "type": "Number",
-        "parent": 23,
-        "order": 8,
-        "data": {
-        "const_id": "height",
-          "prefix": "height",  
-          "text": "1.75",
-          "suffix": "m"
-        }
-      },
-      {
-        "id": 667,
-        "type": "Number",
-        "parent": 23,
-        "order": 8,
-        "data": {
-          "const_id": "BMI",
-          "prefix": "BMI",  
-          "text": "0",
-          "suffix": ""
-        }
-      },
-      {
-        "id": 667,
-        "type": "Number",
-        "parent": 23,
-        "order": 8,
-        "data": {
-        "const_id": "TT-TG",
-          "prefix": "TT-TG",  
-          "text": "0",
-          "suffix": ""
-        }
-      },
-      {
-        "id": 29,
-        "type": "Concept",
-        "parent": 22,
-        "order": 8,
-        "data": {
-          "text": "Zmiany onkologiczne"
-        }
-      },
-      {
-        "id": 36,
-        "type": "Concept",
-        "parent": 22,
-        "order": 8,
-        "data": {
-          "text": "Zmiany strukturalne"
-        }
-      },
-      {
-        "id": 41,
-        "type": "Concept",
-        "parent": 22,
-        "order": 8,
-        "data": {
-          "text": "Perfuzja"
-        }
-      },
-      {
-        "id": 44,
-        "type": "Concept",
-        "parent": 43,
-        "order": 8,
-        "data": {
-          "text": "Struktura"
-        }
-      },
-      {
-        "id": 49,
-        "type": "Concept",
-        "parent": 43,
-        "order": 8,
-        "data": {
-          "text": "Złogi"
-        }
-      },
-      {
-        "id": 54,
-        "type": "Concept",
-        "parent": 43,
-        "order": 8,
-        "data": {
-          "text": "Nacieki"
-        }
-      },
-      {
-        "id": 56,
-        "type": "Concept",
-        "parent": 43,
-        "order": 8,
-        "data": {
-          "text": "Żółć"
-        }
-      },
-      {
-        "id": 59,
-        "type": "Concept",
-        "parent": 58,
-        "order": 8,
-        "data": {
-          "text": "Szerokość"
-        }
-      },
-      {
-        "id": 65,
-        "type": "Concept",
-        "parent": 58,
-        "order": 8,
-        "data": {
-          "text": "Endoproteza"
-        }
-      },
-      {
-        "id": 68,
-        "type": "Concept",
-        "parent": 67,
-        "order": 8,
-        "data": {
-          "text": "Budowa"
-        }
-      },
-      {
-        "id": 73,
-        "type": "Concept",
-        "parent": 67,
-        "order": 8,
-        "data": {
-          "text": "Zmiany onkologiczne"
-        }
-      },
-      {
-        "id": 78,
-        "type": "Concept",
-        "parent": 67,
-        "order": 8,
-        "data": {
-          "text": "Płyn"
-        }
-      },
-      {
-        "id": 82,
-        "type": "Concept",
-        "parent": 81,
-        "order": 8,
-        "data": {
-          "text": "Rozmiar"
-        }
-      },
-      {
-        "id": 87,
-        "type": "Concept",
-        "parent": 86,
-        "order": 8,
-        "data": {
-          "text": "Budowa"
-        }
-      },
-      {
-        "id": 92,
-        "type": "Concept",
-        "parent": 86,
-        "order": 9,
-        "data": {
-          "text": "Przepuklina"
-        }
-      },
-      {
-        "id": 95,
-        "type": "Concept",
-        "parent": 94,
-        "order": 8,
-        "data": {
-          "text": "Budowa"
-        }
-      },
-      {
-        "id": 101,
-        "type": "Concept",
-        "parent": 100,
-        "order": 8,
-        "data": {
-          "text": "Kształt"
-        }
-      },
-      {
-        "id": 104,
-        "type": "Concept",
-        "parent": 100,
-        "order": 8,
-        "data": {
-          "text": "Zwapnienia"
-        }
-      },
-      {
-        "id": 106,
-        "type": "Concept",
-        "parent": 100,
-        "order": 8,
-        "data": {
-          "text": "Płyn"
-        }
-      },
-      {
-        "id": 109,
-        "type": "Concept",
-        "parent": 100,
-        "order": 8,
-        "data": {
-          "text": "Loża"
-        }
-      },
-      {
-        "id": 111,
-        "type": "Concept",
-        "parent": 100,
-        "order": 8,
-        "data": {
-          "text": "Zmiany onkologiczne"
-        }
-      },
-      {
-        "id": 114,
-        "type": "Concept",
-        "parent": 113,
-        "order": 8,
-        "data": {
-          "text": "Rozmiar"
-        }
-      },
-      {
-        "id": 118,
-        "type": "Concept",
-        "parent": 113,
-        "order": 8,
-        "data": {
-          "text": "Zmiany onkologiczne"
-        }
-      },
-      {
-        "id": 124,
-        "type": "Concept",
-        "parent": 123,
-        "order": 8,
-        "data": {
-          "text": "Rozmiar"
-        }
-      },
-      {
-        "id": 126,
-        "type": "Concept",
-        "parent": 123,
-        "order": 8,
-        "data": {
-          "text": "Zmiany onkologiczne"
-        }
-      },
-      {
-        "id": 128,
-        "type": "Concept",
-        "parent": 123,
-        "order": 8,
-        "data": {
-          "text": "Złogi"
-        }
-      },
-      {
-        "id": 130,
-        "type": "Concept",
-        "parent": 123,
-        "order": 7,
-        "data": {
-          "text": "Położenie"
-        }
-      },
-      {
-        "id": 132,
-        "type": "Concept",
-        "parent": 123,
-        "order": 8,
-        "data": {
-          "text": "Obecność moczu"
-        }
-      },
-      {
-        "id": 134,
-        "type": "Concept",
-        "parent": 123,
-        "order": 8,
-        "data": {
-          "text": "Zakontrastowanie"
-        }
-      },
-      {
-        "id": 136,
-        "type": "Concept",
-        "parent": 123,
-        "order": 8,
-        "data": {
-          "text": "Wydzielanie"
-        }
-      },
-      {
-        "id": 138,
-        "type": "Concept",
-        "parent": 123,
-        "order": 8,
-        "data": {
-          "text": "Torbiele"
-        }
-      },
-      {
-        "id": 140,
-        "type": "Concept",
-        "parent": 123,
-        "order": 8,
-        "data": {
-          "text": "Kora nerkowa"
-        }
-      },
-      {
-        "id": 143,
-        "type": "Concept",
-        "parent": 142,
-        "order": 7,
-        "data": {
-          "text": "Kielichy"
-        }
-      },
-      {
-        "id": 145,
-        "type": "Concept",
-        "parent": 142,
-        "order": 8,
-        "data": {
-          "text": "Miedniczka"
-        }
-      },
-      {
-        "id": 147,
-        "type": "Concept",
-        "parent": 142,
-        "order": 4,
-        "data": {
-          "text": "Torbiele"
-        }
-      },
-      {
-        "id": 150,
-        "type": "Concept",
-        "parent": 142,
-        "order": 5,
-        "data": {
-          "text": "Tętnica nerkowa"
-        }
-      },
-      {
-        "id": 152,
-        "type": "Concept",
-        "parent": 142,
-        "order": 2,
-        "data": {
-          "text": "Złogi"
-        }
-      },
-      {
-        "id": 155,
-        "type": "Concept",
-        "parent": 142,
-        "order": 3,
-        "data": {
-          "text": "Zmiany onkologiczne"
-        }
-      },
-      {
-        "id": 158,
-        "type": "Concept",
-        "parent": 142,
-        "order": 6,
-        "data": {
-          "text": "Rozmiar"
-        }
-      },
-      {
-        "id": 161,
-        "type": "Concept",
-        "parent": 142,
-        "order": 0,
-        "data": {
-          "text": "Położenie"
-        }
-      },
-      {
-        "id": 163,
-        "type": "Concept",
-        "parent": 142,
-        "order": 1,
-        "data": {
-          "text": "Obecność moczu"
-        }
-      },
-      {
-        "id": 167,
-        "type": "Concept",
-        "parent": 166,
-        "order": 0,
-        "data": {
-          "text": "Położenie"
-        }
-      },
-      {
-        "id": 169,
-        "type": "Concept",
-        "parent": 166,
-        "order": 1,
-        "data": {
-          "text": "Obecność oczu"
-        }
-      },
-      {
-        "id": 172,
-        "type": "Concept",
-        "parent": 166,
-        "order": 2,
-        "data": {
-          "text": "Złogi"
-        }
-      },
-      {
-        "id": 175,
-        "type": "Concept",
-        "parent": 166,
-        "order": 3,
-        "data": {
-          "text": "Zmiany onkologiczne"
-        }
-      },
-      {
-        "id": 178,
-        "type": "Concept",
-        "parent": 166,
-        "order": 4,
-        "data": {
-          "text": "Torbiele"
-        }
-      },
-      {
-        "id": 181,
-        "type": "Concept",
-        "parent": 166,
-        "order": 5,
-        "data": {
-          "text": "Tętnica nerkowa"
-        }
-      },
-      {
-        "id": 183,
-        "type": "Concept",
-        "parent": 166,
-        "order": 6,
-        "data": {
-          "text": "Rozmiar"
-        }
-      },
-      {
-        "id": 186,
-        "type": "Concept",
-        "parent": 166,
-        "order": 7,
-        "data": {
-          "text": "Kielichy"
-        }
-      },
-      {
-        "id": 188,
-        "type": "Concept",
-        "parent": 166,
-        "order": 8,
-        "data": {
-          "text": "Miedniczka"
-        }
-      },
-      {
-        "id": 191,
-        "type": "Concept",
-        "parent": 190,
-        "order": 0,
-        "data": {
-          "text": "Szerokość"
-        }
-      },
-      {
-        "id": 198,
-        "type": "Concept",
-        "parent": 197,
-        "order": 0,
-        "data": {
-          "text": "Kształt"
-        }
-      },
-      {
-        "id": 205,
-        "type": "Concept",
-        "parent": 197,
-        "order": 1,
-        "data": {
-          "text": "Ściana"
-        }
-      },
-      {
-        "id": 209,
-        "type": "Concept",
-        "parent": 208,
-        "order": 0,
-        "data": {
-          "text": "Kształt i rozmiar"
-        }
-      },
-      {
-        "id": 215,
-        "type": "Concept",
-        "parent": 208,
-        "order": 1,
-        "data": {
-          "text": "Struktura"
-        }
-      },
-      {
-        "id": 219,
-        "type": "Concept",
-        "parent": 208,
-        "order": 2,
-        "data": {
-          "text": "Pęcherzyki nasienne"
-        }
-      },
-      {
-        "id": 222,
-        "type": "Concept",
-        "parent": 221,
-        "order": 0,
-        "data": {
-          "text": "Struktura"
-        }
-      },
-      {
-        "id": 227,
-        "type": "Concept",
-        "parent": 221,
-        "order": 1,
-        "data": {
-          "text": "Endometrium"
-        }
-      },
-      {
-        "id": 228,
-        "type": "Concept",
-        "parent": 221,
-        "order": 2,
-        "data": {
-          "text": "Jajnik lewy"
-        }
-      },
-      {
-        "id": 231,
-        "type": "Concept",
-        "parent": 221,
-        "order": 3,
-        "data": {
-          "text": "Jajnik prawy"
-        }
-      },
-      {
-        "id": 234,
-        "type": "Concept",
-        "parent": 221,
-        "order": 4,
-        "data": {
-          "text": "Macica"
-        }
-      },
-      {
-        "id": 238,
-        "type": "Concept",
-        "parent": 237,
-        "order": 0,
-        "data": {
-          "text": "Zaotrzewnowe"
-        }
-      },
-      {
-        "id": 240,
-        "type": "Concept",
-        "parent": 237,
-        "order": 1,
-        "data": {
-          "text": "Krezkowe"
-        }
-      },
-      {
-        "id": 242,
-        "type": "Concept",
-        "parent": 237,
-        "order": 2,
-        "data": {
-          "text": "Miedniczne"
-        }
-      },
-      {
-        "id": 244,
-        "type": "Concept",
-        "parent": 237,
-        "order": 3,
-        "data": {
-          "text": "Okołowpustowe"
-        }
-      },
-      {
-        "id": 245,
-        "type": "Concept",
-        "parent": 237,
-        "order": 4,
-        "data": {
-          "text": "Okołożołądkowe"
-        }
-      },
-      {
-        "id": 246,
-        "type": "Concept",
-        "parent": 237,
-        "order": 5,
-        "data": {
-          "text": "Porto-kawalny"
-        }
-      },
-      {
-        "id": 247,
-        "type": "Concept",
-        "parent": 237,
-        "order": 6,
-        "data": {
-          "text": "Aortalno-kawalne"
-        }
-      },
-      {
-        "id": 248,
-        "type": "Concept",
-        "parent": 237,
-        "order": 7,
-        "data": {
-          "text": "Okołoaortalne"
-        }
-      },
-      {
-        "id": 249,
-        "type": "Concept",
-        "parent": 237,
-        "order": 8,
-        "data": {
-          "text": "Biodrowe wspólne P"
-        }
-      },
-      {
-        "id": 250,
-        "type": "Concept",
-        "parent": 237,
-        "order": 9,
-        "data": {
-          "text": "Biodrowe wspólne L"
-        }
-      },
-      {
-        "id": 251,
-        "type": "Concept",
-        "parent": 237,
-        "order": 10,
-        "data": {
-          "text": "Biodrowe wewnętrzne P"
-        }
-      },
-      {
-        "id": 252,
-        "type": "Concept",
-        "parent": 237,
-        "order": 11,
-        "data": {
-          "text": "Biodrowe wewnętrzne L"
-        }
-      },
-      {
-        "id": 253,
-        "type": "Concept",
-        "parent": 237,
-        "order": 12,
-        "data": {
-          "text": "Biodrowe zewnętrzne P"
-        }
-      },
-      {
-        "id": 254,
-        "type": "Concept",
-        "parent": 237,
-        "order": 13,
-        "data": {
-          "text": "Biodrowe zewnętrzne L"
-        }
-      },
-      {
-        "id": 255,
-        "type": "Concept",
-        "parent": 237,
-        "order": 14,
-        "data": {
-          "text": "Mezorektum"
-        }
-      },
-      {
-        "id": 256,
-        "type": "Concept",
-        "parent": 237,
-        "order": 15,
-        "data": {
-          "text": "Pachwinowe P"
-        }
-      },
-      {
-        "id": 257,
-        "type": "Concept",
-        "parent": 237,
-        "order": 16,
-        "data": {
-          "text": "Pachwinowe L"
-        }
-      },
-      {
-        "id": 259,
-        "type": "Concept",
-        "parent": 258,
-        "order": 0,
-        "data": {
-          "text": "Płyn"
-        }
-      },
-      {
-        "id": 267,
-        "type": "Concept",
-        "parent": 258,
-        "order": 1,
-        "data": {
-          "text": "Zmiany onkologiczne"
-        }
-      },
-      {
-        "id": 270,
-        "type": "Concept",
-        "parent": 269,
-        "order": 0,
-        "data": {
-          "text": "Ściany jelit"
-        }
-      },
-      {
-        "id": 272,
-        "type": "Concept",
-        "parent": 269,
-        "order": 1,
-        "data": {
-          "text": "Okrężnica"
-        }
-      },
-      {
-        "id": 274,
-        "type": "Concept",
-        "parent": 269,
-        "order": 2,
-        "data": {
-          "text": "Nacieki"
-        }
-      },
-      {
-        "id": 277,
-        "type": "Concept",
-        "parent": 269,
-        "order": 3,
-        "data": {
-          "text": "Kolostomia"
-        }
-      },
-      {
-        "id": 279,
-        "type": "Concept",
-        "parent": 269,
-        "order": 4,
-        "data": {
-          "text": "Zmiany onkologiczne"
-        }
-      },
-      {
-        "id": 282,
-        "type": "Concept",
-        "parent": 281,
-        "order": 0,
-        "data": {
-          "text": "Zmiany onkologiczne"
-        }
-      },
-      {
-        "id": 286,
-        "type": "Concept",
-        "parent": 281,
-        "order": 1,
-        "data": {
-          "text": "Przepuklina"
-        }
-      },
-      {
-        "id": 291,
-        "type": "Concept",
-        "parent": 290,
-        "order": 0,
-        "data": {
-          "text": "Drożność"
-        }
-      },
-      {
-        "id": 295,
-        "type": "Concept",
-        "parent": 290,
-        "order": 1,
-        "data": {
-          "text": "Żyła biodrowa"
-        }
-      },
-      {
-        "id": 297,
-        "type": "Concept",
-        "parent": 290,
-        "order": 2,
-        "data": {
-          "text": "Aorta brzuszna"
-        }
-      },
-      {
-        "id": 299,
-        "type": "Concept",
-        "parent": 290,
-        "order": 3,
-        "data": {
-          "text": "Żyła  wrotna"
-        }
-      },
-      {
-        "id": 302,
-        "type": "Concept",
-        "parent": 301,
-        "order": 0,
-        "data": {
-          "text": "Zmiany onkologiczne"
-        }
-      },
-      {
-        "id": 306,
-        "type": "Concept",
-        "parent": 301,
-        "order": 1,
-        "data": {
-          "text": "Złamania"
-        }
-      },
-      {
-        "id": 309,
-        "type": "Concept",
-        "parent": 301,
-        "order": 2,
-        "data": {
-          "text": "Zmiany zwyrodnieniowe k-pa L-S"
-        }
-      },
-      {
-        "id": 4,
-        "type": "Property",
-        "parent": 3,
-        "order": 0,
-        "data": {
-          "text": "badanie przed i po podaniu środka kontrastującego",
-          "const_id": "before-and-after-contrasting-agent",
-          "connotation": 0,
-          "auto_include": false,
-          "classes": ["technique", "foo"]
-        }
-      },
-      {
-        "id": 5,
-        "type": "Property",
-        "parent": 3,
-        "order": 1,
-        "data": {
-          "text": "badanie bez podania środka kontrastującego",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 7,
-        "type": "Property",
-        "parent": 6,
-        "order": 0,
-        "data": {
-          "text": "dwie",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 8,
-        "type": "Property",
-        "parent": 6,
-        "order": 1,
-        "data": {
-          "text": "trzy",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 9,
-        "type": "Property",
-        "parent": 6,
-        "order": 2,
-        "data": {
-          "text": "z fazą opóźnioną po 15 minutach",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 12,
-        "type": "Property",
-        "parent": 11,
-        "order": 0,
-        "data": {
-          "text": "ognisko przerzutowe",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 13,
-        "type": "Property",
-        "parent": 11,
-        "order": 1,
-        "data": {
-          "text": "liczne ogniska przerzutowe obustronnie",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 14,
-        "type": "Property",
-        "parent": 11,
-        "order": 2,
-        "data": {
-          "text": "Bez zmian ogniskowych, prawidłowo powietrzne",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 16,
-        "type": "Property",
-        "parent": 15,
-        "order": 0,
-        "data": {
-          "text": "zagęszczenia zapalne",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 19,
-        "type": "Property",
-        "parent": 18,
-        "order": 0,
-        "data": {
-          "text": "brak",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 20,
-        "type": "Property",
-        "parent": 18,
-        "order": 1,
-        "data": {
-          "text": "w prawej jamie opłucnej w warstwie",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 21,
-        "type": "Property",
-        "parent": 18,
-        "order": 2,
-        "data": {
-          "text": "w lewej jamie opłucnej w warstwie",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 24,
-        "type": "Property",
-        "parent": 23,
-        "order": 0,
-        "data": {
-          "text": "niepowiększona",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 25,
-        "type": "Property",
-        "parent": 23,
-        "order": 2,
-        "data": {
-          "text": "jednorodna",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 26,
-        "type": "Property",
-        "parent": 23,
-        "order": 3,
-        "data": {
-          "text": "normodensyjna",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 27,
-        "type": "Property",
-        "parent": 23,
-        "order": 7,
-        "data": {
-          "text": "powiększona w osi cc",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 28,
-        "type": "Property",
-        "parent": 23,
-        "order": 8,
-        "data": {
-          "text": "o policyklicznych obrysach",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 30,
-        "type": "Property",
-        "parent": 29,
-        "order": 2,
-        "data": {
-          "text": "z obecnością ogniska przerzutowego w S",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 31,
-        "type": "Property",
-        "parent": 29,
-        "order": 0,
-        "data": {
-          "text": "bez zmian ogniskowych",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 32,
-        "type": "Property",
-        "parent": 29,
-        "order": 2,
-        "data": {
-          "text": "z obecnością ogniska hiperwaskularnego w fazie tętniczej mm w S - najpewniej o charakterze naczyniaka",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 33,
-        "type": "Property",
-        "parent": 29,
-        "order": 3,
-        "data": {
-          "text": "z obecnością kilku ognisk przerzutowych od kilku mm do",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 34,
-        "type": "Property",
-        "parent": 29,
-        "order": 4,
-        "data": {
-          "text": "z obecnością licznych ognisk przerzutowych od kilku mm do",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 35,
-        "type": "Property",
-        "parent": 29,
-        "order": 5,
-        "data": {
-          "text": "z ogniskiem o profilu wzmocnienia typowym dla FNH w S",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 37,
-        "type": "Property",
-        "parent": 36,
-        "order": 0,
-        "data": {
-          "text": "z obecnością torbieli w segmencie",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 38,
-        "type": "Property",
-        "parent": 36,
-        "order": 1,
-        "data": {
-          "text": "hipodensyjna, z cechami stłuszczenia",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 39,
-        "type": "Property",
-        "parent": 36,
-        "order": 2,
-        "data": {
-          "text": "powiększona w osi cc",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 40,
-        "type": "Property",
-        "parent": 36,
-        "order": 3,
-        "data": {
-          "text": "z cechami marskości",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 42,
-        "type": "Property",
-        "parent": 41,
-        "order": 0,
-        "data": {
-          "text": "z zaburzeniami perfuzji",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 45,
-        "type": "Property",
-        "parent": 44,
-        "order": 0,
-        "data": {
-          "text": "cienkościenny",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 46,
-        "type": "Property",
-        "parent": 44,
-        "order": 1,
-        "data": {
-          "text": "stan po cholecystektomii",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 47,
-        "type": "Property",
-        "parent": 44,
-        "order": 2,
-        "data": {
-          "text": "obkurczony",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 48,
-        "type": "Property",
-        "parent": 44,
-        "order": 3,
-        "data": {
-          "text": "z pogrubioną ścianą do mm",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 50,
-        "type": "Property",
-        "parent": 49,
-        "order": 1,
-        "data": {
-          "text": "z obecnością kilku uwapnionych złogów",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 51,
-        "type": "Property",
-        "parent": 49,
-        "order": 2,
-        "data": {
-          "text": "z obecnością licznych uwapnionych złogów",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 52,
-        "type": "Property",
-        "parent": 49,
-        "order": 0,
-        "data": {
-          "text": "bez uwapnionych złogów.",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 53,
-        "type": "Property",
-        "parent": 49,
-        "order": 1,
-        "data": {
-          "text": "z pojedynczym uwapnionym złogiem",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 55,
-        "type": "Property",
-        "parent": 54,
-        "order": 0,
-        "data": {
-          "text": "naciek w loży",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 57,
-        "type": "Property",
-        "parent": 56,
-        "order": 0,
-        "data": {
-          "text": "z zagęszczoną żółcią",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 60,
-        "type": "Property",
-        "parent": 59,
-        "order": 0,
-        "data": {
-          "text": "nieposzerzone",
-          "connotation": 1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 61,
-        "type": "Property",
-        "parent": 59,
-        "order": 1,
-        "data": {
-          "text": "poszerzone wewnątrzwątrobowo",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 62,
-        "type": "Property",
-        "parent": 59,
-        "order": 2,
-        "data": {
-          "text": "poszerzone w płacie lewym",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 63,
-        "type": "Property",
-        "parent": 59,
-        "order": 3,
-        "data": {
-          "text": "poszerzone w płacie prawym",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 64,
-        "type": "Property",
-        "parent": 59,
-        "order": 4,
-        "data": {
-          "text": "PŻW poszerzony mm",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 66,
-        "type": "Property",
-        "parent": 65,
-        "order": 0,
-        "data": {
-          "text": "endoproteza w PŻW i przewodach wątrobowych",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 69,
-        "type": "Property",
-        "parent": 68,
-        "order": 0,
-        "data": {
-          "text": "prawidłowej wielkości",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 70,
-        "type": "Property",
-        "parent": 68,
-        "order": 1,
-        "data": {
-          "text": "jednorodna",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 71,
-        "type": "Property",
-        "parent": 68,
-        "order": 2,
-        "data": {
-          "text": "zanikowa",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 72,
-        "type": "Property",
-        "parent": 68,
-        "order": 3,
-        "data": {
-          "text": "z cechami przebudowy tłuszczowej",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 74,
-        "type": "Property",
-        "parent": 73,
-        "order": 0,
-        "data": {
-          "text": "bez zmian ogniskowych",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 75,
-        "type": "Property",
-        "parent": 73,
-        "order": 1,
-        "data": {
-          "text": "z obecnością hipowaskularnej zmiany ogniskowej zlokalizowanej w",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 76,
-        "type": "Property",
-        "parent": 73,
-        "order": 2,
-        "data": {
-          "text": "z obecnością hiperwaskularnej zmiany ogniskowej zlokalizowanej w",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 77,
-        "type": "Property",
-        "parent": 73,
-        "order": 3,
-        "data": {
-          "text": "z obecnością zmiany ogniskowej mm zlokalizowanej",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 79,
-        "type": "Property",
-        "parent": 78,
-        "order": 0,
-        "data": {
-          "text": "otoczona warstwą płynu",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 80,
-        "type": "Property",
-        "parent": 78,
-        "order": 1,
-        "data": {
-          "text": "z obecnością pseudotorbieli mm zlokalizowanej w",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 83,
-        "type": "Property",
-        "parent": 82,
-        "order": 0,
-        "data": {
-          "text": "nieposzerzony",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 84,
-        "type": "Property",
-        "parent": 82,
-        "order": 1,
-        "data": {
-          "text": "poszerzony w części dystalnej do mm",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 85,
-        "type": "Property",
-        "parent": 82,
-        "order": 2,
-        "data": {
-          "text": "nieregularnie poszerzony w całości",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 88,
-        "type": "Property",
-        "parent": 87,
-        "order": 0,
-        "data": {
-          "text": "prawidłowa",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 89,
-        "type": "Property",
-        "parent": 87,
-        "order": 2,
-        "data": {
-          "text": "naciek ściany grubości, na odcinku , w okolicy",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 90,
-        "type": "Property",
-        "parent": 87,
-        "order": 3,
-        "data": {
-          "text": "pogrubiona ściana mm",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 91,
-        "type": "Property",
-        "parent": 87,
-        "order": 4,
-        "data": {
-          "text": "stan po totalnej gastrektomii, zespolenie bez wznowy",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 93,
-        "type": "Property",
-        "parent": 92,
-        "order": 0,
-        "data": {
-          "text": "przepuklina rozworu okołoprzełykowego przepony",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 96,
-        "type": "Property",
-        "parent": 95,
-        "order": 0,
-        "data": {
-          "text": "prawidłowa",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 97,
-        "type": "Property",
-        "parent": 95,
-        "order": 1,
-        "data": {
-          "text": "bez zmian naciekowych",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 98,
-        "type": "Property",
-        "parent": 95,
-        "order": 2,
-        "data": {
-          "text": "naciek ściany",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 99,
-        "type": "Property",
-        "parent": 95,
-        "order": 3,
-        "data": {
-          "text": "uchyłek",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 102,
-        "type": "Property",
-        "parent": 101,
-        "order": 0,
-        "data": {
-          "text": "niezmieniona",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 103,
-        "type": "Property",
-        "parent": 101,
-        "order": 1,
-        "data": {
-          "text": "powiększona w osi długiej",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 105,
-        "type": "Property",
-        "parent": 104,
-        "order": 0,
-        "data": {
-          "text": "z licznymi, drobnymi zwapnieniami",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 107,
-        "type": "Property",
-        "parent": 106,
-        "order": 0,
-        "data": {
-          "text": "otoczona rąbkiem płynu",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 108,
-        "type": "Property",
-        "parent": 106,
-        "order": 1,
-        "data": {
-          "text": "z torbielą",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 110,
-        "type": "Property",
-        "parent": 109,
-        "order": 0,
-        "data": {
-          "text": "stan po splenektomii, loża wolna",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 112,
-        "type": "Property",
-        "parent": 111,
-        "order": 0,
-        "data": {
-          "text": "z ogniskiem hipodensyjnym",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 115,
-        "type": "Property",
-        "parent": 114,
-        "order": 0,
-        "data": {
-          "text": "niepowiększone",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 116,
-        "type": "Property",
-        "parent": 114,
-        "order": 1,
-        "data": {
-          "text": "prawe niepowiększone",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 117,
-        "type": "Property",
-        "parent": 114,
-        "order": 2,
-        "data": {
-          "text": "lewe niepowiększone",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 119,
-        "type": "Property",
-        "parent": 118,
-        "order": 0,
-        "data": {
-          "text": "niskodensyjny guzek w nadnerczu prawym",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 120,
-        "type": "Property",
-        "parent": 118,
-        "order": 1,
-        "data": {
-          "text": "niskodensyjny guzek w nadnerczu lewym",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 121,
-        "type": "Property",
-        "parent": 118,
-        "order": 2,
-        "data": {
-          "text": "ognisko przerzutowe w nadnerczu prawym mm",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 122,
-        "type": "Property",
-        "parent": 118,
-        "order": 3,
-        "data": {
-          "text": "ognisko przerzutowe w nadnerczu lewym mm",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 125,
-        "type": "Property",
-        "parent": 124,
-        "order": 1,
-        "data": {
-          "text": "prawidłowej wielkości",
-          "connotation": 1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 127,
-        "type": "Property",
-        "parent": 126,
-        "order": 0,
-        "data": {
-          "text": "bez zmian ogniskowych",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 129,
-        "type": "Property",
-        "parent": 128,
-        "order": 0,
-        "data": {
-          "text": "bez uwapnionych złogów",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 131,
-        "type": "Property",
-        "parent": 130,
-        "order": 0,
-        "data": {
-          "text": "Położone prawidłowo",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 133,
-        "type": "Property",
-        "parent": 132,
-        "order": 0,
-        "data": {
-          "text": "bez zastoju moczu",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 135,
-        "type": "Property",
-        "parent": 134,
-        "order": 0,
-        "data": {
-          "text": "z jednoczasowym zakontrastowaniem",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 137,
-        "type": "Property",
-        "parent": 136,
-        "order": 0,
-        "data": {
-          "text": "z zachowanym jednoczasowym wydzielaniem",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 139,
-        "type": "Property",
-        "parent": 138,
-        "order": 0,
-        "data": {
-          "text": "z obecnością kilku torbieli od kilku mm do",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 141,
-        "type": "Property",
-        "parent": 140,
-        "order": 0,
-        "data": {
-          "text": "ze zredukowaną grubością kory nerkowej",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 144,
-        "type": "Property",
-        "parent": 143,
-        "order": 0,
-        "data": {
-          "text": "poszerzone",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 146,
-        "type": "Property",
-        "parent": 145,
-        "order": 0,
-        "data": {
-          "text": "poszerzona",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 148,
-        "type": "Property",
-        "parent": 147,
-        "order": 0,
-        "data": {
-          "text": "z obecnością torbieli",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 149,
-        "type": "Property",
-        "parent": 147,
-        "order": 1,
-        "data": {
-          "text": "z obecnością torbieli centralnych",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 151,
-        "type": "Property",
-        "parent": 150,
-        "order": 0,
-        "data": {
-          "text": "retrokawalny przebieg tętnicy nerkowej",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 153,
-        "type": "Property",
-        "parent": 152,
-        "order": 0,
-        "data": {
-          "text": "z obecnością uwapnionego złogu w",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 154,
-        "type": "Property",
-        "parent": 152,
-        "order": 0,
-        "data": {
-          "text": "bez uwapnionych złogów",
-          "connotation": 1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 156,
-        "type": "Property",
-        "parent": 155,
-        "order": 0,
-        "data": {
-          "text": "z patologicznym ogniskiem  mm, zlokalizowanym w , podejrzanym o zmianę rozrostową",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 157,
-        "type": "Property",
-        "parent": 155,
-        "order": 0,
-        "data": {
-          "text": "bez zmian ogniskowych",
-          "connotation": 1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 159,
-        "type": "Property",
-        "parent": 158,
-        "order": 0,
-        "data": {
-          "text": "atroficzna",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 160,
-        "type": "Property",
-        "parent": 158,
-        "order": 1,
-        "data": {
-          "text": "ze zredukowaną grubością kory do",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 162,
-        "type": "Property",
-        "parent": 161,
-        "order": 0,
-        "data": {
-          "text": "położona prawidłowo",
-          "connotation": 1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 164,
-        "type": "Property",
-        "parent": 163,
-        "order": 0,
-        "data": {
-          "text": "bez zastoju moczu",
-          "connotation": 1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 165,
-        "type": "Property",
-        "parent": 163,
-        "order": 1,
-        "data": {
-          "text": "wodonercze",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 168,
-        "type": "Property",
-        "parent": 167,
-        "order": 0,
-        "data": {
-          "text": "położona prawidłowo",
-          "connotation": 1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 170,
-        "type": "Property",
-        "parent": 169,
-        "order": 0,
-        "data": {
-          "text": "bez zastoju moczu",
-          "connotation": 1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 171,
-        "type": "Property",
-        "parent": 169,
-        "order": 1,
-        "data": {
-          "text": "wodonercze",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 173,
-        "type": "Property",
-        "parent": 172,
-        "order": 0,
-        "data": {
-          "text": "z obecnością uwapnionego złogu w",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 174,
-        "type": "Property",
-        "parent": 172,
-        "order": 1,
-        "data": {
-          "text": "bez uwapnionych złogów",
-          "connotation": 1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 176,
-        "type": "Property",
-        "parent": 175,
-        "order": 0,
-        "data": {
-          "text": "bez zmian ogniskowych",
-          "connotation": 1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 177,
-        "type": "Property",
-        "parent": 175,
-        "order": 1,
-        "data": {
-          "text": "z patologicznym ogniskiem  mm, zlokalizowanym w , podejrzanym o zmianę rozrostową",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 179,
-        "type": "Property",
-        "parent": 178,
-        "order": 0,
-        "data": {
-          "text": "z obecnością torbieli",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 180,
-        "type": "Property",
-        "parent": 178,
-        "order": 1,
-        "data": {
-          "text": "z obecnością torbieli centralnych",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 182,
-        "type": "Property",
-        "parent": 181,
-        "order": 0,
-        "data": {
-          "text": "retrokawalny przebieg tętnicy nerkowej",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 184,
-        "type": "Property",
-        "parent": 183,
-        "order": 0,
-        "data": {
-          "text": "atroficzna",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 185,
-        "type": "Property",
-        "parent": 183,
-        "order": 1,
-        "data": {
-          "text": "ze zredukowaną grubością kory do",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 187,
-        "type": "Property",
-        "parent": 186,
-        "order": 0,
-        "data": {
-          "text": "poszerzone",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 189,
-        "type": "Property",
-        "parent": 188,
-        "order": 0,
-        "data": {
-          "text": "poszerzona",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 192,
-        "type": "Property",
-        "parent": 191,
-        "order": 0,
-        "data": {
-          "text": "nieposzerzone",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 193,
-        "type": "Property",
-        "parent": 191,
-        "order": 1,
-        "data": {
-          "text": "lewy nieposzerzony",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 194,
-        "type": "Property",
-        "parent": 191,
-        "order": 2,
-        "data": {
-          "text": "prawy nieposzerzony",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 195,
-        "type": "Property",
-        "parent": 191,
-        "order": 3,
-        "data": {
-          "text": "prawy poszerzony do",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 196,
-        "type": "Property",
-        "parent": 191,
-        "order": 4,
-        "data": {
-          "text": "lewy poszerzony do",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 199,
-        "type": "Property",
-        "parent": 198,
-        "order": 0,
-        "data": {
-          "text": "gładki w obrysach, dobrze wypełniony",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 200,
-        "type": "Property",
-        "parent": 198,
-        "order": 1,
-        "data": {
-          "text": "pusty",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 201,
-        "type": "Property",
-        "parent": 198,
-        "order": 2,
-        "data": {
-          "text": "słabo wypełniony",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 202,
-        "type": "Property",
-        "parent": 198,
-        "order": 3,
-        "data": {
-          "text": "podparty przez powiększony gruczoł krokowy",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 203,
-        "type": "Property",
-        "parent": 198,
-        "order": 4,
-        "data": {
-          "text": "podparty przez powiększoną macicę",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 204,
-        "type": "Property",
-        "parent": 198,
-        "order": 5,
-        "data": {
-          "text": "stan po cystektomii, loża wolna",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 206,
-        "type": "Property",
-        "parent": 205,
-        "order": 0,
-        "data": {
-          "text": "naciek ściany",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 207,
-        "type": "Property",
-        "parent": 205,
-        "order": 1,
-        "data": {
-          "text": "uchyłek ściany",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 210,
-        "type": "Property",
-        "parent": 209,
-        "order": 0,
-        "data": {
-          "text": "niepowiększony",
-          "connotation": 1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 211,
-        "type": "Property",
-        "parent": 209,
-        "order": 1,
-        "data": {
-          "text": "niezmieniony",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 212,
-        "type": "Property",
-        "parent": 209,
-        "order": 2,
-        "data": {
-          "text": "powiększony",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 213,
-        "type": "Property",
-        "parent": 209,
-        "order": 3,
-        "data": {
-          "text": "wymiarach",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 214,
-        "type": "Property",
-        "parent": 209,
-        "order": 4,
-        "data": {
-          "text": "o gładkich obrysach",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 216,
-        "type": "Property",
-        "parent": 215,
-        "order": 0,
-        "data": {
-          "text": "ze zwapnieniami",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 217,
-        "type": "Property",
-        "parent": 215,
-        "order": 1,
-        "data": {
-          "text": "niejednorodny",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 218,
-        "type": "Property",
-        "parent": 215,
-        "order": 2,
-        "data": {
-          "text": "usunięty, loża bez wznowy",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 220,
-        "type": "Property",
-        "parent": 219,
-        "order": 0,
-        "data": {
-          "text": "symetryczne",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 223,
-        "type": "Property",
-        "parent": 222,
-        "order": 0,
-        "data": {
-          "text": "niezmienione",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 224,
-        "type": "Property",
-        "parent": 222,
-        "order": 1,
-        "data": {
-          "text": "oba jajniki prawidłowe",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 225,
-        "type": "Property",
-        "parent": 222,
-        "order": 3,
-        "data": {
-          "text": "szyjka macicy o średnicy",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 226,
-        "type": "Property",
-        "parent": 222,
-        "order": 4,
-        "data": {
-          "text": "usunięte, loża wolna",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 229,
-        "type": "Property",
-        "parent": 228,
-        "order": 0,
-        "data": {
-          "text": "torbiel",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 230,
-        "type": "Property",
-        "parent": 228,
-        "order": 1,
-        "data": {
-          "text": "guz",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 232,
-        "type": "Property",
-        "parent": 231,
-        "order": 0,
-        "data": {
-          "text": "torbiel",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 233,
-        "type": "Property",
-        "parent": 231,
-        "order": 1,
-        "data": {
-          "text": "guz",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 235,
-        "type": "Property",
-        "parent": 234,
-        "order": 0,
-        "data": {
-          "text": "mięśniakowata",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 236,
-        "type": "Property",
-        "parent": 234,
-        "order": 1,
-        "data": {
-          "text": "trzon macicy o wymiarach",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 239,
-        "type": "Property",
-        "parent": 238,
-        "order": 0,
-        "data": {
-          "text": "niepowiększone",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 241,
-        "type": "Property",
-        "parent": 240,
-        "order": 0,
-        "data": {
-          "text": "niepowiększone",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 243,
-        "type": "Property",
-        "parent": 242,
-        "order": 0,
-        "data": {
-          "text": "niepowiększone",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 260,
-        "type": "Property",
-        "parent": 259,
-        "order": 0,
-        "data": {
-          "text": "bez płynu",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 261,
-        "type": "Property",
-        "parent": 259,
-        "order": 1,
-        "data": {
-          "text": "bez patologicznych zbiorników płynowych",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 262,
-        "type": "Property",
-        "parent": 259,
-        "order": 2,
-        "data": {
-          "text": "z niewielką ilościa płynu zapęcherzowo",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 263,
-        "type": "Property",
-        "parent": 259,
-        "order": 3,
-        "data": {
-          "text": "wodobrzusze",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 264,
-        "type": "Property",
-        "parent": 259,
-        "order": 4,
-        "data": {
-          "text": "z warstwą płynu przy wątrobie",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 265,
-        "type": "Property",
-        "parent": 259,
-        "order": 5,
-        "data": {
-          "text": "warstwa płynu przy flankach bocznych",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 266,
-        "type": "Property",
-        "parent": 259,
-        "order": 6,
-        "data": {
-          "text": "limfocele",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 268,
-        "type": "Property",
-        "parent": 267,
-        "order": 0,
-        "data": {
-          "text": "wszczepy otrzewnowe",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 271,
-        "type": "Property",
-        "parent": 270,
-        "order": 0,
-        "data": {
-          "text": "niepogrubione",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 273,
-        "type": "Property",
-        "parent": 272,
-        "order": 0,
-        "data": {
-          "text": "uchyłkowata",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 275,
-        "type": "Property",
-        "parent": 274,
-        "order": 0,
-        "data": {
-          "text": "naciek ściany jelita na długości , grubości",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 276,
-        "type": "Property",
-        "parent": 274,
-        "order": 1,
-        "data": {
-          "text": "naciek odbytnicy w odległości mm, na odcinku mm, grubość ściany mm",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 278,
-        "type": "Property",
-        "parent": 277,
-        "order": 0,
-        "data": {
-          "text": "obecna",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 280,
-        "type": "Property",
-        "parent": 279,
-        "order": 0,
-        "data": {
-          "text": "okolica zespolenia bez wznowy",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 283,
-        "type": "Property",
-        "parent": 282,
-        "order": 0,
-        "data": {
-          "text": "bez uchwytnych zmian",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 284,
-        "type": "Property",
-        "parent": 282,
-        "order": 1,
-        "data": {
-          "text": "wszczep w bliźnie",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 285,
-        "type": "Property",
-        "parent": 282,
-        "order": 2,
-        "data": {
-          "text": "naciek",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 287,
-        "type": "Property",
-        "parent": 286,
-        "order": 0,
-        "data": {
-          "text": "w bliźnie",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 288,
-        "type": "Property",
-        "parent": 286,
-        "order": 1,
-        "data": {
-          "text": "pachwinowa",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 289,
-        "type": "Property",
-        "parent": 286,
-        "order": 2,
-        "data": {
-          "text": "kresy białej",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 292,
-        "type": "Property",
-        "parent": 291,
-        "order": 0,
-        "data": {
-          "text": "prawidłowo drożne",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 293,
-        "type": "Property",
-        "parent": 291,
-        "order": 1,
-        "data": {
-          "text": "miażdżycowe",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 294,
-        "type": "Property",
-        "parent": 291,
-        "order": 2,
-        "data": {
-          "text": "krążenie oboczne",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 296,
-        "type": "Property",
-        "parent": 295,
-        "order": 0,
-        "data": {
-          "text": "zakrzepica",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 298,
-        "type": "Property",
-        "parent": 297,
-        "order": 0,
-        "data": {
-          "text": "tętniak",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 300,
-        "type": "Property",
-        "parent": 299,
-        "order": 0,
-        "data": {
-          "text": "zakrzepica",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 303,
-        "type": "Property",
-        "parent": 302,
-        "order": 0,
-        "data": {
-          "text": "bez zmian podejrzanych onkologicznie",
-          "connotation": 1,
-          "auto_include": true
-        }
-      },
-      {
-        "id": 304,
-        "type": "Property",
-        "parent": 302,
-        "order": 1,
-        "data": {
-          "text": "ogniska osteolityczne",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 305,
-        "type": "Property",
-        "parent": 302,
-        "order": 2,
-        "data": {
-          "text": "ognisko osteolityczne",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 307,
-        "type": "Property",
-        "parent": 306,
-        "order": 0,
-        "data": {
-          "text": "stan po złamaniu kompresyjnym trzonu L",
-          "connotation": -1,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 308,
-        "type": "Property",
-        "parent": 306,
-        "order": 1,
-        "data": {
-          "text": "osteoporotyczne",
-          "connotation": 0,
-          "auto_include": false
-        }
-      },
-      {
-        "id": 1,
-        "type": "Section",
-        "parent": null,
-        "order": 0,
-        "data": {
-          "text": "Tomografia komputerowa jamy brzusznej i miednicy małej",
-          "category": "TK",
-          "discipline": "Radiologia"
-        }
-      },
-      {
-        "id": 2,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 0,
-        "data": {
-          "text": "Technika badania"
-        }
-      },
-      {
-        "id": 10,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 1,
-        "data": {
-          "text": "Płuca nadprzeponowo"
-        }
-      },
-      {
-        "id": 17,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 2,
-        "data": {
-          "text": "Jamy opłucnowe"
-        }
-      },
-      {
-        "id": 22,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 3,
-        "data": {
-          "text": "Wątroba"
-        }
-      },
-      {
-        "id": 43,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 4,
-        "data": {
-          "text": "Pęcherzyk żółciowy"
-        }
-      },
-      {
-        "id": 58,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 5,
-        "data": {
-          "text": "Drogi żółciowe"
-        }
-      },
-      {
-        "id": 67,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 6,
-        "data": {
-          "text": "Trzustka"
-        }
-      },
-      {
-        "id": 81,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 7,
-        "data": {
-          "text": "Przewód trzustkowy"
-        }
-      },
-      {
-        "id": 86,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 8,
-        "data": {
-          "text": "Żołądek"
-        }
-      },
-      {
-        "id": 94,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 9,
-        "data": {
-          "text": "Dwunastnica"
-        }
-      },
-      {
-        "id": 100,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 10,
-        "data": {
-          "text": "Śledziona"
-        }
-      },
-      {
-        "id": 113,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 11,
-        "data": {
-          "text": "Nadnercza"
-        }
-      },
-      {
-        "id": 123,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 12,
-        "data": {
-          "text": "Obie nerki"
-        }
-      },
-      {
-        "id": 142,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 13,
-        "data": {
-          "text": "Nerka prawa"
-        }
-      },
-      {
-        "id": 166,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 14,
-        "data": {
-          "text": "Nerka lewa"
-        }
-      },
-      {
-        "id": 190,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 15,
-        "data": {
-          "text": "Moczowody"
-        }
-      },
-      {
-        "id": 197,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 16,
-        "data": {
-          "text": "Pęcherz moczowy"
-        }
-      },
-      {
-        "id": 208,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 17,
-        "data": {
-          "text": "Gruczoł krokowy"
-        }
-      },
-      {
-        "id": 221,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 18,
-        "data": {
-          "text": "Narządy rodne"
-        }
-      },
-      {
-        "id": 237,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 19,
-        "data": {
-          "text": "Węzły chłonne"
-        }
-      },
-      {
-        "id": 258,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 20,
-        "data": {
-          "text": "Jama otrzewnej"
-        }
-      },
-      {
-        "id": 269,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 21,
-        "data": {
-          "text": "Jelita"
-        }
-      },
-      {
-        "id": 281,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 22,
-        "data": {
-          "text": "Powłoki"
-        }
-      },
-      {
-        "id": 290,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 23,
-        "data": {
-          "text": "Duże naczynia jamy brzusznej"
-        }
-      },
-      {
-        "id": 301,
-        "type": "Subsection",
-        "parent": 1,
-        "order": 24,
-        "data": {
-          "text": "Elementy kostne objęte badaniem"
-        }
+  "discipline": "radiologia",
+  "category": "tk",
+  "title": "Tomografia komputerowa jamy brzusznej i miednicy małej",
+  "owner": "admin",
+  "id": 1,
+  "languages": ["pl", "en"],
+  "nodes": [
+    {
+      "id": 3,
+      "type": "Concept",
+      "parent": 2,
+      "order": 8,
+      "data": {
+        "text": "Środek kontrastujący"
       }
-    ]
-  }
+    },
+    {
+      "id": 6,
+      "type": "Concept",
+      "parent": 2,
+      "order": 8,
+      "data": {
+        "text": "Fazy"
+      }
+    },
+    {
+      "id": 11,
+      "type": "Concept",
+      "parent": 10,
+      "order": 8,
+      "data": {
+        "text": "Zmiany onkologiczne"
+      }
+    },
+    {
+      "id": 15,
+      "type": "Concept",
+      "parent": 10,
+      "order": 8,
+      "data": {
+        "text": "Zmiany zapalne"
+      }
+    },
+    {
+      "id": 18,
+      "type": "Concept",
+      "parent": 17,
+      "order": 8,
+      "data": {
+        "text": "Płyn"
+      }
+    },
+    {
+      "id": 23,
+      "type": "Concept",
+      "parent": 22,
+      "order": 8,
+      "data": {
+        "text": "Rozmiar i kształt"
+      }
+    },
+    {
+      "id": 666,
+      "type": "Number",
+      "parent": 23,
+      "order": 8,
+      "data": {
+        "const_id": "weight",
+        "prefix": "weight",
+        "text": "80",
+        "suffix": "kg"
+      }
+    },
+    {
+      "id": 667,
+      "type": "Number",
+      "parent": 23,
+      "order": 8,
+      "data": {
+        "prefix": "weight",
+        "text": "80",
+        "suffix": "kg"
+      }
+    },
+    {
+      "id": 667,
+      "type": "Number",
+      "parent": 23,
+      "order": 8,
+      "data": {
+        "const_id": "height",
+        "prefix": "height",
+        "text": "1.75",
+        "suffix": "m"
+      }
+    },
+    {
+      "id": 667,
+      "type": "Number",
+      "parent": 23,
+      "order": 8,
+      "data": {
+        "const_id": "BMI",
+        "prefix": "BMI",
+        "text": "0",
+        "suffix": ""
+      }
+    },
+    {
+      "id": 667,
+      "type": "Number",
+      "parent": 23,
+      "order": 8,
+      "data": {
+        "const_id": "TT-TG",
+        "prefix": "TT-TG",
+        "text": "0",
+        "suffix": ""
+      }
+    },
+    {
+      "id": 9991,
+      "type": "Property",
+      "parent": 23,
+      "order": 8,
+      "data": {
+        "class": "symptom",
+        "const_id": "sleepiness",
+        "text": "senność"
+      }
+    },
+    {
+      "id": 29,
+      "type": "Concept",
+      "parent": 22,
+      "order": 8,
+      "data": {
+        "text": "Zmiany onkologiczne"
+      }
+    },
+    {
+      "id": 36,
+      "type": "Concept",
+      "parent": 22,
+      "order": 8,
+      "data": {
+        "text": "Zmiany strukturalne"
+      }
+    },
+    {
+      "id": 41,
+      "type": "Concept",
+      "parent": 22,
+      "order": 8,
+      "data": {
+        "text": "Perfuzja"
+      }
+    },
+    {
+      "id": 44,
+      "type": "Concept",
+      "parent": 43,
+      "order": 8,
+      "data": {
+        "text": "Struktura"
+      }
+    },
+    {
+      "id": 49,
+      "type": "Concept",
+      "parent": 43,
+      "order": 8,
+      "data": {
+        "text": "Złogi"
+      }
+    },
+    {
+      "id": 54,
+      "type": "Concept",
+      "parent": 43,
+      "order": 8,
+      "data": {
+        "text": "Nacieki"
+      }
+    },
+    {
+      "id": 56,
+      "type": "Concept",
+      "parent": 43,
+      "order": 8,
+      "data": {
+        "text": "Żółć"
+      }
+    },
+    {
+      "id": 59,
+      "type": "Concept",
+      "parent": 58,
+      "order": 8,
+      "data": {
+        "text": "Szerokość"
+      }
+    },
+    {
+      "id": 65,
+      "type": "Concept",
+      "parent": 58,
+      "order": 8,
+      "data": {
+        "text": "Endoproteza"
+      }
+    },
+    {
+      "id": 68,
+      "type": "Concept",
+      "parent": 67,
+      "order": 8,
+      "data": {
+        "text": "Budowa"
+      }
+    },
+    {
+      "id": 73,
+      "type": "Concept",
+      "parent": 67,
+      "order": 8,
+      "data": {
+        "text": "Zmiany onkologiczne"
+      }
+    },
+    {
+      "id": 78,
+      "type": "Concept",
+      "parent": 67,
+      "order": 8,
+      "data": {
+        "text": "Płyn"
+      }
+    },
+    {
+      "id": 82,
+      "type": "Concept",
+      "parent": 81,
+      "order": 8,
+      "data": {
+        "text": "Rozmiar"
+      }
+    },
+    {
+      "id": 87,
+      "type": "Concept",
+      "parent": 86,
+      "order": 8,
+      "data": {
+        "text": "Budowa"
+      }
+    },
+    {
+      "id": 92,
+      "type": "Concept",
+      "parent": 86,
+      "order": 9,
+      "data": {
+        "text": "Przepuklina"
+      }
+    },
+    {
+      "id": 95,
+      "type": "Concept",
+      "parent": 94,
+      "order": 8,
+      "data": {
+        "text": "Budowa"
+      }
+    },
+    {
+      "id": 101,
+      "type": "Concept",
+      "parent": 100,
+      "order": 8,
+      "data": {
+        "text": "Kształt"
+      }
+    },
+    {
+      "id": 104,
+      "type": "Concept",
+      "parent": 100,
+      "order": 8,
+      "data": {
+        "text": "Zwapnienia"
+      }
+    },
+    {
+      "id": 106,
+      "type": "Concept",
+      "parent": 100,
+      "order": 8,
+      "data": {
+        "text": "Płyn"
+      }
+    },
+    {
+      "id": 109,
+      "type": "Concept",
+      "parent": 100,
+      "order": 8,
+      "data": {
+        "text": "Loża"
+      }
+    },
+    {
+      "id": 111,
+      "type": "Concept",
+      "parent": 100,
+      "order": 8,
+      "data": {
+        "text": "Zmiany onkologiczne"
+      }
+    },
+    {
+      "id": 114,
+      "type": "Concept",
+      "parent": 113,
+      "order": 8,
+      "data": {
+        "text": "Rozmiar"
+      }
+    },
+    {
+      "id": 118,
+      "type": "Concept",
+      "parent": 113,
+      "order": 8,
+      "data": {
+        "text": "Zmiany onkologiczne"
+      }
+    },
+    {
+      "id": 124,
+      "type": "Concept",
+      "parent": 123,
+      "order": 8,
+      "data": {
+        "text": "Rozmiar"
+      }
+    },
+    {
+      "id": 126,
+      "type": "Concept",
+      "parent": 123,
+      "order": 8,
+      "data": {
+        "text": "Zmiany onkologiczne"
+      }
+    },
+    {
+      "id": 128,
+      "type": "Concept",
+      "parent": 123,
+      "order": 8,
+      "data": {
+        "text": "Złogi"
+      }
+    },
+    {
+      "id": 130,
+      "type": "Concept",
+      "parent": 123,
+      "order": 7,
+      "data": {
+        "text": "Położenie"
+      }
+    },
+    {
+      "id": 132,
+      "type": "Concept",
+      "parent": 123,
+      "order": 8,
+      "data": {
+        "text": "Obecność moczu"
+      }
+    },
+    {
+      "id": 134,
+      "type": "Concept",
+      "parent": 123,
+      "order": 8,
+      "data": {
+        "text": "Zakontrastowanie"
+      }
+    },
+    {
+      "id": 136,
+      "type": "Concept",
+      "parent": 123,
+      "order": 8,
+      "data": {
+        "text": "Wydzielanie"
+      }
+    },
+    {
+      "id": 138,
+      "type": "Concept",
+      "parent": 123,
+      "order": 8,
+      "data": {
+        "text": "Torbiele"
+      }
+    },
+    {
+      "id": 140,
+      "type": "Concept",
+      "parent": 123,
+      "order": 8,
+      "data": {
+        "text": "Kora nerkowa"
+      }
+    },
+    {
+      "id": 143,
+      "type": "Concept",
+      "parent": 142,
+      "order": 7,
+      "data": {
+        "text": "Kielichy"
+      }
+    },
+    {
+      "id": 145,
+      "type": "Concept",
+      "parent": 142,
+      "order": 8,
+      "data": {
+        "text": "Miedniczka"
+      }
+    },
+    {
+      "id": 147,
+      "type": "Concept",
+      "parent": 142,
+      "order": 4,
+      "data": {
+        "text": "Torbiele"
+      }
+    },
+    {
+      "id": 150,
+      "type": "Concept",
+      "parent": 142,
+      "order": 5,
+      "data": {
+        "text": "Tętnica nerkowa"
+      }
+    },
+    {
+      "id": 152,
+      "type": "Concept",
+      "parent": 142,
+      "order": 2,
+      "data": {
+        "text": "Złogi"
+      }
+    },
+    {
+      "id": 155,
+      "type": "Concept",
+      "parent": 142,
+      "order": 3,
+      "data": {
+        "text": "Zmiany onkologiczne"
+      }
+    },
+    {
+      "id": 158,
+      "type": "Concept",
+      "parent": 142,
+      "order": 6,
+      "data": {
+        "text": "Rozmiar"
+      }
+    },
+    {
+      "id": 161,
+      "type": "Concept",
+      "parent": 142,
+      "order": 0,
+      "data": {
+        "text": "Położenie"
+      }
+    },
+    {
+      "id": 163,
+      "type": "Concept",
+      "parent": 142,
+      "order": 1,
+      "data": {
+        "text": "Obecność moczu"
+      }
+    },
+    {
+      "id": 167,
+      "type": "Concept",
+      "parent": 166,
+      "order": 0,
+      "data": {
+        "text": "Położenie"
+      }
+    },
+    {
+      "id": 169,
+      "type": "Concept",
+      "parent": 166,
+      "order": 1,
+      "data": {
+        "text": "Obecność oczu"
+      }
+    },
+    {
+      "id": 172,
+      "type": "Concept",
+      "parent": 166,
+      "order": 2,
+      "data": {
+        "text": "Złogi"
+      }
+    },
+    {
+      "id": 175,
+      "type": "Concept",
+      "parent": 166,
+      "order": 3,
+      "data": {
+        "text": "Zmiany onkologiczne"
+      }
+    },
+    {
+      "id": 178,
+      "type": "Concept",
+      "parent": 166,
+      "order": 4,
+      "data": {
+        "text": "Torbiele"
+      }
+    },
+    {
+      "id": 181,
+      "type": "Concept",
+      "parent": 166,
+      "order": 5,
+      "data": {
+        "text": "Tętnica nerkowa"
+      }
+    },
+    {
+      "id": 183,
+      "type": "Concept",
+      "parent": 166,
+      "order": 6,
+      "data": {
+        "text": "Rozmiar"
+      }
+    },
+    {
+      "id": 186,
+      "type": "Concept",
+      "parent": 166,
+      "order": 7,
+      "data": {
+        "text": "Kielichy"
+      }
+    },
+    {
+      "id": 188,
+      "type": "Concept",
+      "parent": 166,
+      "order": 8,
+      "data": {
+        "text": "Miedniczka"
+      }
+    },
+    {
+      "id": 191,
+      "type": "Concept",
+      "parent": 190,
+      "order": 0,
+      "data": {
+        "text": "Szerokość"
+      }
+    },
+    {
+      "id": 198,
+      "type": "Concept",
+      "parent": 197,
+      "order": 0,
+      "data": {
+        "text": "Kształt"
+      }
+    },
+    {
+      "id": 205,
+      "type": "Concept",
+      "parent": 197,
+      "order": 1,
+      "data": {
+        "text": "Ściana"
+      }
+    },
+    {
+      "id": 209,
+      "type": "Concept",
+      "parent": 208,
+      "order": 0,
+      "data": {
+        "text": "Kształt i rozmiar"
+      }
+    },
+    {
+      "id": 215,
+      "type": "Concept",
+      "parent": 208,
+      "order": 1,
+      "data": {
+        "text": "Struktura"
+      }
+    },
+    {
+      "id": 219,
+      "type": "Concept",
+      "parent": 208,
+      "order": 2,
+      "data": {
+        "text": "Pęcherzyki nasienne"
+      }
+    },
+    {
+      "id": 222,
+      "type": "Concept",
+      "parent": 221,
+      "order": 0,
+      "data": {
+        "text": "Struktura"
+      }
+    },
+    {
+      "id": 227,
+      "type": "Concept",
+      "parent": 221,
+      "order": 1,
+      "data": {
+        "text": "Endometrium"
+      }
+    },
+    {
+      "id": 228,
+      "type": "Concept",
+      "parent": 221,
+      "order": 2,
+      "data": {
+        "text": "Jajnik lewy"
+      }
+    },
+    {
+      "id": 231,
+      "type": "Concept",
+      "parent": 221,
+      "order": 3,
+      "data": {
+        "text": "Jajnik prawy"
+      }
+    },
+    {
+      "id": 234,
+      "type": "Concept",
+      "parent": 221,
+      "order": 4,
+      "data": {
+        "text": "Macica"
+      }
+    },
+    {
+      "id": 238,
+      "type": "Concept",
+      "parent": 237,
+      "order": 0,
+      "data": {
+        "text": "Zaotrzewnowe"
+      }
+    },
+    {
+      "id": 240,
+      "type": "Concept",
+      "parent": 237,
+      "order": 1,
+      "data": {
+        "text": "Krezkowe"
+      }
+    },
+    {
+      "id": 242,
+      "type": "Concept",
+      "parent": 237,
+      "order": 2,
+      "data": {
+        "text": "Miedniczne"
+      }
+    },
+    {
+      "id": 244,
+      "type": "Concept",
+      "parent": 237,
+      "order": 3,
+      "data": {
+        "text": "Okołowpustowe"
+      }
+    },
+    {
+      "id": 245,
+      "type": "Concept",
+      "parent": 237,
+      "order": 4,
+      "data": {
+        "text": "Okołożołądkowe"
+      }
+    },
+    {
+      "id": 246,
+      "type": "Concept",
+      "parent": 237,
+      "order": 5,
+      "data": {
+        "text": "Porto-kawalny"
+      }
+    },
+    {
+      "id": 247,
+      "type": "Concept",
+      "parent": 237,
+      "order": 6,
+      "data": {
+        "text": "Aortalno-kawalne"
+      }
+    },
+    {
+      "id": 248,
+      "type": "Concept",
+      "parent": 237,
+      "order": 7,
+      "data": {
+        "text": "Okołoaortalne"
+      }
+    },
+    {
+      "id": 249,
+      "type": "Concept",
+      "parent": 237,
+      "order": 8,
+      "data": {
+        "text": "Biodrowe wspólne P"
+      }
+    },
+    {
+      "id": 250,
+      "type": "Concept",
+      "parent": 237,
+      "order": 9,
+      "data": {
+        "text": "Biodrowe wspólne L"
+      }
+    },
+    {
+      "id": 251,
+      "type": "Concept",
+      "parent": 237,
+      "order": 10,
+      "data": {
+        "text": "Biodrowe wewnętrzne P"
+      }
+    },
+    {
+      "id": 252,
+      "type": "Concept",
+      "parent": 237,
+      "order": 11,
+      "data": {
+        "text": "Biodrowe wewnętrzne L"
+      }
+    },
+    {
+      "id": 253,
+      "type": "Concept",
+      "parent": 237,
+      "order": 12,
+      "data": {
+        "text": "Biodrowe zewnętrzne P"
+      }
+    },
+    {
+      "id": 254,
+      "type": "Concept",
+      "parent": 237,
+      "order": 13,
+      "data": {
+        "text": "Biodrowe zewnętrzne L"
+      }
+    },
+    {
+      "id": 255,
+      "type": "Concept",
+      "parent": 237,
+      "order": 14,
+      "data": {
+        "text": "Mezorektum"
+      }
+    },
+    {
+      "id": 256,
+      "type": "Concept",
+      "parent": 237,
+      "order": 15,
+      "data": {
+        "text": "Pachwinowe P"
+      }
+    },
+    {
+      "id": 257,
+      "type": "Concept",
+      "parent": 237,
+      "order": 16,
+      "data": {
+        "text": "Pachwinowe L"
+      }
+    },
+    {
+      "id": 259,
+      "type": "Concept",
+      "parent": 258,
+      "order": 0,
+      "data": {
+        "text": "Płyn"
+      }
+    },
+    {
+      "id": 267,
+      "type": "Concept",
+      "parent": 258,
+      "order": 1,
+      "data": {
+        "text": "Zmiany onkologiczne"
+      }
+    },
+    {
+      "id": 270,
+      "type": "Concept",
+      "parent": 269,
+      "order": 0,
+      "data": {
+        "text": "Ściany jelit"
+      }
+    },
+    {
+      "id": 272,
+      "type": "Concept",
+      "parent": 269,
+      "order": 1,
+      "data": {
+        "text": "Okrężnica"
+      }
+    },
+    {
+      "id": 274,
+      "type": "Concept",
+      "parent": 269,
+      "order": 2,
+      "data": {
+        "text": "Nacieki"
+      }
+    },
+    {
+      "id": 277,
+      "type": "Concept",
+      "parent": 269,
+      "order": 3,
+      "data": {
+        "text": "Kolostomia"
+      }
+    },
+    {
+      "id": 279,
+      "type": "Concept",
+      "parent": 269,
+      "order": 4,
+      "data": {
+        "text": "Zmiany onkologiczne"
+      }
+    },
+    {
+      "id": 282,
+      "type": "Concept",
+      "parent": 281,
+      "order": 0,
+      "data": {
+        "text": "Zmiany onkologiczne"
+      }
+    },
+    {
+      "id": 286,
+      "type": "Concept",
+      "parent": 281,
+      "order": 1,
+      "data": {
+        "text": "Przepuklina"
+      }
+    },
+    {
+      "id": 291,
+      "type": "Concept",
+      "parent": 290,
+      "order": 0,
+      "data": {
+        "text": "Drożność"
+      }
+    },
+    {
+      "id": 295,
+      "type": "Concept",
+      "parent": 290,
+      "order": 1,
+      "data": {
+        "text": "Żyła biodrowa"
+      }
+    },
+    {
+      "id": 297,
+      "type": "Concept",
+      "parent": 290,
+      "order": 2,
+      "data": {
+        "text": "Aorta brzuszna"
+      }
+    },
+    {
+      "id": 299,
+      "type": "Concept",
+      "parent": 290,
+      "order": 3,
+      "data": {
+        "text": "Żyła  wrotna"
+      }
+    },
+    {
+      "id": 302,
+      "type": "Concept",
+      "parent": 301,
+      "order": 0,
+      "data": {
+        "text": "Zmiany onkologiczne"
+      }
+    },
+    {
+      "id": 306,
+      "type": "Concept",
+      "parent": 301,
+      "order": 1,
+      "data": {
+        "text": "Złamania"
+      }
+    },
+    {
+      "id": 309,
+      "type": "Concept",
+      "parent": 301,
+      "order": 2,
+      "data": {
+        "text": "Zmiany zwyrodnieniowe k-pa L-S"
+      }
+    },
+    {
+      "id": 4,
+      "type": "Property",
+      "parent": 3,
+      "order": 0,
+      "data": {
+        "text": "badanie przed i po podaniu środka kontrastującego",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 5,
+      "type": "Property",
+      "parent": 3,
+      "order": 1,
+      "data": {
+        "text": "badanie bez podania środka kontrastującego",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 7,
+      "type": "Property",
+      "parent": 6,
+      "order": 0,
+      "data": {
+        "text": "dwie",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 8,
+      "type": "Property",
+      "parent": 6,
+      "order": 1,
+      "data": {
+        "text": "trzy",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 9,
+      "type": "Property",
+      "parent": 6,
+      "order": 2,
+      "data": {
+        "text": "z fazą opóźnioną po 15 minutach",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 12,
+      "type": "Property",
+      "parent": 11,
+      "order": 0,
+      "data": {
+        "text": "ognisko przerzutowe",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 13,
+      "type": "Property",
+      "parent": 11,
+      "order": 1,
+      "data": {
+        "text": "liczne ogniska przerzutowe obustronnie",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 14,
+      "type": "Property",
+      "parent": 11,
+      "order": 2,
+      "data": {
+        "text": "Bez zmian ogniskowych, prawidłowo powietrzne",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 16,
+      "type": "Property",
+      "parent": 15,
+      "order": 0,
+      "data": {
+        "text": "zagęszczenia zapalne",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 19,
+      "type": "Property",
+      "parent": 18,
+      "order": 0,
+      "data": {
+        "text": "brak",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 20,
+      "type": "Property",
+      "parent": 18,
+      "order": 1,
+      "data": {
+        "text": "w prawej jamie opłucnej w warstwie",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 21,
+      "type": "Property",
+      "parent": 18,
+      "order": 2,
+      "data": {
+        "text": "w lewej jamie opłucnej w warstwie",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 24,
+      "type": "Property",
+      "parent": 23,
+      "order": 0,
+      "data": {
+        "text": "niepowiększona",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 25,
+      "type": "Property",
+      "parent": 23,
+      "order": 2,
+      "data": {
+        "text": "jednorodna",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 26,
+      "type": "Property",
+      "parent": 23,
+      "order": 3,
+      "data": {
+        "text": "normodensyjna",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 27,
+      "type": "Property",
+      "parent": 23,
+      "order": 7,
+      "data": {
+        "text": "powiększona w osi cc",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 28,
+      "type": "Property",
+      "parent": 23,
+      "order": 8,
+      "data": {
+        "text": "o policyklicznych obrysach",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 30,
+      "type": "Property",
+      "parent": 29,
+      "order": 2,
+      "data": {
+        "text": "z obecnością ogniska przerzutowego w S",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 31,
+      "type": "Property",
+      "parent": 29,
+      "order": 0,
+      "data": {
+        "text": "bez zmian ogniskowych",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 32,
+      "type": "Property",
+      "parent": 29,
+      "order": 2,
+      "data": {
+        "text": "z obecnością ogniska hiperwaskularnego w fazie tętniczej mm w S - najpewniej o charakterze naczyniaka",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 33,
+      "type": "Property",
+      "parent": 29,
+      "order": 3,
+      "data": {
+        "text": "z obecnością kilku ognisk przerzutowych od kilku mm do",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 34,
+      "type": "Property",
+      "parent": 29,
+      "order": 4,
+      "data": {
+        "text": "z obecnością licznych ognisk przerzutowych od kilku mm do",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 35,
+      "type": "Property",
+      "parent": 29,
+      "order": 5,
+      "data": {
+        "text": "z ogniskiem o profilu wzmocnienia typowym dla FNH w S",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 37,
+      "type": "Property",
+      "parent": 36,
+      "order": 0,
+      "data": {
+        "text": "z obecnością torbieli w segmencie",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 38,
+      "type": "Property",
+      "parent": 36,
+      "order": 1,
+      "data": {
+        "text": "hipodensyjna, z cechami stłuszczenia",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 39,
+      "type": "Property",
+      "parent": 36,
+      "order": 2,
+      "data": {
+        "text": "powiększona w osi cc",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 40,
+      "type": "Property",
+      "parent": 36,
+      "order": 3,
+      "data": {
+        "text": "z cechami marskości",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 42,
+      "type": "Property",
+      "parent": 41,
+      "order": 0,
+      "data": {
+        "text": "z zaburzeniami perfuzji",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 45,
+      "type": "Property",
+      "parent": 44,
+      "order": 0,
+      "data": {
+        "text": "cienkościenny",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 46,
+      "type": "Property",
+      "parent": 44,
+      "order": 1,
+      "data": {
+        "text": "stan po cholecystektomii",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 47,
+      "type": "Property",
+      "parent": 44,
+      "order": 2,
+      "data": {
+        "text": "obkurczony",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 48,
+      "type": "Property",
+      "parent": 44,
+      "order": 3,
+      "data": {
+        "text": "z pogrubioną ścianą do mm",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 50,
+      "type": "Property",
+      "parent": 49,
+      "order": 1,
+      "data": {
+        "text": "z obecnością kilku uwapnionych złogów",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 51,
+      "type": "Property",
+      "parent": 49,
+      "order": 2,
+      "data": {
+        "text": "z obecnością licznych uwapnionych złogów",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 52,
+      "type": "Property",
+      "parent": 49,
+      "order": 0,
+      "data": {
+        "text": "bez uwapnionych złogów.",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 53,
+      "type": "Property",
+      "parent": 49,
+      "order": 1,
+      "data": {
+        "text": "z pojedynczym uwapnionym złogiem",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 55,
+      "type": "Property",
+      "parent": 54,
+      "order": 0,
+      "data": {
+        "text": "naciek w loży",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 57,
+      "type": "Property",
+      "parent": 56,
+      "order": 0,
+      "data": {
+        "text": "z zagęszczoną żółcią",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 60,
+      "type": "Property",
+      "parent": 59,
+      "order": 0,
+      "data": {
+        "text": "nieposzerzone",
+        "connotation": 1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 61,
+      "type": "Property",
+      "parent": 59,
+      "order": 1,
+      "data": {
+        "text": "poszerzone wewnątrzwątrobowo",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 62,
+      "type": "Property",
+      "parent": 59,
+      "order": 2,
+      "data": {
+        "text": "poszerzone w płacie lewym",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 63,
+      "type": "Property",
+      "parent": 59,
+      "order": 3,
+      "data": {
+        "text": "poszerzone w płacie prawym",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 64,
+      "type": "Property",
+      "parent": 59,
+      "order": 4,
+      "data": {
+        "text": "PŻW poszerzony mm",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 66,
+      "type": "Property",
+      "parent": 65,
+      "order": 0,
+      "data": {
+        "text": "endoproteza w PŻW i przewodach wątrobowych",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 69,
+      "type": "Property",
+      "parent": 68,
+      "order": 0,
+      "data": {
+        "text": "prawidłowej wielkości",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 70,
+      "type": "Property",
+      "parent": 68,
+      "order": 1,
+      "data": {
+        "text": "jednorodna",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 71,
+      "type": "Property",
+      "parent": 68,
+      "order": 2,
+      "data": {
+        "text": "zanikowa",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 72,
+      "type": "Property",
+      "parent": 68,
+      "order": 3,
+      "data": {
+        "text": "z cechami przebudowy tłuszczowej",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 74,
+      "type": "Property",
+      "parent": 73,
+      "order": 0,
+      "data": {
+        "text": "bez zmian ogniskowych",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 75,
+      "type": "Property",
+      "parent": 73,
+      "order": 1,
+      "data": {
+        "text": "z obecnością hipowaskularnej zmiany ogniskowej zlokalizowanej w",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 76,
+      "type": "Property",
+      "parent": 73,
+      "order": 2,
+      "data": {
+        "text": "z obecnością hiperwaskularnej zmiany ogniskowej zlokalizowanej w",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 77,
+      "type": "Property",
+      "parent": 73,
+      "order": 3,
+      "data": {
+        "text": "z obecnością zmiany ogniskowej mm zlokalizowanej",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 79,
+      "type": "Property",
+      "parent": 78,
+      "order": 0,
+      "data": {
+        "text": "otoczona warstwą płynu",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 80,
+      "type": "Property",
+      "parent": 78,
+      "order": 1,
+      "data": {
+        "text": "z obecnością pseudotorbieli mm zlokalizowanej w",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 83,
+      "type": "Property",
+      "parent": 82,
+      "order": 0,
+      "data": {
+        "text": "nieposzerzony",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 84,
+      "type": "Property",
+      "parent": 82,
+      "order": 1,
+      "data": {
+        "text": "poszerzony w części dystalnej do mm",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 85,
+      "type": "Property",
+      "parent": 82,
+      "order": 2,
+      "data": {
+        "text": "nieregularnie poszerzony w całości",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 88,
+      "type": "Property",
+      "parent": 87,
+      "order": 0,
+      "data": {
+        "text": "prawidłowa",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 89,
+      "type": "Property",
+      "parent": 87,
+      "order": 2,
+      "data": {
+        "text": "naciek ściany grubości, na odcinku , w okolicy",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 90,
+      "type": "Property",
+      "parent": 87,
+      "order": 3,
+      "data": {
+        "text": "pogrubiona ściana mm",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 91,
+      "type": "Property",
+      "parent": 87,
+      "order": 4,
+      "data": {
+        "text": "stan po totalnej gastrektomii, zespolenie bez wznowy",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 93,
+      "type": "Property",
+      "parent": 92,
+      "order": 0,
+      "data": {
+        "text": "przepuklina rozworu okołoprzełykowego przepony",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 96,
+      "type": "Property",
+      "parent": 95,
+      "order": 0,
+      "data": {
+        "text": "prawidłowa",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 97,
+      "type": "Property",
+      "parent": 95,
+      "order": 1,
+      "data": {
+        "text": "bez zmian naciekowych",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 98,
+      "type": "Property",
+      "parent": 95,
+      "order": 2,
+      "data": {
+        "text": "naciek ściany",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 99,
+      "type": "Property",
+      "parent": 95,
+      "order": 3,
+      "data": {
+        "text": "uchyłek",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 102,
+      "type": "Property",
+      "parent": 101,
+      "order": 0,
+      "data": {
+        "text": "niezmieniona",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 103,
+      "type": "Property",
+      "parent": 101,
+      "order": 1,
+      "data": {
+        "text": "powiększona w osi długiej",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 105,
+      "type": "Property",
+      "parent": 104,
+      "order": 0,
+      "data": {
+        "text": "z licznymi, drobnymi zwapnieniami",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 107,
+      "type": "Property",
+      "parent": 106,
+      "order": 0,
+      "data": {
+        "text": "otoczona rąbkiem płynu",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 108,
+      "type": "Property",
+      "parent": 106,
+      "order": 1,
+      "data": {
+        "text": "z torbielą",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 110,
+      "type": "Property",
+      "parent": 109,
+      "order": 0,
+      "data": {
+        "text": "stan po splenektomii, loża wolna",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 112,
+      "type": "Property",
+      "parent": 111,
+      "order": 0,
+      "data": {
+        "text": "z ogniskiem hipodensyjnym",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 115,
+      "type": "Property",
+      "parent": 114,
+      "order": 0,
+      "data": {
+        "text": "niepowiększone",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 116,
+      "type": "Property",
+      "parent": 114,
+      "order": 1,
+      "data": {
+        "text": "prawe niepowiększone",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 117,
+      "type": "Property",
+      "parent": 114,
+      "order": 2,
+      "data": {
+        "text": "lewe niepowiększone",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 119,
+      "type": "Property",
+      "parent": 118,
+      "order": 0,
+      "data": {
+        "text": "niskodensyjny guzek w nadnerczu prawym",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 120,
+      "type": "Property",
+      "parent": 118,
+      "order": 1,
+      "data": {
+        "text": "niskodensyjny guzek w nadnerczu lewym",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 121,
+      "type": "Property",
+      "parent": 118,
+      "order": 2,
+      "data": {
+        "text": "ognisko przerzutowe w nadnerczu prawym mm",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 122,
+      "type": "Property",
+      "parent": 118,
+      "order": 3,
+      "data": {
+        "text": "ognisko przerzutowe w nadnerczu lewym mm",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 125,
+      "type": "Property",
+      "parent": 124,
+      "order": 1,
+      "data": {
+        "text": "prawidłowej wielkości",
+        "connotation": 1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 127,
+      "type": "Property",
+      "parent": 126,
+      "order": 0,
+      "data": {
+        "text": "bez zmian ogniskowych",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 129,
+      "type": "Property",
+      "parent": 128,
+      "order": 0,
+      "data": {
+        "text": "bez uwapnionych złogów",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 131,
+      "type": "Property",
+      "parent": 130,
+      "order": 0,
+      "data": {
+        "text": "Położone prawidłowo",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 133,
+      "type": "Property",
+      "parent": 132,
+      "order": 0,
+      "data": {
+        "text": "bez zastoju moczu",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 135,
+      "type": "Property",
+      "parent": 134,
+      "order": 0,
+      "data": {
+        "text": "z jednoczasowym zakontrastowaniem",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 137,
+      "type": "Property",
+      "parent": 136,
+      "order": 0,
+      "data": {
+        "text": "z zachowanym jednoczasowym wydzielaniem",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 139,
+      "type": "Property",
+      "parent": 138,
+      "order": 0,
+      "data": {
+        "text": "z obecnością kilku torbieli od kilku mm do",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 141,
+      "type": "Property",
+      "parent": 140,
+      "order": 0,
+      "data": {
+        "text": "ze zredukowaną grubością kory nerkowej",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 144,
+      "type": "Property",
+      "parent": 143,
+      "order": 0,
+      "data": {
+        "text": "poszerzone",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 146,
+      "type": "Property",
+      "parent": 145,
+      "order": 0,
+      "data": {
+        "text": "poszerzona",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 148,
+      "type": "Property",
+      "parent": 147,
+      "order": 0,
+      "data": {
+        "text": "z obecnością torbieli",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 149,
+      "type": "Property",
+      "parent": 147,
+      "order": 1,
+      "data": {
+        "text": "z obecnością torbieli centralnych",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 151,
+      "type": "Property",
+      "parent": 150,
+      "order": 0,
+      "data": {
+        "text": "retrokawalny przebieg tętnicy nerkowej",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 153,
+      "type": "Property",
+      "parent": 152,
+      "order": 0,
+      "data": {
+        "text": "z obecnością uwapnionego złogu w",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 154,
+      "type": "Property",
+      "parent": 152,
+      "order": 0,
+      "data": {
+        "text": "bez uwapnionych złogów",
+        "connotation": 1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 156,
+      "type": "Property",
+      "parent": 155,
+      "order": 0,
+      "data": {
+        "text": "z patologicznym ogniskiem  mm, zlokalizowanym w , podejrzanym o zmianę rozrostową",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 157,
+      "type": "Property",
+      "parent": 155,
+      "order": 0,
+      "data": {
+        "text": "bez zmian ogniskowych",
+        "connotation": 1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 159,
+      "type": "Property",
+      "parent": 158,
+      "order": 0,
+      "data": {
+        "text": "atroficzna",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 160,
+      "type": "Property",
+      "parent": 158,
+      "order": 1,
+      "data": {
+        "text": "ze zredukowaną grubością kory do",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 162,
+      "type": "Property",
+      "parent": 161,
+      "order": 0,
+      "data": {
+        "text": "położona prawidłowo",
+        "connotation": 1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 164,
+      "type": "Property",
+      "parent": 163,
+      "order": 0,
+      "data": {
+        "text": "bez zastoju moczu",
+        "connotation": 1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 165,
+      "type": "Property",
+      "parent": 163,
+      "order": 1,
+      "data": {
+        "text": "wodonercze",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 168,
+      "type": "Property",
+      "parent": 167,
+      "order": 0,
+      "data": {
+        "text": "położona prawidłowo",
+        "connotation": 1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 170,
+      "type": "Property",
+      "parent": 169,
+      "order": 0,
+      "data": {
+        "text": "bez zastoju moczu",
+        "connotation": 1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 171,
+      "type": "Property",
+      "parent": 169,
+      "order": 1,
+      "data": {
+        "text": "wodonercze",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 173,
+      "type": "Property",
+      "parent": 172,
+      "order": 0,
+      "data": {
+        "text": "z obecnością uwapnionego złogu w",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 174,
+      "type": "Property",
+      "parent": 172,
+      "order": 1,
+      "data": {
+        "text": "bez uwapnionych złogów",
+        "connotation": 1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 176,
+      "type": "Property",
+      "parent": 175,
+      "order": 0,
+      "data": {
+        "text": "bez zmian ogniskowych",
+        "connotation": 1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 177,
+      "type": "Property",
+      "parent": 175,
+      "order": 1,
+      "data": {
+        "text": "z patologicznym ogniskiem  mm, zlokalizowanym w , podejrzanym o zmianę rozrostową",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 179,
+      "type": "Property",
+      "parent": 178,
+      "order": 0,
+      "data": {
+        "text": "z obecnością torbieli",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 180,
+      "type": "Property",
+      "parent": 178,
+      "order": 1,
+      "data": {
+        "text": "z obecnością torbieli centralnych",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 182,
+      "type": "Property",
+      "parent": 181,
+      "order": 0,
+      "data": {
+        "text": "retrokawalny przebieg tętnicy nerkowej",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 184,
+      "type": "Property",
+      "parent": 183,
+      "order": 0,
+      "data": {
+        "text": "atroficzna",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 185,
+      "type": "Property",
+      "parent": 183,
+      "order": 1,
+      "data": {
+        "text": "ze zredukowaną grubością kory do",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 187,
+      "type": "Property",
+      "parent": 186,
+      "order": 0,
+      "data": {
+        "text": "poszerzone",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 189,
+      "type": "Property",
+      "parent": 188,
+      "order": 0,
+      "data": {
+        "text": "poszerzona",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 192,
+      "type": "Property",
+      "parent": 191,
+      "order": 0,
+      "data": {
+        "text": "nieposzerzone",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 193,
+      "type": "Property",
+      "parent": 191,
+      "order": 1,
+      "data": {
+        "text": "lewy nieposzerzony",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 194,
+      "type": "Property",
+      "parent": 191,
+      "order": 2,
+      "data": {
+        "text": "prawy nieposzerzony",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 195,
+      "type": "Property",
+      "parent": 191,
+      "order": 3,
+      "data": {
+        "text": "prawy poszerzony do",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 196,
+      "type": "Property",
+      "parent": 191,
+      "order": 4,
+      "data": {
+        "text": "lewy poszerzony do",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 199,
+      "type": "Property",
+      "parent": 198,
+      "order": 0,
+      "data": {
+        "text": "gładki w obrysach, dobrze wypełniony",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 200,
+      "type": "Property",
+      "parent": 198,
+      "order": 1,
+      "data": {
+        "text": "pusty",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 201,
+      "type": "Property",
+      "parent": 198,
+      "order": 2,
+      "data": {
+        "text": "słabo wypełniony",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 202,
+      "type": "Property",
+      "parent": 198,
+      "order": 3,
+      "data": {
+        "text": "podparty przez powiększony gruczoł krokowy",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 203,
+      "type": "Property",
+      "parent": 198,
+      "order": 4,
+      "data": {
+        "text": "podparty przez powiększoną macicę",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 204,
+      "type": "Property",
+      "parent": 198,
+      "order": 5,
+      "data": {
+        "text": "stan po cystektomii, loża wolna",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 206,
+      "type": "Property",
+      "parent": 205,
+      "order": 0,
+      "data": {
+        "text": "naciek ściany",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 207,
+      "type": "Property",
+      "parent": 205,
+      "order": 1,
+      "data": {
+        "text": "uchyłek ściany",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 210,
+      "type": "Property",
+      "parent": 209,
+      "order": 0,
+      "data": {
+        "text": "niepowiększony",
+        "connotation": 1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 211,
+      "type": "Property",
+      "parent": 209,
+      "order": 1,
+      "data": {
+        "text": "niezmieniony",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 212,
+      "type": "Property",
+      "parent": 209,
+      "order": 2,
+      "data": {
+        "text": "powiększony",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 213,
+      "type": "Property",
+      "parent": 209,
+      "order": 3,
+      "data": {
+        "text": "wymiarach",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 214,
+      "type": "Property",
+      "parent": 209,
+      "order": 4,
+      "data": {
+        "text": "o gładkich obrysach",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 216,
+      "type": "Property",
+      "parent": 215,
+      "order": 0,
+      "data": {
+        "text": "ze zwapnieniami",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 217,
+      "type": "Property",
+      "parent": 215,
+      "order": 1,
+      "data": {
+        "text": "niejednorodny",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 218,
+      "type": "Property",
+      "parent": 215,
+      "order": 2,
+      "data": {
+        "text": "usunięty, loża bez wznowy",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 220,
+      "type": "Property",
+      "parent": 219,
+      "order": 0,
+      "data": {
+        "text": "symetryczne",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 223,
+      "type": "Property",
+      "parent": 222,
+      "order": 0,
+      "data": {
+        "text": "niezmienione",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 224,
+      "type": "Property",
+      "parent": 222,
+      "order": 1,
+      "data": {
+        "text": "oba jajniki prawidłowe",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 225,
+      "type": "Property",
+      "parent": 222,
+      "order": 3,
+      "data": {
+        "text": "szyjka macicy o średnicy",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 226,
+      "type": "Property",
+      "parent": 222,
+      "order": 4,
+      "data": {
+        "text": "usunięte, loża wolna",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 229,
+      "type": "Property",
+      "parent": 228,
+      "order": 0,
+      "data": {
+        "text": "torbiel",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 230,
+      "type": "Property",
+      "parent": 228,
+      "order": 1,
+      "data": {
+        "text": "guz",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 232,
+      "type": "Property",
+      "parent": 231,
+      "order": 0,
+      "data": {
+        "text": "torbiel",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 233,
+      "type": "Property",
+      "parent": 231,
+      "order": 1,
+      "data": {
+        "text": "guz",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 235,
+      "type": "Property",
+      "parent": 234,
+      "order": 0,
+      "data": {
+        "text": "mięśniakowata",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 236,
+      "type": "Property",
+      "parent": 234,
+      "order": 1,
+      "data": {
+        "text": "trzon macicy o wymiarach",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 239,
+      "type": "Property",
+      "parent": 238,
+      "order": 0,
+      "data": {
+        "text": "niepowiększone",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 241,
+      "type": "Property",
+      "parent": 240,
+      "order": 0,
+      "data": {
+        "text": "niepowiększone",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 243,
+      "type": "Property",
+      "parent": 242,
+      "order": 0,
+      "data": {
+        "text": "niepowiększone",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 260,
+      "type": "Property",
+      "parent": 259,
+      "order": 0,
+      "data": {
+        "text": "bez płynu",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 261,
+      "type": "Property",
+      "parent": 259,
+      "order": 1,
+      "data": {
+        "text": "bez patologicznych zbiorników płynowych",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 262,
+      "type": "Property",
+      "parent": 259,
+      "order": 2,
+      "data": {
+        "text": "z niewielką ilościa płynu zapęcherzowo",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 263,
+      "type": "Property",
+      "parent": 259,
+      "order": 3,
+      "data": {
+        "text": "wodobrzusze",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 264,
+      "type": "Property",
+      "parent": 259,
+      "order": 4,
+      "data": {
+        "text": "z warstwą płynu przy wątrobie",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 265,
+      "type": "Property",
+      "parent": 259,
+      "order": 5,
+      "data": {
+        "text": "warstwa płynu przy flankach bocznych",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 266,
+      "type": "Property",
+      "parent": 259,
+      "order": 6,
+      "data": {
+        "text": "limfocele",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 268,
+      "type": "Property",
+      "parent": 267,
+      "order": 0,
+      "data": {
+        "text": "wszczepy otrzewnowe",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 271,
+      "type": "Property",
+      "parent": 270,
+      "order": 0,
+      "data": {
+        "text": "niepogrubione",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 273,
+      "type": "Property",
+      "parent": 272,
+      "order": 0,
+      "data": {
+        "text": "uchyłkowata",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 275,
+      "type": "Property",
+      "parent": 274,
+      "order": 0,
+      "data": {
+        "text": "naciek ściany jelita na długości , grubości",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 276,
+      "type": "Property",
+      "parent": 274,
+      "order": 1,
+      "data": {
+        "text": "naciek odbytnicy w odległości mm, na odcinku mm, grubość ściany mm",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 278,
+      "type": "Property",
+      "parent": 277,
+      "order": 0,
+      "data": {
+        "text": "obecna",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 280,
+      "type": "Property",
+      "parent": 279,
+      "order": 0,
+      "data": {
+        "text": "okolica zespolenia bez wznowy",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 283,
+      "type": "Property",
+      "parent": 282,
+      "order": 0,
+      "data": {
+        "text": "bez uchwytnych zmian",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 284,
+      "type": "Property",
+      "parent": 282,
+      "order": 1,
+      "data": {
+        "text": "wszczep w bliźnie",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 285,
+      "type": "Property",
+      "parent": 282,
+      "order": 2,
+      "data": {
+        "text": "naciek",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 287,
+      "type": "Property",
+      "parent": 286,
+      "order": 0,
+      "data": {
+        "text": "w bliźnie",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 288,
+      "type": "Property",
+      "parent": 286,
+      "order": 1,
+      "data": {
+        "text": "pachwinowa",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 289,
+      "type": "Property",
+      "parent": 286,
+      "order": 2,
+      "data": {
+        "text": "kresy białej",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 292,
+      "type": "Property",
+      "parent": 291,
+      "order": 0,
+      "data": {
+        "text": "prawidłowo drożne",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 293,
+      "type": "Property",
+      "parent": 291,
+      "order": 1,
+      "data": {
+        "text": "miażdżycowe",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 294,
+      "type": "Property",
+      "parent": 291,
+      "order": 2,
+      "data": {
+        "text": "krążenie oboczne",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 296,
+      "type": "Property",
+      "parent": 295,
+      "order": 0,
+      "data": {
+        "text": "zakrzepica",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 298,
+      "type": "Property",
+      "parent": 297,
+      "order": 0,
+      "data": {
+        "text": "tętniak",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 300,
+      "type": "Property",
+      "parent": 299,
+      "order": 0,
+      "data": {
+        "text": "zakrzepica",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 303,
+      "type": "Property",
+      "parent": 302,
+      "order": 0,
+      "data": {
+        "text": "bez zmian podejrzanych onkologicznie",
+        "connotation": 1,
+        "auto_include": true
+      }
+    },
+    {
+      "id": 304,
+      "type": "Property",
+      "parent": 302,
+      "order": 1,
+      "data": {
+        "text": "ogniska osteolityczne",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 305,
+      "type": "Property",
+      "parent": 302,
+      "order": 2,
+      "data": {
+        "text": "ognisko osteolityczne",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 307,
+      "type": "Property",
+      "parent": 306,
+      "order": 0,
+      "data": {
+        "text": "stan po złamaniu kompresyjnym trzonu L",
+        "connotation": -1,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 308,
+      "type": "Property",
+      "parent": 306,
+      "order": 1,
+      "data": {
+        "text": "osteoporotyczne",
+        "connotation": 0,
+        "auto_include": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "Section",
+      "parent": null,
+      "order": 0,
+      "data": {
+        "text": "Tomografia komputerowa jamy brzusznej i miednicy małej",
+        "category": "TK",
+        "discipline": "Radiologia"
+      }
+    },
+    {
+      "id": 2,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 0,
+      "data": {
+        "text": "Technika badania"
+      }
+    },
+    {
+      "id": 10,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 1,
+      "data": {
+        "text": "Płuca nadprzeponowo"
+      }
+    },
+    {
+      "id": 17,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 2,
+      "data": {
+        "text": "Jamy opłucnowe"
+      }
+    },
+    {
+      "id": 22,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 3,
+      "data": {
+        "text": "Wątroba"
+      }
+    },
+    {
+      "id": 43,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 4,
+      "data": {
+        "text": "Pęcherzyk żółciowy"
+      }
+    },
+    {
+      "id": 58,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 5,
+      "data": {
+        "text": "Drogi żółciowe"
+      }
+    },
+    {
+      "id": 67,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 6,
+      "data": {
+        "text": "Trzustka"
+      }
+    },
+    {
+      "id": 81,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 7,
+      "data": {
+        "text": "Przewód trzustkowy"
+      }
+    },
+    {
+      "id": 86,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 8,
+      "data": {
+        "text": "Żołądek"
+      }
+    },
+    {
+      "id": 94,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 9,
+      "data": {
+        "text": "Dwunastnica"
+      }
+    },
+    {
+      "id": 100,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 10,
+      "data": {
+        "text": "Śledziona"
+      }
+    },
+    {
+      "id": 113,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 11,
+      "data": {
+        "text": "Nadnercza"
+      }
+    },
+    {
+      "id": 123,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 12,
+      "data": {
+        "text": "Obie nerki"
+      }
+    },
+    {
+      "id": 142,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 13,
+      "data": {
+        "text": "Nerka prawa"
+      }
+    },
+    {
+      "id": 166,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 14,
+      "data": {
+        "text": "Nerka lewa"
+      }
+    },
+    {
+      "id": 190,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 15,
+      "data": {
+        "text": "Moczowody"
+      }
+    },
+    {
+      "id": 197,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 16,
+      "data": {
+        "text": "Pęcherz moczowy"
+      }
+    },
+    {
+      "id": 208,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 17,
+      "data": {
+        "text": "Gruczoł krokowy"
+      }
+    },
+    {
+      "id": 221,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 18,
+      "data": {
+        "text": "Narządy rodne"
+      }
+    },
+    {
+      "id": 237,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 19,
+      "data": {
+        "text": "Węzły chłonne"
+      }
+    },
+    {
+      "id": 258,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 20,
+      "data": {
+        "text": "Jama otrzewnej"
+      }
+    },
+    {
+      "id": 269,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 21,
+      "data": {
+        "text": "Jelita"
+      }
+    },
+    {
+      "id": 281,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 22,
+      "data": {
+        "text": "Powłoki"
+      }
+    },
+    {
+      "id": 290,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 23,
+      "data": {
+        "text": "Duże naczynia jamy brzusznej"
+      }
+    },
+    {
+      "id": 301,
+      "type": "Subsection",
+      "parent": 1,
+      "order": 24,
+      "data": {
+        "text": "Elementy kostne objęte badaniem"
+      }
+    }
+  ]
+}

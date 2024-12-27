@@ -1,14 +1,24 @@
 {
-    "title": "Simple report",
-    "owner": "admin",
-    "id": 391,
-    "nodes": [
-        {
-            "type": "ReportRoot",
-            "parent": null, 
-            "data": {
-                "text": "report report"
-            }
-        }
-    ]
+  "title": "Simple report",
+  "owner": "admin",
+  "id": 391,
+  "nodes": [
+    {
+      "id": 0,
+      "type": "ReportRoot",
+      "parent": null,
+      "data": {
+        "text": "report report"
+      }
+    },
+    {
+      "id": 1,
+      "type": "Property",
+      "parent": 0,
+      "data": {
+        "const_id": "sleepiness",
+        "text": "senność"
+      }
+    }
+  ]
 }

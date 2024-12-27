@@ -24,9 +24,9 @@ const ClassesExample: EngineCalculation = {
   ],
   calculate: () => {
     const templateTechniqueNodes =
-      ExpertEngine.Template.getNodesByClass(TECHNIQUE_CLASS_NAME);
+      ExpertEngine.template.getNodesByClass(TECHNIQUE_CLASS_NAME);
     if (templateTechniqueNodes.length === 1) {
-      ExpertEngine.Report.addToConclusions(
+      ExpertEngine.report.addToConclusions(
         templateTechniqueNodes[0].data.const_id,
         `This conclusion is added when template has a node with ${TECHNIQUE_CLASS_NAME} class`,
       );
@@ -36,7 +36,7 @@ const ClassesExample: EngineCalculation = {
       );
     }
     const reportTechnniqueNodes =
-      ExpertEngine.Report.getNodesByClass(TECHNIQUE_CLASS_NAME);
+      ExpertEngine.report.getNodesByClass(TECHNIQUE_CLASS_NAME);
   },
 };
 ExpertEngine.register(ClassesExample);

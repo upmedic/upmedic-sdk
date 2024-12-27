@@ -1,0 +1,558 @@
+{
+    "id": "10fa9419-b9ae-47fa-8c6f-0e9b1bf0b5a5",
+    "time_to_complete": "00:00:33",
+    "interaction_time": "00:00:33",
+    "nodes": [
+        {
+            "id": "0e5d8dca-1262-4c71-9e82-4425a4c16942",
+            "parent": "f1bf4ead-2ffc-45f1-a7d0-ba38808305f0",
+            "type": "Property",
+            "order": 1,
+            "data": {
+                "text": "osłabienie",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "connotation": 0,
+                "auto_include": false,
+                "include_if_no_changes": false,
+                "separator": "",
+                "conclusions_text": "",
+                "is_sentence": false,
+                "line_break_before": false
+            },
+            "template": "d3739ae1-a09a-4180-97b5-aee7de181b5e",
+            "node_template_id": "0e5d8dca-1262-4c71-9e82-4425a4c16942",
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "80990535-660b-4bcd-a496-1a78d7387c27",
+            "parent": "f1bf4ead-2ffc-45f1-a7d0-ba38808305f0",
+            "type": "Property",
+            "order": 2,
+            "data": {
+                "text": "męczliwość",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "connotation": 0,
+                "auto_include": false,
+                "include_if_no_changes": false,
+                "separator": "",
+                "conclusions_text": "",
+                "is_sentence": false,
+                "line_break_before": false
+            },
+            "template": "d3739ae1-a09a-4180-97b5-aee7de181b5e",
+            "node_template_id": "80990535-660b-4bcd-a496-1a78d7387c27",
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "618b597f-8c04-49d1-bae1-8839a6e80238",
+            "parent": "f1bf4ead-2ffc-45f1-a7d0-ba38808305f0",
+            "type": "Property",
+            "order": 3,
+            "data": {
+                "text": "hipotermia",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "connotation": 0,
+                "auto_include": false,
+                "include_if_no_changes": false,
+                "separator": "",
+                "conclusions_text": "",
+                "is_sentence": false,
+                "line_break_before": false
+            },
+            "template": "d3739ae1-a09a-4180-97b5-aee7de181b5e",
+            "node_template_id": "618b597f-8c04-49d1-bae1-8839a6e80238",
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "a2edad0f-dd35-4922-a150-2c6c04920e9e",
+            "parent": "f1bf4ead-2ffc-45f1-a7d0-ba38808305f0",
+            "type": "Property",
+            "order": 4,
+            "data": {
+                "text": "utrata łaknienia",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "connotation": 0,
+                "auto_include": false,
+                "include_if_no_changes": false,
+                "separator": "",
+                "conclusions_text": "",
+                "is_sentence": false,
+                "line_break_before": false
+            },
+            "template": "d3739ae1-a09a-4180-97b5-aee7de181b5e",
+            "node_template_id": "a2edad0f-dd35-4922-a150-2c6c04920e9e",
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "f51a63be-9175-4df3-898d-a9aa349b72d7",
+            "parent": "f1bf4ead-2ffc-45f1-a7d0-ba38808305f0",
+            "type": "Property",
+            "order": 5,
+            "data": {
+                "text": "obniżona odporność na zakażenia",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "connotation": 0,
+                "auto_include": false,
+                "include_if_no_changes": false,
+                "separator": "",
+                "conclusions_text": "",
+                "is_sentence": false,
+                "line_break_before": false
+            },
+            "template": "d3739ae1-a09a-4180-97b5-aee7de181b5e",
+            "node_template_id": "f51a63be-9175-4df3-898d-a9aa349b72d7",
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "f1bf4ead-2ffc-45f1-a7d0-ba38808305f0",
+            "parent": "431bf35e-3735-493a-bd66-34f9a7dc43e5",
+            "type": "Subsection",
+            "order": 1,
+            "data": {
+                "text": "Objawy ogólne:",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "separator": "",
+                "line_break_before": true,
+                "bold": true,
+                "is_sentence": false
+            },
+            "template": "d3739ae1-a09a-4180-97b5-aee7de181b5e",
+            "node_template_id": "f1bf4ead-2ffc-45f1-a7d0-ba38808305f0",
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "320d4862-019d-465e-b1a1-745acbaf3af7",
+            "parent": "8670e4d6-a11d-48c6-bfa5-854bbc30f8d1",
+            "type": "Property",
+            "order": 1,
+            "data": {
+                "text": "upośledzenie koncentracji i pamięci",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "connotation": 0,
+                "auto_include": false,
+                "include_if_no_changes": false,
+                "separator": "",
+                "conclusions_text": "",
+                "is_sentence": false,
+                "line_break_before": false
+            },
+            "template": "d3739ae1-a09a-4180-97b5-aee7de181b5e",
+            "node_template_id": "320d4862-019d-465e-b1a1-745acbaf3af7",
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "e21f3379-6ea1-4217-8a27-f85e85e199a9",
+            "parent": "8670e4d6-a11d-48c6-bfa5-854bbc30f8d1",
+            "type": "Property",
+            "order": 2,
+            "data": {
+                "text": "ból głowy",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "connotation": 0,
+                "auto_include": false,
+                "include_if_no_changes": false,
+                "separator": "",
+                "conclusions_text": "",
+                "is_sentence": false,
+                "line_break_before": false
+            },
+            "template": "d3739ae1-a09a-4180-97b5-aee7de181b5e",
+            "node_template_id": "e21f3379-6ea1-4217-8a27-f85e85e199a9",
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "8a915842-86bf-40ad-9b4a-6ab0c477d283",
+            "parent": "8670e4d6-a11d-48c6-bfa5-854bbc30f8d1",
+            "type": "Property",
+            "order": 3,
+            "data": {
+                "text": "nadmierna senność",
+                "const_id": "sleepiness",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "connotation": 0,
+                "auto_include": false,
+                "include_if_no_changes": false,
+                "separator": "",
+                "conclusions_text": "",
+                "is_sentence": false,
+                "line_break_before": false
+            },
+            "template": "d3739ae1-a09a-4180-97b5-aee7de181b5e",
+            "node_template_id": "8a915842-86bf-40ad-9b4a-6ab0c477d283",
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "853cc5f4-18df-4f21-ba45-ec094f2f9d24",
+            "parent": "8670e4d6-a11d-48c6-bfa5-854bbc30f8d1",
+            "type": "Property",
+            "order": 4,
+            "data": {
+                "text": "apatia",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "connotation": 0,
+                "auto_include": false,
+                "include_if_no_changes": false,
+                "separator": "",
+                "conclusions_text": "",
+                "is_sentence": false,
+                "line_break_before": false
+            },
+            "template": "d3739ae1-a09a-4180-97b5-aee7de181b5e",
+            "node_template_id": "853cc5f4-18df-4f21-ba45-ec094f2f9d24",
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "aceff796-343b-41f7-89ea-aa8c0c7f0df5",
+            "parent": "8670e4d6-a11d-48c6-bfa5-854bbc30f8d1",
+            "type": "Property",
+            "order": 5,
+            "data": {
+                "text": "depresja",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "connotation": 0,
+                "auto_include": false,
+                "include_if_no_changes": false,
+                "separator": "",
+                "conclusions_text": "",
+                "is_sentence": false,
+                "line_break_before": false
+            },
+            "template": "d3739ae1-a09a-4180-97b5-aee7de181b5e",
+            "node_template_id": "aceff796-343b-41f7-89ea-aa8c0c7f0df5",
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "49bd450e-bda5-495a-8bc5-7db0acb49f92",
+            "parent": "8670e4d6-a11d-48c6-bfa5-854bbc30f8d1",
+            "type": "Property",
+            "order": 6,
+            "data": {
+                "text": "drgawki",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "connotation": 0,
+                "auto_include": false,
+                "include_if_no_changes": false,
+                "separator": "",
+                "conclusions_text": "",
+                "is_sentence": false,
+                "line_break_before": false
+            },
+            "template": "d3739ae1-a09a-4180-97b5-aee7de181b5e",
+            "node_template_id": "49bd450e-bda5-495a-8bc5-7db0acb49f92",
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "8670e4d6-a11d-48c6-bfa5-854bbc30f8d1",
+            "parent": "431bf35e-3735-493a-bd66-34f9a7dc43e5",
+            "type": "Subsection",
+            "order": 2,
+            "data": {
+                "text": "Zaburzenia czynności układu nerwowego i mięśni (występują w zaawansowanej PNN)",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "separator": "",
+                "line_break_before": true,
+                "bold": true,
+                "is_sentence": false
+            },
+            "template": "d3739ae1-a09a-4180-97b5-aee7de181b5e",
+            "node_template_id": "8670e4d6-a11d-48c6-bfa5-854bbc30f8d1",
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "f9f17f94-a20f-4d9f-819a-2d6929330eba",
+            "parent": "89c5cb17-d699-4026-a1a9-e5fac9a8fe58",
+            "type": "Property",
+            "order": 1,
+            "data": {
+                "text": "skaza krwotoczna spowodowana upośledzeniem czynności płytek krwi i komórek śródbłonka objawiająca się przedłużonymi krwawieniami z ran oraz skłonnością do powstawania podbiegnięć krwawych",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "connotation": 0,
+                "auto_include": false,
+                "include_if_no_changes": false,
+                "separator": "",
+                "conclusions_text": "",
+                "is_sentence": false,
+                "line_break_before": false
+            },
+            "template": "d3739ae1-a09a-4180-97b5-aee7de181b5e",
+            "node_template_id": "f9f17f94-a20f-4d9f-819a-2d6929330eba",
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "e84214d9-c76c-4114-8e32-f3a59a069efa",
+            "parent": "89c5cb17-d699-4026-a1a9-e5fac9a8fe58",
+            "type": "Property",
+            "order": 2,
+            "data": {
+                "text": "obniżona odporność i zwiększone ryzyko zakażeń",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "connotation": 0,
+                "auto_include": false,
+                "include_if_no_changes": false,
+                "separator": "",
+                "conclusions_text": "",
+                "is_sentence": false,
+                "line_break_before": false
+            },
+            "template": "d3739ae1-a09a-4180-97b5-aee7de181b5e",
+            "node_template_id": "e84214d9-c76c-4114-8e32-f3a59a069efa",
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "eb611b01-8ace-45e6-a2c2-038f99840629",
+            "parent": "89c5cb17-d699-4026-a1a9-e5fac9a8fe58",
+            "type": "Property",
+            "order": 3,
+            "data": {
+                "text": "leukopenia i zmniejszona aktywność dopełniacza u chorych dializowanych.",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "connotation": 0,
+                "auto_include": false,
+                "include_if_no_changes": false,
+                "separator": "",
+                "conclusions_text": "",
+                "is_sentence": false,
+                "line_break_before": false
+            },
+            "template": "d3739ae1-a09a-4180-97b5-aee7de181b5e",
+            "node_template_id": "eb611b01-8ace-45e6-a2c2-038f99840629",
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "89c5cb17-d699-4026-a1a9-e5fac9a8fe58",
+            "parent": "431bf35e-3735-493a-bd66-34f9a7dc43e5",
+            "type": "Subsection",
+            "order": 3,
+            "data": {
+                "text": "Zaburzenia morfologii krwi i odporności:",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "separator": "",
+                "line_break_before": true,
+                "bold": true,
+                "is_sentence": false
+            },
+            "template": "d3739ae1-a09a-4180-97b5-aee7de181b5e",
+            "node_template_id": "89c5cb17-d699-4026-a1a9-e5fac9a8fe58",
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "431bf35e-3735-493a-bd66-34f9a7dc43e5",
+            "parent": "ROOT-ID",
+            "type": "Section",
+            "order": 0,
+            "data": {
+                "text": "POZ",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": true,
+                "speech_audio_ids": [],
+                "category": "MR",
+                "discipline": "Radiologia",
+                "separator": "",
+                "line_break_before": true,
+                "template_snippets": [],
+                "triggers": []
+            },
+            "template": "d3739ae1-a09a-4180-97b5-aee7de181b5e",
+            "node_template_id": "431bf35e-3735-493a-bd66-34f9a7dc43e5",
+            "suggestion_priority": 0.0
+        },
+        {
+            "id": "ROOT-ID",
+            "parent": null,
+            "type": "ReportRoot",
+            "order": 0,
+            "data": {
+                "text": "POZ",
+                "excludes": [],
+                "is_initial": false,
+                "coding": {
+                    "icd_10": "",
+                    "sctid": ""
+                },
+                "left_visibility": true,
+                "right_visibility": false,
+                "speech_audio_ids": [],
+                "metadata": [
+                    {
+                        "field_name": "title",
+                        "field_value": "POZ",
+                        "modifiable_key": false
+                    }
+                ],
+                "separator": ""
+            },
+            "template": "",
+            "suggestion_priority": 0.0
+        }
+    ],
+    "edu_case": null,
+    "html_body": "<!--generated using upmedic - www.upmedic.io --><div class=\"report\"><div class=\"section\"><div class=\"section-title\"><h2>\n                POZ\n                \n            </h2></div><div class=\"subsection\"><strong>Objawy ogólne: </strong><span class=\"property \">osłabienie<sup></sup></span><span>&nbsp;</span><span class=\"property \">męczliwość<sup></sup></span><span>&nbsp;</span><span class=\"property \">hipotermia<sup></sup></span><span>&nbsp;</span><span class=\"property \">utrata łaknienia<sup></sup></span><span>&nbsp;</span><span class=\"property \">obniżona odporność na zakażenia<sup></sup></span><span></span></div><div class=\"subsection\"><strong>Zaburzenia czynności układu nerwowego i mięśni (występują w zaawansowanej PNN) </strong><span class=\"property \">upośledzenie koncentracji i pamięci<sup></sup></span><span>&nbsp;</span><span class=\"property \">ból głowy<sup></sup></span><span>&nbsp;</span><span class=\"property \">bezsenność<sup></sup></span><span>&nbsp;</span><span class=\"property \">apatia<sup></sup></span><span>&nbsp;</span><span class=\"property \">depresja<sup></sup></span><span>&nbsp;</span><span class=\"property \">drgawki<sup></sup></span><span></span></div><div class=\"subsection\"><strong>Zaburzenia morfologii krwi i odporności: </strong><span class=\"property \">skaza krwotoczna spowodowana upośledzeniem czynności płytek krwi i komórek śródbłonka objawiająca się przedłużonymi krwawieniami z ran oraz skłonnością do powstawania podbiegnięć krwawych<sup></sup></span><span>&nbsp;</span><span class=\"property \">obniżona odporność i zwiększone ryzyko zakażeń<sup></sup></span><span>&nbsp;</span><span class=\"property \">leukopenia i zmniejszona aktywność dopełniacza u chorych dializowanych.<sup></sup></span><span></span></div></div></div> \n<style type=\"text/css\">\n    .report {\n  color: #5b5b5b;\n  font-family: \"Source Sans Pro\", sans-serif;\n  font-size: 12pt;\n}\n\n.report .negative {\n  background-color: rgba(158, 135, 136, 0.15);\n  color: #a13336;\n}\n\n.report .nnegative {\n  background-color: rgba(221, 110, 114, 0.45);\n  color: #75292c;\n}\n\n.report .nnnegative {\n  background-color: rgba(234, 121, 129, 0.75);\n  color: #44191b;\n}\n\n.report .positive {\n  background-color: rgba(110, 255, 73, 0.15);\n  color: #4ea134;\n}\n\n.report .ppositive {\n  background-color: rgba(135, 219, 109, 0.45);\n  color: #3e7729;\n}\n\n.report .pppositive {\n  background-color: rgba(140, 224, 112, 0.86);\n  color: #294c1b;\n}\n\n.report h2 {\n  all: initial;\n  color: #5b5b5b;\n  font-family: \"Source Sans Pro\", sans-serif;\n  font-size: 12pt;\n}\n\n.report h3 {\n  all: initial;\n  color: #5b5b5b;\n  font-family: \"Source Sans Pro\", sans-serif;\n  font-size: 12pt;\n}\n\n.report h4 {\n  all: initial;\n  color: #5b5b5b;\n  font-family: \"Source Sans Pro\", sans-serif;\n  font-size: 12pt;\n}\n\n.report-footnote {\n  display: flex;\n  margin-bottom: 20px;\n}\n\n.report-footnote .reference-order {\n  margin-right: 5px;\n}\n\n.report-footnote img {\n  max-width: 300px;\n  max-height: 300px;\n  display: block;\n  transform: translateZ(0);\n  -webkit-transform: translateZ(0);\n}\n\n</style>\n",
+    "text_body": "POZ\n  Objawy ogólne:    osłabienie męczliwość hipotermia utrata łaknienia obniżona odporność na zakażenia\n  Zaburzenia czynności układu nerwowego i mięśni (występują w zaawansowanej PNN)    upośledzenie koncentracji i pamięci ból głowy bezsenność apatia depresja drgawki\n  Zaburzenia morfologii krwi i odporności:    skaza krwotoczna spowodowana upośledzeniem czynności płytek krwi i komórek śródbłonka objawiająca się przedłużonymi krwawieniami z ran oraz skłonnością do powstawania podbiegnięć krwawych obniżona odporność i zwiększone ryzyko zakażeń leukopenia i zmniejszona aktywność dopełniacza u chorych dializowanych.",
+    "created_at": "2024-02-26T10:31:57.201549+01:00",
+    "autocompleted_nodes_count": 0,
+    "predicted_nodes_count": 0,
+    "checklist_nodes_count": 18,
+    "trigger_commands_clicks_nodes_count": 0,
+    "trigger_commands_speech_nodes_count": 0,
+    "trigger_commands_autocomplete_nodes_count": 0,
+    "total_keystrokes_count": 0,
+    "total_clicks_count": 14,
+    "speech_nodes_count": 0,
+    "saved_keystrokes_autocomplete_count": 0,
+    "saved_keystrokes_predicted_nodes_count": 0,
+    "saved_keystrokes_checklist_count": 652,
+    "saved_keystrokes_trigger_commands_clicks_count": 0,
+    "saved_keystrokes_trigger_commands_speech_count": 0,
+    "saved_keystrokes_trigger_commands_autocomplete_count": 0,
+    "saved_keystrokes_speech_count": 0,
+    "saved_time_checklist": "00:03:15",
+    "saved_time_speech": "00:00:00",
+    "saved_time_autocomplete": "00:00:00",
+    "saved_time_trigger_commands_clicks": "00:00:00",
+    "saved_time_trigger_commands_speech": "00:00:00",
+    "saved_time_trigger_commands_autocomplete": "00:00:00",
+    "save_source": "generate_button",
+    "speaking_time": "00:00:00"
+}

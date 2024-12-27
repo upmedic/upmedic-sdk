@@ -1,0 +1,1898 @@
+{
+  "id": "602a3d37-ea2d-4e0d-aac3-89f2b9e1de4d",
+  "owner": "przebom@op.pl",
+  "title": "POZ objawy cuk niedotar pchn",
+  "discipline": "Radiologia",
+  "category": "MR",
+  "public": false,
+  "nodes": [
+    {
+      "id": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
+      "parent": null,
+      "order": 1,
+      "type": "Section",
+      "data": {
+        "text": "POZ objawy cuk niedotar pchn",
+        "category": "MR",
+        "discipline": "Radiologia",
+        "right_visibility": true,
+        "triggers": []
+      }
+    },
+    {
+      "id": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
+      "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
+      "order": 1,
+      "type": "Subsection",
+      "data": {
+        "text": "Objawy ogólne:",
+        "right_visibility": true
+      }
+    },
+    {
+      "id": "d71cc96b-54ad-444f-b509-021cb7ee9857",
+      "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": "przyrost masy ciała",
+        "const_id": "przyrost masy ciała",
+        "classes": ["niedoczynność tarczycy"],
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "f9f0ff4b-0166-4776-aa49-ccc10c7e9599",
+      "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": "osłabienie",
+        "const_id": "osłabienie",
+        "classes": ["niedoczynność tarczycy", "pchn", "cukrzyca"],
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "1c67c80a-d806-4c2a-8171-8b39a0d2f8c0",
+      "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": "zmęczenie",
+        "const_id": "zmęczenie",
+        "classes": ["niedoczynność tarczycy"],
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "c0e38bd1-eecd-400d-b76f-ca712a7f4a54",
+      "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": "zmniejszona tolerancja wysiłku",
+        "const_id": "zmniejszona tolerancja wysiłku",
+        "classes": ["niedoczynność tarczycy"],
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "b6807ed1-71d3-4039-b9b1-2ccc36e11b67",
+      "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": "męczliwość",
+        "const_id": "męczliwość",
+        "classes": ["pchn"],
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "35ed3b91-f951-400b-adf4-3568cc662770",
+      "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": "senność",
+        "const_id": "senność",
+        "classes": ["niedoczynność tarczycy", "cukrzyca"],
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "b26ea34c-e5d9-4ef3-be5b-1075a99830ae",
+      "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": "ogólne spowolnienie (psychomotoryczne i mowy)",
+        "const_id": "spowolnienie",
+        "classes": ["niedoczynność tarczycy"],
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "ae5cd212-d33b-4193-849c-7136140b5ae9",
+      "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": "uczucie chłodu",
+        "const_id": "uczucie chłodu",
+        "classes": ["niedoczynność tarczycy"],
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "745e5a61-1bf9-4dde-94e6-d75abc76d013",
+      "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": "łatwe marznięcie",
+        "const_id": "łatwe marznięcie",
+        "classes": ["niedoczynność tarczycy"],
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "f7beac57-a317-46e1-9fc1-85b4e2af074e",
+      "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": "chudnięcie",
+        "const_id": "chudnięcie",
+        "classes": ["cukrzyca"],
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "2fe409d8-1c18-45ba-b3d8-8f1363f0d988",
+      "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": "cechy odwodnienia",
+        "const_id": "odwodnienie",
+        "classes": ["cukrzyca"],
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "6025376a-f01d-4eb6-8aa4-6c2788764b2b",
+      "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": "hipotermia",
+        "const_id": "hipotermia",
+        "classes": ["pchn"],
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "1e4fd67f-5ea6-4232-bf44-dc2b73ff533d",
+      "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": "utrata łaknienia",
+        "const_id": "utrata łaknienia",
+        "classes": ["pchn"],
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "bff79063-a867-4368-b6cd-ce23e3981603",
+      "parent": "4dbaff84-1b1b-40dc-8822-8b6151eb26eb",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": "obniżona odporność na zakażenia",
+        "const_id": "obniżona odporność na zakażenia",
+        "classes": ["pchn"],
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
+      "order": 2,
+      "type": "Subsection",
+      "data": {
+        "text": "Zmiany skórne:",
+        "right_visibility": true
+      }
+    },
+    {
+      "id": "a60b760d-1429-4efd-8f35-b403562215b4",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " skóra sucha niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "df6f731b-5981-4a4a-9e6a-25f75e02c6c4",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " suchość skóry cuk",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "79703b15-22d8-4d78-825e-86e5a64be2b6",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " suchość pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "e071ed5c-3b41-4f39-8c85-d89280f58bc5",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " skóra zimna niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "725edcfc-0d96-4e62-9b6e-7f982587550e",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " skóra blada niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "b1282eb7-8a65-4eb6-b5e1-79ad69a58fbe",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " bladość pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "91dc6e39-2530-421d-8a09-32bc0eb56a90",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " skóra o żółtawym zabarwieniu niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "02158e15-3a97-4093-b3a8-4acb4b8fd478",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " barwa szarobrunatna pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "aa7f397f-bd56-4e3e-a10a-0f7203720f67",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " zmniejszona potliwość niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "1fa18869-674d-4048-962b-1e478ca21db8",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " nadmierne rogowacenie naskórka np. na łokciach niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "dbd7118b-48e9-466d-99a7-ff6fe534d99c",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " obrzęk podskórny (tzw. obrzęk śluzowaty) powodujący pogrubienie rysów twarzy niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "932af0b1-f9c2-43e7-9671-cafb92b65ccc",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " obrzęk powiek i rąk niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "89f67a99-b2b3-48d0-9051-c5c62dd9ad3b",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " włosy suche niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "0528c9cb-2687-4dbd-8f95-00752de7886f",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " włosy łamliwe niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "c8801fb5-819c-4e25-96d6-eab8567856ec",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " włosy przerzedzone niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "d2c388e8-e825-428c-92a1-bb7bad4ef09a",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " wypadanie brwi niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "133d49ef-635c-44c5-9117-ea530c1a324d",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " skłonność do ropnych zakażeń skóry cuk",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "9b1fec3b-0c57-484d-a640-91aa09415411",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " suchość błon śluzowych cuk",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "dfb9f5ea-d1bd-4f6f-8998-c68b8fda0202",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " zmniejszenie elastyczności skóry cuk",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "68b88ff5-10a6-420a-a2ac-ccab5c7f3a73",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " przedłużone krwawienie z ran pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "7e269d20-2d9b-4fc6-b126-6fc7bb040fe2",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " skłonność do powstawania podbiegnięć krwawych pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "da8aa2b8-8df4-49f9-9b99-a4fbdc7fbc54",
+      "parent": "b791ff0b-d2bd-486c-a674-9e064b9c0f33",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " świąd pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "f4132651-a331-42b1-914a-2376d5fd5995",
+      "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
+      "order": 3,
+      "type": "Subsection",
+      "data": {
+        "text": "Zmiany w układzie krążenia:",
+        "right_visibility": true
+      }
+    },
+    {
+      "id": "219674c8-14e4-469b-8f73-11d499c0872f",
+      "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " bradykardia niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "f2374c13-c764-484a-aadb-59eee28bfdee",
+      "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " osłabienie tętna niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "d484f6d8-a375-4e67-8ea3-248295717c42",
+      "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " ciche tony serca niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "96870c68-7069-41aa-b153-6e7add16a02c",
+      "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " powiększenie sylwetki serca niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "0bb65da1-55b7-4545-bf31-e86a073fdf0a",
+      "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " niskie ciśnienie tętnicze niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "e6c2a17d-e438-4c9f-bb12-32ab5e0e3f08",
+      "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " nadciśnienie (częściej rozkurczowe) niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "b7c78dc5-6355-40ee-945e-a67939eaf186",
+      "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " nadciśnienie tętnicze pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "a0aefc6c-7843-4e43-be66-214f12d7e47c",
+      "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " przerost lewej komory serca pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "2aa9128c-cc55-46f6-a515-8347d718d596",
+      "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " niewydolność serca pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "c4882393-da35-423d-a967-787653e4fff4",
+      "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " zaburzenia rytmu pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "60c7acd0-dc84-4d4a-a3ea-cef6a1c88d48",
+      "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " przyśpieszona miażdżyca pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "3866987b-6e01-49f9-a371-37710d830131",
+      "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " zwapnienia naczyń pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "b0f034d0-c824-4fb2-b8cd-3e75e8b9ebdf",
+      "parent": "f4132651-a331-42b1-914a-2376d5fd5995",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " mocznicowe zapalenie osierdzia pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
+      "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
+      "order": 4,
+      "type": "Subsection",
+      "data": {
+        "text": "Zmiany w układzie oddechowym:",
+        "right_visibility": true
+      }
+    },
+    {
+      "id": "44299785-c33b-409c-a208-064fc00879fb",
+      "parent": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " ochrypły głos niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "50fc846a-f600-43b2-9e94-2217b253a3cc",
+      "parent": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " matowy głos niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "fa785242-df27-4fc6-8b26-cb9718f7910b",
+      "parent": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " pogrubienie strun głosowych niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "8aa49557-19c4-44cc-8e10-50b78092987f",
+      "parent": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " powiększenie języka niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "abceccd8-81b2-4fe9-9084-a23d58a65772",
+      "parent": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " spłycenie i zmniejszenie częstotliwości oddechów niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "dbd998a0-5e8a-475c-8950-8b5ee3e07080",
+      "parent": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " objawy nieżytu górnych dróg oddechowych niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "441289bd-6c1f-4f8d-a5b3-649c2b682928",
+      "parent": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " objawy niewydolności oddechowej niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "3c1a29b8-0362-432a-885b-5086f7839c16",
+      "parent": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " oddech kwasiczy (Kussmaula) pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "fc288136-963c-442c-951a-3aacaa40d30c",
+      "parent": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " mocznicowe zapalenie opłucnej pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "7d7eb271-b735-430e-a0f8-e228e464028b",
+      "parent": "a9bf1f82-ecb9-41a5-93ea-7bb417ebbe71",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " przekrwienie i obrzęk płuc pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
+      "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
+      "order": 5,
+      "type": "Subsection",
+      "data": {
+        "text": "Zmiany w układzie pokarmowym:",
+        "right_visibility": true
+      }
+    },
+    {
+      "id": "817566fe-02f3-4f77-9290-5fc42723fce3",
+      "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " przewlekłe zaparcie niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "dfef9cdb-cdfd-4273-8c2c-843a71762931",
+      "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " niedrożność jelit niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "27ec36b9-b86a-40df-97e5-64d3e2667b95",
+      "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " wodobrzusze niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "28f9b7a2-f49e-4682-9abb-84d3bc57d478",
+      "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " płyn w jamie osierdzia niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "9e538513-7e87-4c83-9a58-b2523e17600c",
+      "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " płyn w jamie opłucnej niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "faa16e30-8485-45f3-93e2-5df713058e17",
+      "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " wzmożone pragnienie (polidypsja) cuk",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "4fcd4727-f36d-43d5-bd3e-421ca46dbe18",
+      "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " zapalenie błony śluzowej żołądka i jelit pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "98a1c2eb-1296-4dfc-9c83-e605315132a9",
+      "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " wrzód trawienny żołądka lub dwunastnicy pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "dbd7e2a9-1461-4e4b-bc36-24fd6531b5fd",
+      "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " krwawienie z przewodu pokarmowego pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "df6fc28f-f908-48f4-b5a7-bf44a1f6ec03",
+      "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " mocznicowy zapach z ust pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "261b2831-a4b2-405f-b4b2-0463d7e1117b",
+      "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " nudności pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "9ec8a7dc-0f6f-4b6e-9922-cee7ec2d54ad",
+      "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " wymioty pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "56adcd77-aeab-4b0c-9a05-ba70e8ad9898",
+      "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " niedrożność porażenna pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "aa6ef68e-6b74-424d-854d-be978be619f7",
+      "parent": "85f0e7e3-3789-4386-b64a-e6c807fda7a5",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " ostre zapalenie trzustki pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "fac1d0b9-0461-4657-85a2-9878a251ff18",
+      "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
+      "order": 6,
+      "type": "Subsection",
+      "data": {
+        "text": "Zmiany w układzie moczowym:",
+        "right_visibility": true
+      }
+    },
+    {
+      "id": "d3062c9c-eb80-48c2-b4d7-166aac422ca0",
+      "parent": "fac1d0b9-0461-4657-85a2-9878a251ff18",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " zmniejszone wydalanie wody niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "52d2fa27-874b-4c72-b6f1-b0da0c015729",
+      "parent": "fac1d0b9-0461-4657-85a2-9878a251ff18",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " obrzęki niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "eb8adfb4-1c88-4b3f-81a8-52ec89971c8c",
+      "parent": "fac1d0b9-0461-4657-85a2-9878a251ff18",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " wielomocz (poliuria) cuk",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "0554d492-773d-44a3-ad1b-0a912df867a1",
+      "parent": "fac1d0b9-0461-4657-85a2-9878a251ff18",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " skłonność do zakażeń układu moczowo-płciowego cuk",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
+      "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
+      "order": 7,
+      "type": "Subsection",
+      "data": {
+        "text": "Zmiany w układzie nerwowym:",
+        "right_visibility": true
+      }
+    },
+    {
+      "id": "32b59833-bc7b-4f44-8726-5b158795f266",
+      "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " mononeuropatie (np. zespół cieśni nadgarstka) niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "d5738467-d438-49a3-9e14-831b789c64f7",
+      "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " parestezje niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "5efb56d2-544f-49fd-be47-30f267c0ef42",
+      "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " przedłużona faza relaksacyjna odruchów ścięgnistych niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "d9db5fa7-b38b-417a-b8cd-9c8ed72afa06",
+      "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " osłabienie słuchu niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "91e851fc-aeb5-41de-9b6f-77b89292876b",
+      "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " upośledzenie koncentracji pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "4e37cfd2-526b-446c-8c7d-60c88ea0946a",
+      "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " upośledzenie pamięci pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "80b6a912-9e9d-4c93-870b-d7441f4fa78e",
+      "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " ból głowy pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "819d379e-258e-4bd5-9d1c-e39e77429bcb",
+      "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " nadmierna senność  pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "02536c15-daa2-43ec-91ae-608c481642bb",
+      "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " bezsenność pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "483bd723-2342-4cae-b3fd-d9f4d11d7879",
+      "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " zaburzenia zachowania (np. apatia lub drażliwość) pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "38aefc9e-fdf9-4cb4-9480-c7e4d55ccacb",
+      "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " depresja pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "f6fe6bea-4847-4e70-907f-23f321da1fef",
+      "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " drgawki pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "3fcb29e7-423b-44a0-afe6-34dd0c77e495",
+      "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " śpiączka pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "a0f6ba28-53f7-4ef0-a26d-67487353b3bc",
+      "parent": "6f76c2ef-ce00-4672-8104-76a9ccc23f23",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " zespół niespokojnych nóg (uczucie dyskomfortu w stopach zmuszające do stałego wykonywania ruchów kończynami dolnymi) pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
+      "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
+      "order": 8,
+      "type": "Subsection",
+      "data": {
+        "text": "Zmiany w układzie ruchu:",
+        "right_visibility": true
+      }
+    },
+    {
+      "id": "866cfc81-0804-4458-a79a-f706bc321987",
+      "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " zmniejszenie siły mięśniowej niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "4147e5b7-809d-45f2-adef-5ccf2658ab97",
+      "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " łatwa męczliwość niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "9519a7ca-5e0d-4d2a-927f-a7c7eed18d1a",
+      "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " spowolnienie ruchowe niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "09ce313c-2544-4180-a70c-da9581013081",
+      "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " kurcze mięśni niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "996f2564-d3b5-4f0e-a72a-beb487207264",
+      "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " bóle mięśniowe niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "bc2373cc-2c7d-40d2-807f-aed45e5522e7",
+      "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " obrzęk stawów niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "df731181-67c4-4e65-829c-32bb973502fa",
+      "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " pogrubienie błony maziowej i wysięk niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "2704f48a-3b08-4b7c-9ca8-8bd41d764cf5",
+      "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " zanik głębokich odruchów ścięgnistych pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "ba17132c-f877-4b45-9600-d39f7bd79e14",
+      "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " osłabienie mięśni pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "2ba7d7bf-2d26-4bc5-ad5b-658b486248a9",
+      "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " drżenie grubofaliste pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "ee1e4bc8-4573-4509-827e-f59d159bf808",
+      "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " kurcze pęczków mięśniowych i grup mięśni pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "f68edd01-31fb-4306-9af8-1be91e99a0b2",
+      "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " przewlekła czkawka pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "b5d5e462-0b2e-4114-a692-aea35ba43a85",
+      "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " porażenie nerwu strzałkowego pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "96686a21-00b6-4baf-b8fc-cb2c39d16e8e",
+      "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " wiotkie porażenie czterokończynowe pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "ebed801e-c148-4447-b2e3-2128157eddbb",
+      "parent": "050b7b8f-db4d-4f98-a6b2-02be298eebc9",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " sarkopenia (zmniejszenie masy i siły mięśni szkieletowych) pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
+      "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
+      "order": 9,
+      "type": "Subsection",
+      "data": {
+        "text": "Zmiany w układzie rozrodczym:",
+        "right_visibility": true
+      }
+    },
+    {
+      "id": "7eaac248-025b-4602-b8af-1168120ea438",
+      "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " u kobiet zaburzenia miesiączkowania niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "21af68bb-3011-49e5-8c6c-af2306401369",
+      "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " zaburzenia miesiączkowania pchn ",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "9c58d2e3-7474-475c-89c7-a2ee8bdf6588",
+      "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " rzadkie miesiączkowanie pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "267f27c1-cd82-4426-b628-08ef1c98ccc1",
+      "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " wtórny brak miesiączki pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "21d2597f-3adf-4fb5-b631-425b8acb2101",
+      "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " skrócenie długości cyklu niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "05b4d3b4-4bc3-457f-a1aa-2619d90a201d",
+      "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " obfite miesiączki niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "bbc1caa4-123a-4e9c-8f4f-29d07cf40cd0",
+      "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " niepłodność niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "59d47bbd-5120-43c0-84ff-f6c2d5f8bc0d",
+      "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " niepłodność pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "04290ee4-b392-4226-a459-c3805a09944d",
+      "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " poronienia niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "2bf37dc9-9576-4379-bc5d-bb17b0ddb50e",
+      "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " u mężczyzn osłabienie libido niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "091b27fd-e174-41f1-8560-b425373a66de",
+      "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " zaburzenia wzwodu niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "93d08910-8c2c-4930-bb3d-e34319156853",
+      "parent": "0b232d9b-0ef0-4fd5-827d-96689b005fb6",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " zaburzenia czynności seksualnych (zmniejszenie popędu płciowego, impotencja) pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "48ec9052-5e26-4f5d-a86b-8e624c8bb023",
+      "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
+      "order": 10,
+      "type": "Subsection",
+      "data": {
+        "text": "Zaburzenia psychiczne:",
+        "right_visibility": true
+      }
+    },
+    {
+      "id": "ac30a603-13b2-40ef-9a05-7916861c02e9",
+      "parent": "48ec9052-5e26-4f5d-a86b-8e624c8bb023",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " zmniejszenie zdolności do skupiania uwagi niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "ee61df0d-1ac4-46b3-88af-11a8eb133773",
+      "parent": "48ec9052-5e26-4f5d-a86b-8e624c8bb023",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " zaburzenia pamięci niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "a66021bf-9e04-4c1a-95e3-48422af1f88b",
+      "parent": "48ec9052-5e26-4f5d-a86b-8e624c8bb023",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " subkliniczna lub jawna depresja niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "21c41e03-ad31-4197-87d4-c4b443d5b345",
+      "parent": "48ec9052-5e26-4f5d-a86b-8e624c8bb023",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " niestabilność emocjonalna niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "657eb643-9a52-41e2-b6d5-be4331d83976",
+      "parent": "48ec9052-5e26-4f5d-a86b-8e624c8bb023",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " objawy choroby afektywnej dwubiegunowej niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "20accec6-b1c9-4506-bf5b-bf1e15e90853",
+      "parent": "48ec9052-5e26-4f5d-a86b-8e624c8bb023",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " objawy psychozy paranoidalnej niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "9ce44a78-e83e-4d2d-8be3-7fb128eda3e7",
+      "parent": "48ec9052-5e26-4f5d-a86b-8e624c8bb023",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " otępienie niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "b2628fcd-dde4-4cfe-95da-069b6282a5db",
+      "parent": "48ec9052-5e26-4f5d-a86b-8e624c8bb023",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " śpiączka niedotar",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "ed6154c7-d67e-44d9-9fda-55b20bbbc49f",
+      "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
+      "order": 11,
+      "type": "Subsection",
+      "data": {
+        "text": "Zaburzenia morfologii krwi i odporności:",
+        "right_visibility": true
+      }
+    },
+    {
+      "id": "1adf7ae2-4720-4aa2-90c8-85e8d9bfcb5a",
+      "parent": "ed6154c7-d67e-44d9-9fda-55b20bbbc49f",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " niedokrwistość pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "93714968-482b-4347-a7da-97870e179b8b",
+      "parent": "ed6154c7-d67e-44d9-9fda-55b20bbbc49f",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " skaza krwotoczna pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "ac7b8275-1b8a-449f-be0c-8db5ad67a62a",
+      "parent": "ed6154c7-d67e-44d9-9fda-55b20bbbc49f",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " przedłużone krwawienia z ran pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "6a2e3a0c-0b98-4094-b23f-c1f7ee085470",
+      "parent": "ed6154c7-d67e-44d9-9fda-55b20bbbc49f",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " skłonność do powstawania podbiegnięć krwawych pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "3bec2317-390c-485a-94fe-79755ecd4771",
+      "parent": "ed6154c7-d67e-44d9-9fda-55b20bbbc49f",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " obniżona odporność pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "b71d2100-96a9-4a4b-b46c-f8b7ac893ba4",
+      "parent": "ed6154c7-d67e-44d9-9fda-55b20bbbc49f",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " zwiększone ryzyko zakażeń pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "33dc28d5-0da3-47fc-8256-374a3a4fd9e0",
+      "parent": "ed6154c7-d67e-44d9-9fda-55b20bbbc49f",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " leukopenia pchn",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "15ef72ca-5726-4761-9094-172ed32dd877",
+      "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
+      "order": 12,
+      "type": "Subsection",
+      "data": {
+        "text": "Zaburzenia gospodarki wodno-elektrolitowej i równowagi kwasowo-zasadowej:",
+        "right_visibility": true
+      }
+    },
+    {
+      "id": "9decd83e-e495-441c-a948-9cb536edf625",
+      "parent": "15ef72ca-5726-4761-9094-172ed32dd877",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " ......remove me......",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "9fba98b3-2ec5-4321-bf65-e9ccba5d2465",
+      "parent": "4cb2788b-3092-44c0-b429-7512f7c0dd1f",
+      "order": 13,
+      "type": "Subsection",
+      "data": {
+        "text": "Zespół zaburzeń mineralnych i kostnych związanych z PChN",
+        "right_visibility": true
+      }
+    },
+    {
+      "id": "2cffea4c-a9cc-4abf-bfb8-15035352bc2f",
+      "parent": "9fba98b3-2ec5-4321-bf65-e9ccba5d2465",
+      "order": 1,
+      "type": "Property",
+      "data": {
+        "text": " ......remove me......",
+        "is_initial": true,
+        "auto_include": false,
+        "connotation": 0
+      }
+    },
+    {
+      "id": "7f962fa8-817b-4c7b-bc9a-911112e1382f",
+      "data": {
+        "bold": true,
+        "text": "Badania laboratoryjne",
+        "coding": { "sctid": "", "icd_10": "" },
+        "excludes": [],
+        "separator": ".",
+        "is_initial": false,
+        "is_sentence": false,
+        "left_visibility": true,
+        "right_visibility": true,
+        "speech_audio_ids": [],
+        "line_break_before": false
+      },
+      "type": "Subsection",
+      "order": 13,
+      "parent": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+      "suggestion_priority": 0.0
+    },
+    {
+      "id": "b195e811-3e5e-4681-ba53-572bda93e274",
+      "data": {
+        "text": "glukoza",
+        "coding": { "sctid": "", "icd_10": "" },
+        "excludes": [],
+        "separator": "",
+        "is_initial": false,
+        "is_sentence": false,
+        "left_visibility": true,
+        "right_visibility": true,
+        "speech_audio_ids": [],
+        "line_break_before": false
+      },
+      "type": "Concept",
+      "order": 0,
+      "parent": "7f962fa8-817b-4c7b-bc9a-911112e1382f",
+      "suggestion_priority": 0.0
+    },
+    {
+      "id": "4dec8e13-4669-4d92-94f1-03f0a9cf125f",
+      "data": {
+        "text": "0",
+        "const_id": "glucose_blood",
+        "coding": { "sctid": "", "icd_10": "" },
+        "prefix": "",
+        "suffix": "mg/dl",
+        "excludes": [],
+        "max_value": "",
+        "min_value": "",
+        "separator": "",
+        "is_initial": false,
+        "connotation": 0,
+        "is_sentence": false,
+        "auto_include": false,
+        "left_visibility": true,
+        "conclusions_text": "",
+        "right_visibility": true,
+        "speech_audio_ids": [],
+        "line_break_before": false
+      },
+      "type": "Number",
+      "order": 0,
+      "parent": "b195e811-3e5e-4681-ba53-572bda93e274",
+      "suggestion_priority": 0.0
+    }
+  ],
+  "root": {
+    "id": "801ac188-c41a-4fc7-8fb7-361b32c18257",
+    "parent": null,
+    "type": "Section",
+    "order": 0,
+    "data": {
+      "text": "POZ objawy cuk niedotar pchn",
+      "excludes": [],
+      "is_initial": false,
+      "coding": {
+        "icd_10": "",
+        "sctid": ""
+      },
+      "left_visibility": true,
+      "right_visibility": true,
+      "speech_audio_ids": [],
+      "category": "MR",
+      "discipline": "Radiologia",
+      "separator": "",
+      "line_break_before": true,
+      "template_snippets": [],
+      "triggers": []
+    },
+    "modified_fields": null,
+    "template": null,
+    "suggestion_priority": 0.0
+  },
+  "languages": ["pl"],
+  "previous_version": null,
+  "autoinclude_enabled": false,
+  "editing": "OWNER"
+}
