@@ -16,15 +16,15 @@ export enum NodeType {
 }
 
 class _ExpertEngine {
-  Report: Report;
-  Template: Template;
+  report: Report;
+  template: Template;
 
   private static _instance: _ExpertEngine;
   public registeredCalculations: Array<EngineCalculation> = [];
 
   private constructor() {
-    this.Report = new Report(report);
-    this.Template = new Template(template);
+    this.report = new Report(report);
+    this.template = new Template(template);
   }
 
   public static get Instance() {
@@ -32,8 +32,8 @@ class _ExpertEngine {
     return this._instance || (this._instance = new this());
   }
   private shouldCalculate(calculation: EngineCalculation): boolean {
-    const templateRoot = this.Template.getRoot();
-    const templateLanguagesSet = new Set(this.Template.data.languages);
+    const templateRoot = this.template.getRoot();
+    const templateLanguagesSet = new Set(this.template.data.languages);
 
     const isCategoryOk =
       calculation.matchingSections.categories === '*' ||
@@ -104,7 +104,7 @@ class _ExpertEngine {
       const requirementId = `${requirement.selector} ${requirement.nodeType} ${requirement.selectorType}`;
       ret[requirementId] = {};
       if (requirement.selectorType === SelectorType.CLASS) {
-        const nodes = this.Template.getNodesByClass(requirement.selector);
+        const nodes = this.template.getNodesByClass(requirement.selector);
         if (nodes.length > 0) {
           ret[requirementId][requirement.selector] = true;
           let allNodesOk = true;
@@ -120,7 +120,7 @@ class _ExpertEngine {
         }
       } else if (requirement.selectorType === SelectorType.CONST_ID) {
         try {
-          const node = this.Template.getNodeByConstId(requirement.selector);
+          const node = this.template.getNodeByConstId(requirement.selector);
           ret[requirementId]['was found?'] = true;
           ret[requirementId]['node has correct type?'] =
             requirement.nodeType.toString() === node.type;

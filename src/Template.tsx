@@ -11,6 +11,6 @@ export class Template extends NodeSource {
   public selectNodeWithId(id: string) {
     console.log(`Selecting node with id ${id}`, this.getNodeByConstId(id));
     const node = this.getNodeByConstId(id);
-    ExpertEngine.Report.data.nodes.push(node);
+    ExpertEngine.report.data.nodes.push(node);
   }
 }

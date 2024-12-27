@@ -31,27 +31,27 @@ const symptoms2: EngineCalculation = {
     },
   ],
   calculate: () => {
-    const symptomsInTemplate = ExpertEngine.Template.getNodesByClass('cukrzyca');
+    const symptomsInTemplate = ExpertEngine.template.getNodesByClass('cukrzyca');
     const symptomsInReport = [];
     for (let i = 0; i < symptomsInTemplate.length; i++) {
       const symptom = symptomsInTemplate[i];
-      if (ExpertEngine.Report.isNodeIdInReport(symptom.data.const_id)) {
+      if (ExpertEngine.report.isNodeIdInReport(symptom.data.const_id)) {
         symptomsInReport.push(symptom);
       }
     }
-    ExpertEngine.Report.addToConclusions(
+    ExpertEngine.report.addToConclusions(
       'liczba objawów cukrzycy to ',
       symptomsInReport.length.toString(),
     );
     const glucose_blood = parseFloat(
-      ExpertEngine.Report.getNodeByConstId('glucose_blood').data.text,
+      ExpertEngine.report.getNodeByConstId('glucose_blood').data.text,
     );
     if (glucose_blood > 70 && glucose_blood <= 100) {
       // do nothing, we focus only on abnormal
     } else if (glucose_blood < 70) {
-      ExpertEngine.Report.addToConclusions('hipoglikemia', glucose_blood.toString());
+      ExpertEngine.report.addToConclusions('hipoglikemia', glucose_blood.toString());
     } else {
-      ExpertEngine.Report.addToConclusions(
+      ExpertEngine.report.addToConclusions(
         'hiperglikemia, rozważ dalsze badania',
         glucose_blood.toString(),
       );

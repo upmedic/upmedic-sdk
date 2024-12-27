@@ -49,8 +49,8 @@ const symptoms2: EngineCalculation = {
     //   }
     // }
 
-    if (ExpertEngine.Report.isNodeIdInReport('cukrzyca')) {
-      ExpertEngine.Report.addToConclusions(
+    if (ExpertEngine.report.isNodeIdInReport('cukrzyca')) {
+      ExpertEngine.report.addToConclusions(
         'cukrzyca',
         'To jest objaw cukrzycy, wykonaj badania',
       );

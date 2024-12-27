@@ -32,12 +32,12 @@ const KDIGO2023: EngineCalculation = {
     },
   ],
   calculate: () => {
-    const egfr = parseFloat(ExpertEngine.Report.getNodeByConstId('egfr').data.text);
+    const egfr = parseFloat(ExpertEngine.report.getNodeByConstId('egfr').data.text);
     const albumin_mg_g = parseFloat(
-      ExpertEngine.Report.getNodeByConstId('albumin_urine_mg/g').data.text,
+      ExpertEngine.report.getNodeByConstId('albumin_urine_mg/g').data.text,
     );
     const albumin_mg_mmol = parseFloat(
-      ExpertEngine.Report.getNodeByConstId('albumin_urine_mg/mmol').data.text,
+      ExpertEngine.report.getNodeByConstId('albumin_urine_mg/mmol').data.text,
     );
     // eGFR evaluation
     let egfr_cat: string = ''; // eGFR category - G1-G5
@@ -62,7 +62,7 @@ const KDIGO2023: EngineCalculation = {
       egfr_cat_comment = 'niewydolność nerek (sprawdź, czy wpisałeś wartość eGFR)';
       // check if value was given - value "0" is default
     }
-    ExpertEngine.Report.addToConclusions(
+    ExpertEngine.report.addToConclusions(
       `eGFR = ${egfr}`,
       `kategoria ${egfr_cat} - ${egfr_cat_comment}`,
     );
@@ -81,7 +81,7 @@ const KDIGO2023: EngineCalculation = {
       albumin_cat = 'A3';
       albumin_cat_comment = 'znacznie zwiększona';
     }
-    ExpertEngine.Report.addToConclusions(
+    ExpertEngine.report.addToConclusions(
       `albumina w moczu = ${albumin_mg_g}`,
       `kategoria ${albumin_cat} - ${albumin_cat_comment}`,
     );
@@ -122,7 +122,7 @@ const KDIGO2023: EngineCalculation = {
       risk_level = 'bardzo duże ryzyko II';
       risk_recommendation = 'leczyć, monitorować 4x/rok i skierować do nefrologa';
     }
-    ExpertEngine.Report.addToConclusions(
+    ExpertEngine.report.addToConclusions(
       `Ryzyko progresji PChN - ${risk_level}`,
       `zalecenia - ${risk_recommendation}`,
     );

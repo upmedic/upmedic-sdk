@@ -30,8 +30,8 @@ const symptoms: EngineCalculation = {
     //   }
     // }
 
-    if (ExpertEngine.Report.isNodeIdInReport('sleepiness')) {
-      ExpertEngine.Report.addToConclusions(
+    if (ExpertEngine.report.isNodeIdInReport('sleepiness')) {
+      ExpertEngine.report.addToConclusions(
         'sleepiness',
         'This will add some conclusion related to sleepines',
       );
