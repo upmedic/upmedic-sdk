@@ -1,16 +1,15 @@
 {
   "compilerOptions": {
-    "outDir": "./lib",
-    "noImplicitAny": true,
-    "sourceMap": true,
-    "module": "es6",
-    "target": "es5",
-    "jsx": "react",
-    "allowJs": true,
-    "moduleResolution": "node",
+    "target": "es2017" ,
+    "module": "commonjs",
     "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true,
-    "declaration": true, 
+    "declaration": true,
+    "outDir": "./lib",
+    "strict": true,
+    "esModuleInterop": true, 
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true 
   },
-  "include": ["./src"],
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__tests__/*"]
 }

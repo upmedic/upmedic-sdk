@@ -1,40 +1,39 @@
 {
   "name": "upmedic-sdk",
   "description": "[upmedic](https://www.upmedic.io) implementation of [Reporting Assistance Framework](https://www.openimagingdata.org/oidm-based-next-gen-reporting-assistance/)",
-  "main": "index.js",
-  "author": "upmedic",
-  "license": "ISC",
+  "license": "GPL-3.0-only",
   "version": "0.4.0",
-  "private": false,
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "build": "webpack",
-    "start": "webpack --watch --progress"
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.(js|ts)\"",
+    "lint": "eslint src --ext .js,.ts",
+    "lint:fix": "eslint src --fix --ext .js,.ts",
+    "test": "jest --config jest.config.js",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
-  "eslintConfig": {
-    "plugins": [
-      "prettier"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upmedic/upmedic-sdk.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "upmedic",
+  "bugs": {
+    "url": "https://github.com/upmedic/upmedic-sdk/issues"
   },
+  "homepage": "https://www.upmedic.io",
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.1.3",
-    "prettier": "^3.2.5",
-    "ts-loader": "^9.5.1",
-    "typescript": "^5.7.2",
-    "webpack": "^5.97.1",
-    "webpack-cli": "^6.0.1"
-  }
+    "@typescript-eslint/eslint-plugin": "5.54.0",
+    "@typescript-eslint/parser": "5.52.0",
+    "eslint": "8.35.0",
+    "prettier": "2.8.4",
+    "typescript": "5.7.2"
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }

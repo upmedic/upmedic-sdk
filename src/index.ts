@@ -1,6 +1,6 @@
-console.log('test')
+console.info('upmedic-sdk initializing')
 
 export * from './AssistedReportingContainer'
-export * from './NodeSource'
 export * from './Report'
 export * from './Template'
+export * from './NodeSource'

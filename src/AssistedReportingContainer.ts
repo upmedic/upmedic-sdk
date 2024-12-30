@@ -176,7 +176,7 @@ export interface AssistancePlugin {
   calculate(): void;
 }
 
-interface MatchingSections {
+export interface MatchingSections {
   /** wildcard '*' allows to use AssistancePlugin for all categories or disciplines */
   categories: '*' | string[];
   disciplines: '*' | string[];
