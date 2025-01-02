@@ -77,8 +77,8 @@ The code (examples uses typescript but works also for vanilla js) of a plugin th
 import {Report} from 'upmedic-sdk'
 
 Report.events.onAllAdd(['weight','height'], function(){
-    let weight = parseFloat(report.getNodeById('weight').data.text)
-    let height = parseFloat(report.getNodeById('height').data.text)
+    let weight = parseFloat(Report.getNodeById('weight').data.text)
+    let height = parseFloat(Report.getNodeById('height').data.text)
     Report.addOrUpdateNode( 
     {
         nodeId: "BMI",
@@ -105,7 +105,7 @@ A node can have:
 * `nodeId` (optional, constant, manually assigned, used for querying, unique)
 * `class` (optional, constant, manually assigned, used for querying, *not* unique)
 * `parent`
-* `data` -- shape of the `data` depends on `type` 
+* `data` – shape of the `data` depends on `type` 
 
 ## Node types
 ### Section
@@ -133,8 +133,8 @@ These events are emitted when upmedic language engine detects in the contents of
 
 ## Node sources
 Workflow of a medical practitioner, according to [IHE MRRT](http://www.ihe.net/uploadedFiles/Documents/Radiology/IHE_RAD_Suppl_MRRT.pdf) standard is split into the following contexts:
-* template editing -- defining how one should report in relation to a specified medical procedure, e.g. Knee MRI Template
-* reporting -- using the template to generate the content of a report as easily as it is possible, e.g. report created using Knee MRI template.
+* template editing – defining how one should report in relation to a specified medical procedure, e.g. Knee MRI Template
+* reporting – using the template to generate the content of a report as easily as it is possible, e.g. report created using Knee MRI template.
 
 Node sources have almost identical structure. They differ mostly in terms of metadata.
 
@@ -142,16 +142,17 @@ Node sources have almost identical structure. They differ mostly in terms of met
 Defines everything that can be useful for the author of report. It can contain predefined phrases, structural elements, medical scales, subsections, calculators, etc.
 
 ### Template events
-* `template.onSwitch(handler)`
-* `template.onTrigger(triggerId)`
+* `Template.onSwitch(handler)`
+* `Template.onTrigger(triggerId)`
 
 
 ### Accessing template data
 
 ```typescript
-todo
+let node = Template.getNodeById('sleepiness'); // single node
+let nodes = Template.getNodesByClass('abnormality') // array of nodes 
+let allNodesInTemplate = Template.nodes // returns all nodes. Source of possible performance issues as large Templates can have ~100k nodes.
 ```
-
 
 ## Report
 Very similar structure to the template. It can also have unstructured free-text phrases that are so unique, that no one bothered defining them in the template. Reports most of the times are sets of instantiated nodes of the Templates (instantiated == definitions filled with real-world data based on patient). 
@@ -159,27 +160,36 @@ Very similar structure to the template. It can also have unstructured free-text 
 Let's assume you have a Template with id 'knee-MRI'. You can launch upmedic with it selected by navigating to the url:
 https://www.upmedic.io/app/report-creator?loadTemplates=knee-MRI
 
+### Accessing report data
+As both Template and Report are NodeSources, they share a lot of methods for accessing nodes:
+
+```typescript
+let node = Report.getNodeById('sleepiness'); // single node
+let nodes = Report.getNodesByClass('abnormality') // array of nodes 
+let allNodesInReport = Report.nodes // returns all nodes currently included in the report. 
+```
 
 ### Report events
 * `Report.events.onAdd(nodeId, handler)`
+Fired when node with `nodeId` was added (via checklist, guided typing or created using other methods) or modified.
 * `Report.events.onAllAdd(nodeId:str[], handler)`
+Fired when all of the nodes with specified Id become present in the report. If they are present and any of these nodes changes, it will also be triggered. This allows us to get current values of the measurements, perform the calculation and add a new node with the result of it.
+
 * `Report.events.onSomeAdd(nodeId:str[], handler)`
 * `Report.events.onRemove(nodeId, handler)`
 * `Report.events.onChange(nodeId, handler)`
 * `Report.events.onFocus(nodeId, handler)`
+
 * `Report.events.onGenerate(nodeId, handler)`
 
 * `Report.events.onNavigated(nodeId, handler)`
 * `Report.events.onToggle(nodeId, handler) `
 
-* `onSemanticAdd(zodSchema, partial=false, handler)`
+* `onSemanticAdd(zodSchema, handler, partial=false)`
+pass [zod schema](https://zod.dev/) and the event is fired when upmedic lang_ai detects that the report contains information that fits passed zod schema. 
 
-### Accessing report data
-
-```typescript
-todo
-
-```
+Use cases:
+extract knowledge from unstructured data and get an easy way of accessing it.
 
 ## Historical reports collection
 Currently edited report is an entity that is modified each time doctor interacts with the upmedic reporting software. However, contents of the current report can be influenced by references to historical reports. `HistoricalReportsCollection`, when properly instantiated, provides access to the historical data and allows to implement plugins that, e.g. show changes between points in time. 
@@ -190,26 +200,38 @@ You can launch and hydrate upmedic using their data by navigating to (url-encode
 https://www.upmedic.io/app/report-creator?historicalReportsCollection%5B%5D=rep1&historicalReportsCollection%5B%5D=rep2&historicalReportsCollection%5B%5D=rep3
 
 # Presenting results to the user
+As a result of any operation on data generated by medical practitioners, one usually wants to return results. There are several ways to do it, depending on how intrusive the results should be for the content of the report. One should also take into account legal consequences related to medical digital products, clinical decision systems, etc. when using any of these methods.
 
-## Modifying report as result of plugin
-* `report.addNode(nodeId)`
+## Modifying report as the result of a plugin
+* `Report.addOrUpdateNode(nodeId, nodeData:Node)`
+
 * `node.remove(nodeId)`
-* `node.update(nodeId, nodeData)`
+When node is also in the Template - uncheck it.
+When node is not in the Template - remove it.
 
 ## Popover
-* `node.popover(text, underlineType='info')`
+Underline node text, on node hover a popover is shown. Underline style depends on severity.
 
-underlineType: `error`, `warning`, `info`
+* `node.popover(text, severity='info')`
+
+severity: `error`, `warning`, `info`
 
 ## Replacement options
-* `node.replacementOptions({text:str, details:str}[])`
+Replacement options are a source of modifications that can be applied to the node. Node is underlined, when user hovers, a popover with options is shown. When user clicks on an option, it is applied to the node.
+* `node.replacementOptions({nodeData:Node, details:str}[])`
+Use cases: suggest modifications to the report based on contents of the report.
 
 ## Cursor position
 * `node.moveCursorEnd()`
 * `node.moveCursorStart()`
 * `node.moveCursorAt(offset:number)`
+Offset is calculated from the beginning of node's text, not an absolute report offset.
 
-# Developer platform
+
+Use cases:
+Productivity improvements that expect user to dictate text in proper places depending on the contents of the report.
+
+# Developer platform access
 To get access to our rapid prototyping platform, please connect with us at contact@upmedic.io
 
 # Feedback 
