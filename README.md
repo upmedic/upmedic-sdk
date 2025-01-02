@@ -142,13 +142,14 @@ Node sources have almost identical structure. They differ mostly in terms of met
 Defines everything that can be useful for the author of report. It can contain predefined phrases, structural elements, medical scales, subsections, calculators, etc.
 
 ### Template events
-onSwitch
-onTrigger(triggerId)
+* `template.onSwitch(handler)`
+* `template.onTrigger(triggerId)`
 
 
 ### Accessing template data
 
 ```typescript
+todo
 ```
 
 
@@ -160,23 +161,23 @@ https://www.upmedic.io/app/report-creator?loadTemplates=knee-MRI
 
 
 ### Report events
-Report.events.onAdd(nodeId, handler)
-Report.events.onAllAdd(nodeId:str[], handler)
-Report.events.onSomeAdd(nodeId:str[], handler)
-Report.events.onRemove(nodeId, handler)
-Report.events.onChange(nodeId, handler)
-Report.events.onFocus(nodeId, handler)
-Report.events.onGenerate(nodeId, handler)
+* `Report.events.onAdd(nodeId, handler)`
+* `Report.events.onAllAdd(nodeId:str[], handler)`
+* `Report.events.onSomeAdd(nodeId:str[], handler)`
+* `Report.events.onRemove(nodeId, handler)`
+* `Report.events.onChange(nodeId, handler)`
+* `Report.events.onFocus(nodeId, handler)`
+* `Report.events.onGenerate(nodeId, handler)`
 
-Report.events.onNavigated(nodeId, handler)
-Report.events.onToggle(nodeId, handler) 
+* `Report.events.onNavigated(nodeId, handler)`
+* `Report.events.onToggle(nodeId, handler) `
 
-onSemanticAdd(zodSchema, partial=false, handler)
+* `onSemanticAdd(zodSchema, partial=false, handler)`
 
 ### Accessing report data
 
 ```typescript
-
+todo
 
 ```
 
@@ -191,21 +192,25 @@ https://www.upmedic.io/app/report-creator?historicalReportsCollection%5B%5D=rep1
 # Presenting results to the user
 
 ## Modifying report as result of plugin
-report.addNode(nodeId)
-node.remove(nodeId)
-node.update(nodeId, nodeData)
+* `report.addNode(nodeId)`
+* `node.remove(nodeId)`
+* `node.update(nodeId, nodeData)`
 
 ## Popover
-node.popover(text, underlineType='info')
-underlineType: error, warning, info
+* `node.popover(text, underlineType='info')`
+
+underlineType: `error`, `warning`, `info`
 
 ## Replacement options
-node.replacementOptions({text:str, details:str}[])
+* `node.replacementOptions({text:str, details:str}[])`
 
 ## Cursor position
-node.moveCursorEnd()
-node.moveCursorStart()
-node.moveCursorAt(offset:number)
+* `node.moveCursorEnd()`
+* `node.moveCursorStart()`
+* `node.moveCursorAt(offset:number)`
+
+# Developer platform
+To get access to our rapid prototyping platform, please connect with us at contact@upmedic.io
 
 # Feedback 
 This technology was created as a result of many discussions with medical facilities, IT departments and medical practitioners. However, in its current state, it is far for being completed. We are open for suggestions that will enable new, fancy use-cases, and will help us with delivering the best user experience that translates into time-savings of medical practitioners using the reporting software.
