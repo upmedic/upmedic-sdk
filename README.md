@@ -83,6 +83,7 @@ It is very simple, it has a section (defines its name, is a purely structural el
 
 The code (examples use typescript but upmedic-sdk works also for vanilla js) of a plugin that will calculate BMI could be:
 
+```typescript
 import {Report} from 'upmedic-sdk'
 
 Report.events.onAllAdd(['weight','height'], function(){
@@ -95,6 +96,7 @@ Report.events.onAllAdd(['weight','height'], function(){
         data: {"text": weight/(height*height)}
     });
 });
+```
 
 onAllAdd is an event that is triggered when all of the nodes with specified Id become present in the report. If they are present and any of these nodes changes, it will also be triggered. This allows us to get current values of the measurements, perform the calculation and add a new node with the result of it.
 
