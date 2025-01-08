@@ -34,9 +34,9 @@ Examples in this repository show how you can interact with report content. Extra
 
 `npm install upmedic-sdk`
 
-# Getting started
+# Getting started - first plugin
 
-Let's create your first plugin using upmedic-sdk.
+Let's create your first Plugin using upmedic-sdk.
 This will be a simple BMI calculator. When doctor fills in weight and height of a patient, it will automatically output value of BMI = weight[kg]/height[m]^2
 
 Let's assume you have a template
@@ -100,7 +100,7 @@ Note that by using `nodeId=BMI`, we tell upmedic that it should first look if an
 
 # Docs
 
-## Nodes
+## Nodes (elements of reporting ontology)
 
 As any report or template are a tree-like structures, element they contain are called nodes. There are container nodes (their purpose is to add context, provide structure) and leaf nodes - they represent meaning.
 A node can have:
@@ -112,31 +112,63 @@ A node can have:
 * `parent`
 * `data` – shape of the `data` depends on `type`
 
-## Node types
+## Node types 
 
 ### Section
 
-container node
+Container node
+
+Each Template used in a Report forms a Section in the Report. Sections separate documented procedures. Sections have metadata related to the discipline and category. 
+upmedic-sdk allows developer to run plugins selectively   
 
 ### Subsection
 
-container node
+Container node
+
+Subsection refers to:
+1. a task performed when reporting single procedure, e.g. Comparison, Findings, Clinical data
+2. a part of the report related to an anatomical structure (which can be treated as the same as a task): e.g. Kidney, Left lung.
+
+Subsections can be nested. There is no limit of depth, but for structural clarity reasons, nesting should not exceed 3 levels. 
 
 ### Concept
 
-container node
+Container node
+
+It is used to group several Properties to underline that they may have relations between each other (sometimes they can also exclude each other, but Concepts are used to convey this).
+
+Concepts can be nested. There is no limit of depth, but for structural clarity reasons, it should be used only occasionally. 
 
 ### Property
 
-leaf node
+Leaf node
 
-### NumberNode
+Property represents a basic, atomic thought that is expressed in medical documentation. It can be a whole sentence or it can be a phrase. Usually, several sentences should be split into different Properties.
 
-leaf node
+
+Property's parent node acts as a context for it. They are bound by "contains" relation.
+If parent's text should not be present in the Report, parent node's right_visibility must be false.
+
+*Connotation* - this parameter indicates perspective of a patient: whether an observation is positive (positive value), neutral (zero), negative (less than zero).
+
+Many of many - there is no separate Node type for this as this idea can be expressed in the Report/Template by a Concept containing multiple Properties. User can then selec 0..* Properties from the Concept. 
+
+### Number
+
+Leaf node
+
+Semantically very similar to Property, but focuses on storing number and its context: prefix and suffix.
+
+* `prefix` - context related to the number, usually label that defines the measurement, e.g. `"mass"`
+* `text` - value stored as string, e.g. `"0.14"`
+* `suffix`- context related to the number, usually the unit, e.g `"kg"`
 
 ### OneOfMany
 
-leaf node
+Leaf node
+
+Set of Properties and only one of them can be selected as being true for the content of the Report.
+
 
 ## Events
 
@@ -198,9 +230,12 @@ let allNodesInReport = Report.nodes // returns all nodes currently included in t
 * `Report.events.onAdd(nodeId, handler)`
   Fired when node with `nodeId` was added (via checklist, guided typing or created using other methods) or modified.
 * `Report.events.onAllAdd(nodeIds:str[], handler)`
-  Fired when all of the nodes with specified Id become present in the report. If they are present and any of these nodes changes, it will also be triggered. This allows us to get current values of the measurements, perform the calculation and add a new node with the result of it.
+  Fired when all of the nodes with specified Id become present in the report. If they are present and any of these nodes changes, it will also be triggered. This allows us to get current values of the measurements based on multiple values, perform the calculation and e.g. add a new node with the result of it.
 * `Report.events.onSomeAdd(nodeIds:str[], handler)`
+  Fired when at least one of the nodes with specified Id become present in the report. If any of these nodes changes, it will also be triggered. This is useful when there are multiple discrete ways to express similar results in the report.
+
 * `Report.events.onRemove(nodeId, handler)`
+  Fired when node with `nodeId` is removed/unchecked
 * `Report.events.onChange(nodeId, handler)`
 * `Report.events.onFocus(nodeId, handler)`
 * `Report.events.onGenerate(nodeId, handler)`
@@ -211,6 +246,15 @@ let allNodesInReport = Report.nodes // returns all nodes currently included in t
 
 Use cases:
 extract knowledge from unstructured data and get an easy way of accessing it.
+
+* `onCDEsAdd(cdesId, handler, partial=false, semantic=false)`
+  Pass CDESet id (with `RDES` prefix) from [RadElement](https://radelement.org/) library.
+  `partial` - when true, event is fired when any of the elements in the CDESet becomes present in the report. 
+
+  `semantic` when false, engine focuses only on observing structured elements, so it is fired when they satisfy the definition of CDESet with `cdesId`. When true, NLP engine is involved in extracting the values from free-text (can be much slower).
+
+  The event is also fired when the elements constituting the CDESet are **modified**.
+
 
 ## Historical reports collection
 
