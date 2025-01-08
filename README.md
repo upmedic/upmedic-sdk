@@ -2,6 +2,8 @@
 
 [upmedic](https://www.upmedic.io) implementation of [Reporting Assistance Framework](https://www.openimagingdata.org/oidm-based-next-gen-reporting-assistance/)
 
+**TL;DR** [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)-like abstractions for medical documentation 
+
 upmedic-sdk is software developer kit (SDK) focused on delivering abstractions that enable developers to create applications that interact with medical documentation **while it is being created**.
 
 Use cases:
