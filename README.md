@@ -116,23 +116,30 @@ import {Report} from 'upmedic-sdk'
 
     const IS = TL/PL;
     let res = "";
+    let c = 0;
     if (IS < 0.8)
     {
       res = "patella baja: <0.8";
+      c = -1;
     }
     else if (IS >=0.8 && IS <=1.2){
       res = "normal";
+      c = 1;
     }
     else
     {
       res = "patella alta: >1.2"
+      c = -1;
     }
 
     Report.addOrUpdateNode(
     {
         nodeId: "insall-salvati",
-        type: "Number",
-        data: {"text": res}
+        type: "Property",
+        data: {
+          "text": res,
+          "connotation" c
+          }
     });
 });
 ```
