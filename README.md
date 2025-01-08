@@ -36,8 +36,9 @@ Examples in this repository show how you can interact with report content. Extra
 
 `npm install upmedic-sdk`
 
-# Getting started - first plugin
+# Getting started
 
+## First plugin - BMI
 Let's create your first Plugin using upmedic-sdk.
 This will be a simple BMI calculator. When doctor fills in weight and height of a patient, it will automatically output value of BMI = weight[kg]/height[m]^2
 
@@ -87,8 +88,8 @@ The code (examples use typescript but upmedic-sdk works also for vanilla js) of 
 import {Report} from 'upmedic-sdk'
 
 Report.events.onAllAdd(['weight','height'], function(){
-    let weight = parseFloat(Report.getNodeById('weight').data.text)
-    let height = parseFloat(Report.getNodeById('height').data.text)
+    let weight = parseFloat(Report.getNodeById('weight').data.text);
+    let height = parseFloat(Report.getNodeById('height').data.text);
     Report.addOrUpdateNode(
     {
         nodeId: "BMI",
@@ -101,6 +102,41 @@ Report.events.onAllAdd(['weight','height'], function(){
 onAllAdd is an event that is triggered when all of the nodes with specified Id become present in the report. If they are present and any of these nodes changes, it will also be triggered. This allows us to get current values of the measurements, perform the calculation and add a new node with the result of it.
 
 Note that by using `nodeId=BMI`, we tell upmedic that it should first look if anything with this id is already present. If yes, do not add a new node, just update the existing one. New/update node has no parent specified. This means upmedic will add the new node at the end of the report.
+
+## Insall-Salvati ratio
+
+This example shows that you can achieve any branching you can think of by simply using full capabilities of the typescript. Let's implement [Insall-Salvati ratio](https://radiopaedia.org/articles/insall-salvati-ratio) calculator: 
+
+```typescript
+import {Report} from 'upmedic-sdk'
+
+  Report.events.onAllAdd(['TL','PL'], function(){
+    let TL = parseFloat(Report.getNodeById('TL').data.text);
+    let PL = parseFloat(Report.getNodeById('PL').data.text);
+
+    const IS = TL/PL;
+    let res = "";
+    if (IS < 0.8)
+    {
+      res = "patella baja: <0.8";
+    }
+    else if (IS >=0.8 && IS <=1.2){
+      res = "normal";
+    }
+    else
+    {
+      res = "patella alta: >1.2"
+    }
+
+    Report.addOrUpdateNode(
+    {
+        nodeId: "insall-salvati",
+        type: "Number",
+        data: {"text": res}
+    });
+});
+```
+
 
 # Docs
 
